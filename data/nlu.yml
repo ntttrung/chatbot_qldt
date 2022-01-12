@@ -90,3 +90,11 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: love
+  examples: |
+    - love
+    - nguoi yeu trung la ai
+    - lover
+    - who is Trung lover
+    - Phuong co phai nguoi yeu khong
