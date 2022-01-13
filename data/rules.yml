@@ -2,12 +2,31 @@ version: "2.0"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: nlu_fallback
+  - action: action_specifier
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: out-of-scope
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: out_of_scope
+  - action: action_specifier
+
+- rule: Form Action
+  steps:
+  - intent: send_email
+  - action: email_form
+  - active_loop: email_form
+
+- rule: Submit form
+  condition:
+  - active_loop: email_form
+  steps:
+  - action: email_form
+  - active_loop: null 
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_submit  
+  - action: action_deactivate_loop
+  - active_loop: null
+

@@ -3,98 +3,162 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
-    - hey
+    - A lô
+    - helo
+    - alo
+    - Aloo
     - hello
+    - helu
+    - xin chao
+    - chao ad
+    - chao bot
+    - ni hao
+    - bonjour
     - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
+    - hê nhô
     - good afternoon
+    - good evening
+    - chào bạn
+    - chào
+    - chao xìn
+    - good morning
+    - ohayo
+    - chao bot nhe
+    - chào page
+    - chào anh
+    - chào bot nhé
+    - êu
+    - ni hao
+    - hola
+    - halu
+    - hey
+    - test
+    - Ad ơi cho em hỏi với ạ
+    - Bắt đầu
+    - get started
+    - Cho em có câu hỏi ạ
+    - get start
+    - cho em hỏi là
+    - Cho mình hỏi nhờ 1 chút
+    - ad ơi
+    - Cho e hỏi là
+    - ad oi
 
 - intent: goodbye
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
     - bye bye
-    - see you later
+    - chao tam biet
+    - good bye
+    - see you next time
+    - tạm biệt
+    - tạm biet
+    - see you soon
+    - sayonara
+    - goodbye
+    - au revoir
+    - không hẹn gặp lại
+    - cút
+    - chào thân ái
 
-- intent: affirm
+- intent: out_of_scope
   examples: |
+    - Mình muốn gọi đồ
+    - 2 + 2 bằng mấy
+    - Tổng thống Mỹ là ai?
+    - '1 + 1'
+    - Trần Đức Bo là ai
+    - bạn có người yêu không
+    - người yêu
+
+- intent: emotes
+  examples: |
+    - rep
+    - rep đi ạ
+    - cảm ơn
+    - tks
+    - thank
+    - cam on
+    - thank iu
+    - ':)))))'
+    - ':))'
+    - '(((:'
+    - '=)))'
+    - '=)'
+    - '(='
+    - '=('
+    - cám ơn
+    - cảm ơn bạn
+    - cảm ơn chatbot
+    - mình cảm ơn
+    - cảm ơn
+    - ok
+    - ok b
+    - cam on
+    - cam on ban
+    - cam on chatbot
+    - minh cam on
+    - cam on
+    - luv
+    - .
+    - Dung roi ban
+    - ok ban
+    - yep
     - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - yep
+    - oke
+    - xin lỗi
+    - mình xin lỗi
+    - ô kê
+    - ok
+    - okei
+    - xin loi
+    - ô tô kê
+    - otoke
+    - Bot thông minh quá
+    - vâng ạ
+    - vâng
+    - nice
+    - he he
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a huma  n?   
-    - am I talking to a bot   ?
-    - am I talking to a human    ?
+    - Ban co phai la bot khong?
+    - Ban co phai la con nguoi khong?
+    - bạn co phai la nguoi khong
+    - Co phai minh dang noi chuyen voi bot khong
+    - Co phai minh dang noi chuyen voi con nguoi khong?
+    - Bạn có phải con người không
+    - bạn là người máy à
+    - ai là tác giả
+    - ai làm con bot này
+    - ai viết con bot này
+    - Mình đang nói chuyện với con người 
+    - Bạn là ai
+    - Ban co phai la bot khong?
+    - Ban co phai la con nguoi khong?
+    - ban co phai la nguoi khong
+    - Co phai minh dang noi chuyen voi bot khong
+    - Co phai minh dang noi chuyen voi con nguoi khong?
+    - Ban co phai con nguoi khong
+    - ban la nguoi may a
+    - ai la tac gia
+    - ai lam con bot nay
+    - ai viet con bot nay
+    - Minh dang noi chuyen voi con nguoi 
+    - Ban la ai
+    - Chatbot dễ thương quá những ai phát triển thế
 
-- intent: love
+- intent: send_email
   examples: |
-    - love
-    - nguoi yeu trung la ai
-    - lover
-    - who is Trung lover
-    - Phuong co phai nguoi yeu khong
+    - email
+    - send an email
+    - drop an email
+    - tổ tư vấn 
+    - to tu van
+    - tệ quá
+    - ngu thế
+    - bạn lời sai í mình rồi
+    - chatbot sai rồi
+    - kém nhỉ
+    - con chatbot này chán thế

@@ -2,10 +2,22 @@ version: "2.0"
 
 stories:
 
-
-
-- story: love
+- story: happy path
   steps:
-  - intent: love
-  - action: utter_love
+  - intent: greet
+  - action: action_specifier
 
+- story: emotes
+  steps:
+  - intent: emotes
+  - action: action_specifier
+
+- story: gbye
+  steps:
+  - intent: goodbye
+  - action: action_specifier
+
+- story: challenge
+  steps:
+  - intent: bot_challenge
+  - action: action_specifier
