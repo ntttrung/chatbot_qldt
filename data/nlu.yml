@@ -87,9 +87,9 @@ nlu:
 - intent: bot_challenge
   examples: |
     - are you a bot?
-    - are you a human?   
+    - are you a huma  n?   
     - am I talking to a bot   ?
-    - am I talking to a human?
+    - am I talking to a human    ?
 
 - intent: love
   examples: |
