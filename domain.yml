@@ -19,7 +19,8 @@ slots:
         auto_fill: true
         influence_conversation: true
 
-utter_greet:
+responses:
+  utter_greet:
   - text: "Xin chào, mình là chatbot của phòng QLDT, mình có thể giúp gì cho bạn?"
 
   utter_goodbye:
