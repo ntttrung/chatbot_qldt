@@ -50,6 +50,17 @@ responses:
   utter_ask_email:
   - text: 'Email của bạn để EVN liên lạc: '
 
+actions:
+- action_submit
+- action_specifier
+
+forms:
+  email_form:
+    email:
+    - type: from_text
+    message:
+    - type: from_text
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
