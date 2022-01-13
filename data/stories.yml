@@ -5,19 +5,19 @@ stories:
 - story: happy path
   steps:
   - intent: greet
-  - action: action_specifier
+  - action: utter_greet
 
 - story: emotes
   steps:
   - intent: emotes
-  - action: action_specifier
+  - action: utter_emotes
 
 - story: gbye
   steps:
   - intent: goodbye
-  - action: action_specifier
+  - action: utter_gbye
 
 - story: challenge
   steps:
   - intent: bot_challenge
-  - action: action_specifier
+  - action: utter_challenge
