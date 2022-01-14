@@ -3,9 +3,7 @@ language: vi
 pipeline:
   - name: preprocesser.VietnamesePreprocesser
   - name: HFTransformersNLP
-    model_name: bert
-    model_weights: bert-base-uncased
-    cache_dir: null
+    model: "bert-base-multilingual-cased"
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: CRFEntityExtractor
