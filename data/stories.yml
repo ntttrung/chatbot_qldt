@@ -15,7 +15,7 @@ stories:
 - story: gbye
   steps:
   - intent: goodbye
-  - action: utter_gbye
+  - action: utter_goodbye
 
 - story: challenge
   steps:
