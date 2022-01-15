@@ -1,7 +1,7 @@
 language: vi
 
 pipeline:
-  # - name: preprocesser.VietnamesePreprocesser
+  - name: preprocesser.VietnamesePreprocesser
   - name: HFTransformersNLP
     model: "bert-base-multilingual-cased"
   - name: WhitespaceTokenizer
