@@ -149,3 +149,16 @@ nlu:
     - Ban la ai
     - Chatbot dễ thương quá những ai phát triển thế
 
+- intent: send_email
+  examples: |
+    - email
+    - send an email
+    - drop an email
+    - tổ tư vấn 
+    - to tu van
+    - tệ quá
+    - ngu thế
+    - bạn lời sai í mình rồi
+    - chatbot sai rồi
+    - kém nhỉ
+    - con chatbot này chán thế
