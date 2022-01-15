@@ -6,6 +6,21 @@ intents:
   - bot_challenge
   - emotes 
   - send_email
+  - turnitin
+  - ap_dung_turnitin
+  - quy_trinh_turnitin
+  - tai_khoan
+  - login
+  - wrong_email
+  - nham_bai
+  - muon_tk
+  - nhieu_tk
+  - not_found
+  - time_turnitin
+  - nop_thu
+  - deadline
+  - error
+  - het_slot
 
 slots:
     message:
@@ -36,19 +51,135 @@ responses:
   - buttons:
     - payload: /send_email
       title: Email tổ tư vấn
-    text: "Xin lỗi mình không thực sự hiểu ý bạn, bạn có thể nhắc lại câu hỏi được không, hoặc bạn có thể email tổ tư vấn, liên hệ hotline: 1900.1288"
+    text: "Xin lỗi mình không thực sự hiểu ý bạn, bạn có thể nhắc lại câu hỏi được không, hoặc bạn có thể email tổ tư vấn, liên hệ hotline: 0243 6280 280"
 
   utter_nlu_fallback:
   - buttons:
     - payload: /send_email
-      title: Email tổ tư vấn
-    text: "Xin lỗi mình không thực sự hiểu ý bạn, bạn có thể nhắc lại câu hỏi được không, hoặc bạn có thể email tổ tư vấn, liên hệ hotline: 1900.1288"
+      title: Email tổ tư vấn.
+    text: "Xin lỗi mình không thực sự hiểu ý bạn, bạn có thể nhắc lại câu hỏi được không, hoặc bạn có thể email tổ tư vấn, liên hệ hotline: 0243 6280 280"
 
   utter_ask_message:
   - text: 'Câu hỏi của bạn: '
 
   utter_ask_email:
-  - text: 'Email của bạn để EVN liên lạc: '
+  - text: 'Email của bạn để phòng QLDT liên lạc: '
+
+  utter_turnitin:
+  - text: |-
+      Turnitin là một hệ thống phần mềm web so sánh, kiểm tra tính nguyên gốc 
+      của văn bản, được sử dụng phổ biến tại các trường đại học giúp phát hiện 
+      và phòng chống đạo văn. Link mở Turnitin: Turnitin.com. 
+      Tài liệu về Turnitin rất nhiều, có thể tìm kiếm ở google hoặc ở youtube có 
+      các video hướng dẫn sử dụng. Cách thức hoạt động: Sau khi người sử dụng nộp 
+      bài lên hệ thống, phần mềm Turnitin sẽ tiến hành so sánh văn bản của bạn với 
+      cơ sở dữ liệu nguồn và xuất ra một báo cáo về tính trùng lắp với các văn 
+      bản khác đã có.
+
+  utter_ap_dung_turnitin:
+  - text: |-
+      Sinh viên hệ Đại học Chính quy phải đưa chuyên đề thực tập vào Turnitin để kiểm tra đạo văn. 
+      Ngoài ra sinh viên có thể sử dụng Turnitin để check nội dung đề tài nghiên cứu 
+      khoa học. Kết quả kiểm tra chuyên đề thực tập theo quy định đạt yêu cầu là dưới 
+      20% nội dung trùng lặp. Nội dung kiểm tra của đề tài nghiên cứu khoa học thì tùy 
+      theo từng trường hợp, không có quy định cứng. 
+
+
+  utter_quy_trinh_turnitin:
+  - text: |-
+      "Quy trình như sau: Bước 1. Giáo viên hướng dẫn thực tập tạo lớp;nhập danh sách 
+      cung cấp thông tin lớp và mật khẩu lớp cho sinh viên; Đưa sinh viên vào danh sách lớp;
+      Tạo bài tập, chuyên đề; Kiểm tra tình trạng sao chép và yêu cầu sinh viên chỉnh 
+      sửa (nếu tỷ lệ trùng lặp vượt quá quy định). Bước 2. Sinh viên nhận thông báo từ 
+      giáo viên về thông tin lớp; nhận email báo từ Turnitin về tài khoản; sinh viên 
+      vào nộp bài và chờ kết quả; điều chỉnh bài và nộp lại cho đến khi kết quả đạt yêu cầu. 
+      Bước 3. Giáo viên hướng dẫn ghi nhận kết quả và nộp lại cho các đơn vị phụ trách.
+      Hướng dẫn sử dụng cho Giáo viên, Sinh viên có tại link: https://khaothi-dbclgd.neu.edu.vn/vi/huong-dan-su-dung-turnitin. 
+      Tại link này có đầy đủ quy chế, quy định, hướng dẫn sử dụng Turnitin cho giáo viên, sinh viên."
+ 
+
+  utter_tai_khoan:
+  - text: |-
+      Turrnitin có 3 loại tài khoản: tài khoản quản trị; tài khoản cho giáo viên; tài 
+      khoản cho sinh viên. Tài khoản Turnitin của giáo viên được cấp linh hoạt theo các hình 
+      thức: (1) trong thời gian tập huấn Turnitin cho giáo viên; (2) các đơn vị quản lý: 
+      ví dụ giáo viên hướng dẫn chuyên đề thực tập của sinh viên hệ Đại học Chính quy 
+      cần liên hệ với bộ phận quản trị Turnitin phòng Quản lý Đào tạo để tạo tài khoản 
+      và đưa tài khoản vào thư mục của hệ Đại học Chính quy; tài khoản này giáo viên có 
+      thể sử dụng cho việc hướng dẫn sinh viên ở các hệ đào tạo khác như Sau đại học, 
+      Tại chức, Từ xa, ... nếu được các quản trị viên bộ phận đưa vào thư mục Turnitin 
+      các hệ tương ứng. Giáo viên cung cấp địa chỉ mail 365 để được tạo tài khoản. 
+      Đối với sinh viên, sau khi giáo viên đưa thông tin của sinh viên vào lớp gồm 
+      họ, tên, mã sv, địa chỉ email 365, Turnitin sẽ gửi 1 email tới địa chỉ của sinh 
+      viên. Email này chứa đường link để sinh viên đặt lại password. 
+      Turntin lấy địa chỉ mail của người sử dụng làm tên tài khoản và liên lạc với 
+      người sử dụng bằng cách gửi thư điện tử.
+
+  utter_login:
+  - text: |-
+      "Tài khoản Turnitin gồm tên đăng nhập: địa chỉ email của người sử dụng (địa chỉ Office 365) và password.
+      Sau khi người sử dụng được tạo tài khoản, Turnitin sẽ gửi 1 email tới địa chỉ maill của người sử dụng đã khai báo trong hồ sơ, trong đó có chứa đường link mở màn hình xác thực thông tin. Người sử dụng ấn vào link đó sẽ hiện ra màn hình để nhập lastname hoặc firstname và địa chỉ mail. Nếu nhập thông tin nhiều lần mà vẫn báo sai thông tin (tên hoặc địa chỉ mail) thì cần liên hệ với người tạo tài khoản để xác định lastname hoặc firstname và địa chỉ mail nhập trong hồ sơ là gì? Với sinh viên thì hỏi thầy cô hướng dẫn về các thông tin này. Sau khi nhập chính xác thông tin thì Turnitin sẽ gửi một mail khác có chứa link để nhập mật khẩu. Sau khi nhập mật khẩu, đăng nhập vào Turnitin như bình thường.
+      Trong trường hợp quên password, nhập turnitin.com -> tìm nút ""Login"" -> hiện màn hình đăng nhập -> ở phía dưới có dòng ""forgot password click here"". Ấn vào chữ ""click here"" thì cũng hiện ra màn hình để nhập thông tin xác thực như trên.
+      Trường hợp đã chắc nhắn nhập địa chỉ email và password chính xác nhưng vẫn không vào được Turnitin thì lý do là sau 180 ngày không đăng nhập vào Turnitin thì tài khoản sẽ bị khóa lại.
+      Tài khoản Turnitin và tài khoản Office 365 có thể chỉ giống nhau tên tài khoản và khác password nên không thể sử dụng tài khoản Office 365 để đăng nhập vào Turnitin vì hai hệ thống này tách biệt nhau.
+      (Có thể làm theo hướng dẫn “Trường hợp quên mật khẩu” của hướng dẫn sử  dụng Turnitin tại link link: https://khaothi-dbclgd.neu.edu.vn/vi/huong-dan-su-dung-turnitin)"
+
+
+  utter_wrong_email:
+  - text: |-
+      Có khả năng trước đây một giáo viên đã thêm em vào một lớp nhưng em đã huỷ bỏ không học lớp đó hoặc giáo viên không yêu cầu sinh viên phải nộp bài qua Turnitin nữa. 
+      Tham khảo Trường hợp quên mật khẩu trong hướng dẫn sử dụng Turnitin để cài đặt lại mật khẩu.
+
+  utter_nham_bai:
+  - text: |-
+      Không được tiếp tục nộp bài, mà phải thông báo ngay cho thầy cô giáo viên để có cách xử lý riêng bài của em. 
+      Đừng tự ý nộp lại bài vào lớp đúng hay lớp nào khác nữa vì Turnitin đã lưu bài nộp nhầm lớp và lấy ra đối chiếu, 
+      em sẽ bị xem là “Đạo văn” khi tỉ lệ phần trăm trùng lặp cao.
+ 
+
+  utter_muon_tk:
+  - text: |-
+      Em chỉ được dùng tài khoản Turnitin của chính bản thân để nộp bài.  
+  
+  utter_nhieu_tk:
+  - text: |-
+      KHÔNG. Một sinh viên chỉ được dùng duy nhất một tài khoản đã đăng ký với nhà Trường để nộp bài. 
+      Turnitin coi mỗi địa chỉ mail mà em đăng ký để đăng nhập là một tài khoản, trường hợp em có nhiều tài khoản khác nhau, 
+      Turnitin mặc định coi là nhiều người khác nhau. Sinh viên bắt buộc phải dùng 1 địa chỉ email 365 để làm tài khoản.
+
+  
+  utter_not_found:
+  - text: |-
+      Em phải liên hệ ngay với thầy cô giáo viên đang hướng dẫn, giáo viên sẽ cấp cho em Class ID và Class enrollment password. 
+      Khi đã có 2 thông số này, em đăng nhập vào Turnitin rồi vào mục Enroll in a class ở thẻ thứ hai ngay trên trang Turnitin để điền thông tin vào lớp.
+  
+  utter_time_turnitin:
+  - text: |-
+      Căn cứ theo độ dài của bài nộp mà kết quả có thể có trong vòng 10-15 phút hoặc lâu hơn nhưng không quá 24 giờ từ lúc nộp bài sẽ có kết quả. 
+      Nếu sau 24 giờ mà vẫn thấy có chữ “Processing”, trường hợp này Turnitin vẫn đang xử lý. Nếu chưa hết thời hạn nộp bài thì em cứ đợi thêm 
+      (Nội dung và hình thức bài nộp của em phải đảm bảo đúng theo quy định của Trường). Nếu tiếp tục nộp bài trong lúc hệ thống đang Processing thì có thể tỉ lệ phần 
+      trăm (SI - Similarity Index) sẽ rất cao. Nếu đã hết hạn nộp bài, sinh viên liên hệ trực tiếp thầy cô giáo viên để được hướng dẫn.
+
+  utter_nop_thu:
+  - text: |-
+      Turnitin không có chức năng để sinh viên thử kiểm tra bài xem mình có đạo văn hay không. Việc tự ý nộp bài của môn này vào lớp của môn khác chỉ để thử kiểm tra 
+      là VÔ CÙNG NGUY HIỂM. Theo Quy định của Trường sinh viên không được thực hiện việc thử này, bởi vì đến lúc sinh viên chính thức nộp bài vào đúng lớp, sẽ bị xem là
+      “ĐẠO VĂN” chính bài nộp của mình. Turnitin sẽ mặc định xem như sinh viên đã copy bài của một ai khác nên nếu làm trái quy định nhà 
+      Trường thì sẽ phải tự chịu mọi trách nhiệm.
+
+  utter_deadline:
+  - text: |-
+      Không đặt kéo dài ngày thêm cho dải thời gian bắt đầu, kết thúc của lớp. Thầy cô giáo viên cần mở lớp khác để sinh viên nộp bài.
+  
+  utter_error:
+  - text: |-
+      Tài khoản Turnitin đã hết thời hạn sử dụng. Giáo viên, sinh viên liên hệ đơn vị quản trị (Trung tâm ứng dụng công nghệ thông tin) 
+      để kích hoạt lại tài khoản.
+
+  utter_het_slot:
+  - text: |-
+      Số lượng tài khoản sinh viên đã hết. Giáo viên báo lại cho đơn vị quản trị (ví dụ hệ Đại học Chính quy là phòng Quản lý Đào tạo) để điều tiết số lượng tài 
+      khoản sinh viên.
 
 actions:
 - action_submit

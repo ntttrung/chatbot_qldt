@@ -162,3 +162,265 @@ nlu:
     - chatbot sai rồi
     - kém nhỉ
     - con chatbot này chán thế
+
+- intent: turnitin
+  examples: |
+    - Turnitin là gì
+    - Turnitin
+    - Cách mở Turnitin
+    - Tìm hiểu Turnitin ở đâu ạ
+    - Cách thức hoạt động của Turnitin
+    - Tìm hiểu nền tảng cơ bản về Turnitin
+    - Tìm hiểu về Turnitin
+    - Địa chỉ website của turnitin là gì ạ
+    - Địa chỉ website của turnitin ở đâu vậy ạ
+    - Tôi chưa biết gì về Turnitn nên muốn tìm hiểu
+    - Tôi là giáo viên chưa biết gì về Turnitn nên muốn tìm hiểu
+    - Tôi muốn học cách sử dụng Turnitin
+    - Em chưa biết gì về Turnitin nên muốn tìm hiểu
+    - Em muốn tìm hiểm thêm về sử dụng Turnitin, tìm ở đâu
+    - tìm hiểu
+  
+- intent: ap_dung_turnitin
+  examples: |
+    - Sinh viên hệ Chính quy sử dụng Turnitin khi nào ạ
+    - Lúc nào thì em sử dụng Turnitin ạ
+    - Em được sử dụng Turnitin vào việc gì
+    - Em được sử dụng Turnitin khi nào và làm cái gì ạ
+    - Nhiệm vụ của sinh viên là gì
+    - Sinh viên được sử dụng dịch vụ gì của Turnitin
+    - Có phải bắt buộc phải kiểm tra trùng lặp ở Turnitin không ạ
+    - Sinh viên có phải bắt buộc sử dụng Turnitin không
+    - Kết quả trùng lặp là như thế nào thì đạt yêu cầu ạ
+    - Cho em hỏi quy định về kết quả check trùng lặp của bài nộp
+    - Em phải làm gì để bài chuyên đề thực tập đạt yêu cầu ạ
+    - Quy định áp dụng Turnitin cho hệ Đại học Chính quy
+    - quy định áp dụng turnitin
+
+
+- intent: quy_trinh_turnitin
+  examples: |
+    - Quy trình áp dụng Turnitin cho sinh viên hệ Chính quy
+    - Cho em hỏi quy trình áp dụng Turnitin cho sinh viên hệ Đại học Chính quy
+    - Cho em hỏi quy trình áp dụng Turnitin cho sinh viên hệ Đại học Chính quy là như thế nào ạ
+    - Quy trình áp dụng Turnitin cho sinh viên hệ Đại học Chính quy là như thế nào ạ
+    - Thầy cô giáo phải làm gì
+    - Tôi là giáo viên thì phải làm gì
+    - Giáo viên phải làm gì
+    - Giáo viên phải thực hiện các công việc gì
+    - Nhiệm vụ của giáo viên là gì
+    - Thầy cô giáo làm những việc gì
+    - Giáo viên làm những việc gì
+    - Các bước ứng dụng Turnitin
+    - Sinh viên phải làm việc gì
+    - Cho em hỏi sinh viên phải làm việc gì ạ
+    - Tôi là giáo viên muốn check trùng lặp của sinh viên thì phải làm gì
+    - Tôi là giáo viên muốn check trùng lặp của sinh viên thì phải làm như thế nào
+    - Xin hỏi các bước ứng dụng Turnitin
+    - Xin hỏi các bước áp dụng Turnitin
+    - Xin hỏi các bước để kiểm tra trùng lặp Turnitin
+    - Xin hỏi các bước check trùng lặp Turnitin
+    - Xin hỏi cách check trùng lặp Turnitin
+    - Hướng dẫn sử dụng Turntin tại trường Đại học Kinh tế quốc dân
+    - Cho tôi xin hướng dẫn sử dụng cho Giáo viên
+    - Cho em xin hướng dẫn sử dụng cho Sinh viên
+    - Tôi cần hướng dẫn sử dụng Turnitin
+    - Em muốn có hướng dẫn sử dụng Turnitin
+    - Tôi muốn có hướng dẫn sử dụng các bước Turnitin
+    - Lấy hướng dẫn sử dụng Turnitin ở đâu
+  
+- intent: tai_khoan
+  examples: |
+    - Tôi là giáo viên muốn có tài khoản Turnitin thì phải làm thế nào
+    - Tài khoản Turnitin cho giáo viên
+    - Tài khoản Turnitin cho thầy cô giáo
+    - Tôi muốn xin tài khoản Turnitin cho giáo viên thì phải đến đâu
+    - Tôi muốn xin tài khoản Turnitin cho giáo viên thì phải làm gì
+    - Tôi muốn xin tài khoản Turnitin cho giáo viên thì phải liên hệ với ai
+    - Tôi muốn xin tài khoản Turnitin cho giáo viên thì phải liên hệ phòng ban nào
+    - Tôi muốn xin tài khoản Turnitin cho giáo viên thì phải liên hệ đơn vị nào
+    - Tôi muốn có tài khoản Turnitin cho giáo viên để check trùng bài chuyên đề thực tập của sinh viên mà tôi hướng dẫn
+    - Xin tài khoản Turnitin cho giáo viên
+    - Tôi cần tài khoản Turnitin của giáo viên
+    - Các loại tài khoản Turnitin
+    - Turnitin gồm các loại tài khoản gì
+    - Tôi là giáo viên muốn liên hệ đơn vị nào để tạo tài khoản Turnitin cho giáo viên
+    - Tôi là giáo viên chưa có tài khoản Turnitin
+    - Làm thế nào để có tài khoản Turnitin cho giáo viên
+    - Cách nào xin tài khoản Turnitin cho giáo viên
+    - Cách nào để được cấp tài khoản Turnitin cho giáo viên
+    - Cấp tài khoản Turnitin cho giáo viên
+    - Em muốn được cấp tài khoản Turnitin sinh viên ạ
+    - Em là sinh viên đã có chuyên đề thực tập, bây giờ cần check Turnitin ạ
+    - Em muốn có tài khoản Turnitin sinh viên thì cần liên hệ thầy cô nào ạ
+    - Em muốn có tài khoản Turnitin sinh viên thì cần liên hệ ở đâu ạ
+    - Em muốn có tài khoản Turnitin thì cần đến đâu ạ
+    - Em muốn có tài khoản Turnitin thì làm thủ tục gì ạ
+    - Em muốn có tài khoản Turnitin thì làm gì ạ
+    - Thầy cô ơi e muốn xin tài khoản Turnitin
+    - Thầy cô ơi e muốn xin tài khoản Turnitin để check bài chuyên đề thực tập
+    - Em chưa có tài khoản Turnitin và muốn được cấp ạ
+    - Tài khoản Turnitin cho sinh viên
+    - Em cần có tài khoản Turnitin cho sinh viên
+    - Tài khoản Turnitin
+    - Em muốn xin Tài khoản Turnitin cho sinh viên
+
+- intent: login
+  examples: |
+    - Tôi đã nhận được email gửi đến có link password nhưng không biết cách đặt password
+    - Em đã nhận được email gửi đến có link password nhưng không biết cách đặt password
+    - Đã nhận được email gửi đến có link password nhưng không biết cách đặt password
+    - Cách đặt password cho Turnitin
+    - Đặt password cho Turnitin
+    - Đặt password cho tài khoản Turnitin
+    - Làm thế nào để đặt password cho tài khoản Turnitin
+    - Tôi không đăng nhập vào được Turnitin
+    - Em không đăng nhập vào được Turnitin
+    - Không đăng nhập vào được Turnitin
+    - Không vào được Turnitin
+    - Turnitin báo sai mật khẩu
+    - Turnitin báo tài khoản không tồn tại hoặc sai password
+    - Turnitin báo email không tồn tại hoặc sai password
+    - Tôi không thể đăng nhập vào được Turnitin
+    - Em không thể đăng nhập vào được Turnitin
+    - Tôi tìm mọi cách nhâp lastname hoặc firstname và địa chỉ mail mà vẫn không vào được Turnitin
+    - Em tìm mọi cách nhập lastname hoặc firstname và địa chỉ mail mà vẫn không vào được Turnitin
+    - Tôi không biết lasname hoặc firstname của mình là gì trong Turnitin
+    - Em không biết lasname hoặc firstname của mình là gì trong Turnitin
+    - Không biết lasname hoặc firstname của mình là gì trong Turnitin
+    - Không dò ra được lastname hoặc firstname là gì
+    - Tôi đã nhập tài khoản Office 365 nhưng không vào được Turnitin
+    - Có phải tài khoản Office 365 và Turnitin là dùng chung
+    - Tôi dùng tài khoản email trường cấp nhưng không vào được Turnitin
+    - Em dùng tài khoản email trường cấp nhưng không vào được Turnitin
+    - Tôi chắc chắn nhớ tài khoản Turnitin nhưng không thể vào được
+    - Em chắc chắn nhớ tài khoản Turnitin nhưng không thể vào được
+    - Làm sao đăng nhập được vào Turnitin
+    - Đăng nhập vào Turnitin
+    - Mở Turnitin
+    - Đã nhận được thông báo đặt password nhưng không đặt được
+    - Đã nhận được thông báo đặt password nhưng cách đặt như thế nào
+    - Cách đặt lại password cho Turnitin
+    - Cách đăng nhập vào Turnitin
+    - Cách kích hoạt tài khoản Turnitin
+    - Cho tôi xin cách kích hoạt tài khoản Turnitin
+    - Cho em hỏi cách kích hoạt tài khoản Turnitin
+    - Quên password thì phải làm thế nào
+    - Tôi không nhớ password Turnitin
+    - Tôi không nhớ password Turnitin thì phải làm thế nào
+    - Em quên password Turnitin ạ
+    - Em quên mật khẩu ạ
+    - Tôi quên mật khẩu thì phải làm thế nào
+    - Tôi không thể nhớ mật khẩu đăng nhập là gì
+
+- intent: wrong_email
+  examples: |
+    - The email address you entered is being used by another Turnitin user. Please enter a different email address
+    - khi tạo mới tài khoản thì nhận thông báo The email address you entered is being used by another Turnitin user. Please enter a different email address
+    - khi em được tạo mới tài khoản thì nhận thông báo The email address you entered is being used by another Turnitin user. Please enter a different email address
+
+- intent: nham_bai
+  examples: |
+    - Nộp nhầm bài, nhầm lớp
+    - Em đã nộp nhầm bài, nhầm lớp
+    - Em đã nộp nhầm bài, nhầm lớp thì phải làm thế nào ạ
+    - Em đã nộp nhầm bài, nhầm lớp thì phải làm gì ạ
+    - Em sơ ý nộp bài vào lớp khác ạ
+    - Em sơ ý nộp bài vào lớp khác ạ, em phải làm sao đây ạ
+    - Em cảm thấy rất hoang mang khi trót nộp nhầm bài Turnitin ạ
+    - Em thấy lo lắng quá khi vừa nộp nhầm bài Turnitin ạ
+    - Nộp nhầm bài check Turnitin
+    - Nộp bài vào nhầm lớp trên Turnitin
+
+- intent: muon_tk
+  examples: |
+    - Em chưa có tài khoản Turnitin, em có thể mượn tài khoản của người khác để nộp bài được không ạ
+    - Dùng tài khoản của người khác để nộp bài Turnitin
+    - Mượn tài khoản của người khác để nộp bài Turnitin
+    - Em có thể Mượn tài khoản của người khác để nộp bài Turnitin
+    - Em có thể sử dụng tài khoản của người khác để nộp bài Turnitin
+    - Dùng tài khoản Turnitin của người khác
+    - Dùng tài khoản Turnitin của bạn khác
+
+- intent: nhieu_tk
+  examples: |
+    - Nộp bài bằng nhiều tài khoản Turnitin
+    - Em có nhiều tài khoản Turnitin, em có thể nộp bài bằng nhiều tài khoản
+    - Em có nhiều tài khoản Turnitin, em có thể nộp bài bằng nhiều tài khoản được không ạ
+    - Có thể nộp bài bằng nhiều tài khoản Turnitin
+    - Dùng nhiều tài khoản Turnitin
+    - Một sinh viên có thể sử dụng nhiều tài khoản Turnitin
+    - Một sinh viên có thể sử dụng nhiều tài khoản Turnitin được không ạ
+    - Tôi là giáo viên, mỗi lớp tôi tạo riêng cho sinh viên một tài khoản có đúng không ạ
+    - Mỗi lần nộp bài là sinh viên được tạo một tài khoản mới
+
+- intent: not_found
+  examples: |
+    - Đăng nhập vào Turnitin nhưng không thấy lớp
+    - Em đăng nhập được vào Turnitin nhưng không thấy hiện lớp
+    - Em không thấy lớp trong Turnitin
+    - Lỗi Turnitin không hiển thị lớp
+    - Lỗi Turnitin không thấy lớp và bài tập để check bài
+    - Tài khoản Turnitin đúng nhưng không thấy lớp
+
+- intent: time_turnitin
+  examples: |
+    - Thời gian trong bao lâu có kết quả
+    - Kết quả trong bao lâu
+    - Turnitin kiểm tra trùng lặp trong bao lâu
+    - Turnitin kiểm tra trùng lặp trong bao lâu kể từ khi nộp bài
+    - Sau mấy tiếng thì sẽ có kết quả check trùng lặp
+    - Em nộp bài Turnitin lần thứ hai thấy mãi chưa có kết quả
+    - Em nộp bài Turnitin lần thứ hai đợi cả buổi vẫn chưa có kết quả
+    - Đợi mãi không thấy kết quả
+    - Bài Turnitin bị treo mãi không thấy kết quả
+    - Bài Turnitin của em không thấy dòng chữ "Processing…"
+    - Không thấy trạng thái "Processing…"
+    - Em đang rất hoang mang lo lắng vì chưa thấy kết quả Turnitin
+    - Đợi mãi không thấy kết quả check, e có nên nộp lại không ạ
+    - Đợi mãi không thấy kết quả check, e có nên nộp đè lên bài cũ không ạ
+
+- intent: nop_thu
+  examples: |
+    - Nộp bài thử
+    - Em có thể nộp bài thử
+    - Em có thể nộp thử bài trước được ko ạ
+    - Em có thể nộp trước để xem có bị đạo văn
+    - Có nên nộp bài thử trước khi nộp bài thật
+    - Em muốn upload thử bài
+  
+- intent: deadline
+  examples: |
+    - Tôi muốn mở rộng thêm ngày kết thúc của lớp
+    - Ngày hết hạn của lớp đã qua, tôi muốn mở rộng
+    - Ngày hết hạn của lớp đã qua, tôi muốn mở rộng thì làm cách nào
+    - Cách nào để mở thêm ngày hết hạn của lớp
+    - Làm thế nào để mở thêm ngày của lớp
+    - Lớp đã hết thời hạn nhưng sinh viên muốn nộp bài
+    - Sinh viên muốn nộp bài nhưng lớp đã hết thời hạn
+    - Giáo viên phải làm gì để mở thêm thời hạn cho lớp
+
+- intent: error
+  examples: |
+    - Sinh viên không nộp được bài
+    - Giáo viên đăng nhập được vào Turnitin nhưng không tạo được lớp
+    - Giáo viên không sử dụng được chức năng của Turnitin
+    - Không sử dụng được Turnitin
+    - Các chức năng của Turnitin bị mờ
+    - Các chức năng của Turnitin không hoạt động
+    - Em không nộp được bài lên Turnitin
+    - Em không upload được bài
+    - Không làm được bất cứ điều gì ở Turnitin
+    - Các chức năng của Turnitin bị che mờ hết
+    - bị lỗi
+    - không hoạt động
+
+
+- intent: het_slot
+  examples: |
+    - Không thể thêm sinh viên vào lớp Turnitin
+    - Không thể nhập thông tin sinh viên vào lớp Turnitin
+    - Không đưa được sinh viên vào lớp
+    - Không add được sinh viên vào lớp
+    - Giáo viên không nhập được sinh viên vào lớp
+    - Tôi là giáo viên, không đưa được sinh viên vào lớp

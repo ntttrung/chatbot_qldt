@@ -96,9 +96,9 @@ class VietnamesePreprocesser(Component):
              stopwords = ["cung","cũng","chắc","chac","ntn","đc","uh","vậy","vay","thì","nhỉ","thế","ừ","ko","nào","nao", "lam the nao", "làm thế nào", "ê", 'e',"khong", "the", "bạn", "em", "anh", "chị", "hỏi", "Em", "tôi", 'có', 'mình', '?', "ạ","vào trường"]
              newwords = []
              for word in words:
-                print(word)
+                # print(word)
                 if word in stopwords:
-                   print("gone")
+                #    print("gone")
                    newwords.append("")
                 else:
                    newwords.append(word)
@@ -139,7 +139,7 @@ class VietnamesePreprocesser(Component):
         #    print("lmao2:" + new_message)
            new_message = text_data
            new_message = " ".join(new_message.split())
-           print(new_message)
+        #    print(new_message)
            message.set("text", new_message)
         except :
          pass

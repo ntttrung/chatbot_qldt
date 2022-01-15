@@ -21,3 +21,78 @@ stories:
   steps:
   - intent: bot_challenge
   - action: utter_challenge
+
+- story: turnitin
+  steps:
+  - intent: turnitin
+  - action: utter_turnitin
+  
+- story: ap_dung_turnitin
+  steps:
+  - intent: ap_dung_turnitin
+  - action: utter_ap_dung_turnitin
+
+- story: quy_trinh_turnitin
+  steps:
+  - intent: quy_trinh_turnitin
+  - action: utter_quy_trinh_turnitin
+
+- story: tai_khoan
+  steps:
+  - intent: tai_khoan
+  - action: utter_tai_khoan
+
+- story: login
+  steps:
+  - intent: login
+  - action: utter_login
+
+- story: wrong_email
+  steps:
+  - intent: wrong_email
+  - action: utter_wrong_email
+
+- story: nham_bai
+  steps:
+  - intent: nham_bai
+  - action: utter_nham_bai
+
+- story: muon_tk
+  steps:
+  - intent: muon_tk
+  - action: utter_muon_tk
+
+- story: nhieu_tk
+  steps:
+  - intent: nhieu_tk
+  - action: utter_nhieu_tk
+
+- story: not_found
+  steps:
+  - intent: not_found
+  - action: utter_not_found
+
+- story: time_turnitin
+  steps:
+  - intent: time_turnitin
+  - action: utter_time_turnitin
+
+- story: nop_thu
+  steps:
+  - intent: nop_thu
+  - action: utter_nop_thu
+
+- story: deadline
+  steps:
+  - intent: deadline
+  - action: utter_deadline
+
+- story: error
+  steps:
+  - intent: error
+  - action: utter_error
+
+- story: het_slot
+  steps:
+  - intent: het_slot
+  - action: utter_het_slot
