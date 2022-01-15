@@ -29,7 +29,7 @@ responses:
   utter_emotes:
   - text: "<3"
 
-  utter_bot_challenge:
+  utter_challenge:
   - text: "Mình là bot, phát triển bởi DSLab - NEU <3"
   
   utter_out_of_scope:
