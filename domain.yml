@@ -7,17 +7,6 @@ intents:
   - emotes 
   - send_email
 
-slots:
-    message:
-        type: rasa.shared.core.slots.TextSlot
-        initial_value: null
-        auto_fill: true
-        influence_conversation: true
-    email:
-        type: rasa.shared.core.slots.TextSlot
-        initial_value: null
-        auto_fill: true
-        influence_conversation: true
 
 responses:
   utter_greet:
@@ -44,22 +33,7 @@ responses:
       title: Email tổ tư vấn
     text: "Xin lỗi mình không thực sự hiểu ý bạn, bạn có thể nhắc lại câu hỏi được không, hoặc bạn có thể email tổ tư vấn, liên hệ hotline: 1900.1288"
 
-  utter_ask_message:
-  - text: 'Câu hỏi của bạn: '
 
-  utter_ask_email:
-  - text: 'Email của bạn để EVN liên lạc: '
-
-actions:
-- action_submit
-- action_specifier
-
-forms:
-  email_form:
-    email:
-    - type: from_text
-    message:
-    - type: from_text
 
 session_config:
   session_expiration_time: 60
