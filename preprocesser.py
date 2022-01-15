@@ -14,9 +14,6 @@ import nltk
 import requests
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 from rasa.utils.endpoints import EndpointConfig 
-import json
-import time
-
 
 class VietnamesePreprocesser(Component):
 
@@ -52,11 +49,13 @@ class VietnamesePreprocesser(Component):
         def TelexConvert(s):
          #  x = re.search("[ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéTêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂưăạảấầẩẫậắằẳẵặẹẻẽềềểỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ]", s)
          words = s.split()
-         evn = ['evn']
+         actuary = ["act", "actuary", "actuarial", "science", "as","ielts","ilets","toelf","toefl","microsoft","office","specialists","mos","isfa","lyon","test","cert","certificate"]
+         toankt = ["math", "mathematics"]
+         dseb = ["data", "ds", "khdl", "cntt", "machine", "learning", "ai", "ml", "dseb","epo2","epo3","analyst"]
          newwords = []
          for word in words:
           tempword = word
-          if tempword not in evn:
+          if tempword not in actuary and tempword not in toankt and tempword not in dseb:
             if tempword.find("aw") != -1:
                 tempword = tempword.replace("aw", "ă")
             elif tempword.find("aa") != -1:
@@ -94,12 +93,12 @@ class VietnamesePreprocesser(Component):
          
         def StopWordRemover(s):
              words = s.split()
-             stopwords = ["cung","cũng","chắc","chac","ntn","đc","uh","vậy","vay","thì","nhỉ","thế","ừ","ko","nào","nao", "lam the nao", "làm thế nào", "ê", 'e',"khong", "the", "bạn", "em", "anh", "chị", "hỏi", "Em", "tôi", 'có', 'mình', '?', "ạ"]
+             stopwords = ["cung","cũng","chắc","chac","ntn","đc","uh","vậy","vay","thì","nhỉ","thế","ừ","ko","nào","nao", "lam the nao", "làm thế nào", "ê", 'e',"khong", "the", "bạn", "em", "anh", "chị", "hỏi", "Em", "tôi", 'có', 'mình', '?', "ạ","vào trường"]
              newwords = []
              for word in words:
-                # print(word)
+                print(word)
                 if word in stopwords:
-                #    print("gone")
+                   print("gone")
                    newwords.append("")
                 else:
                    newwords.append(word)
@@ -116,19 +115,7 @@ class VietnamesePreprocesser(Component):
             return charac
              
         try:
-         text_data1 = ((str(message.get("text"))).lower()) 
-         time.sleep(10)
-         text_data2 = ((str(message.get("text"))).lower()) 
-         if text_data1 == text_data2:
-             text_data = text_data1
-         else: 
-             text_data = text_data1 + ' ' + text_data2
-         my_data = {}
-         my_data['text'] = text_data
-         r = requests.post(url="http://10.9.3.239:1212/spelling_correction", data=json.dumps(my_data))
-         text_data = r.text.replace('"',"")
-         
-        #  print(text_data)
+         text_data = ((str(message.get("text"))).lower())
 
          if message.get("text") != None :
            fillers = ["em muốn hỏi", "thêm thông tin", "thay co cho em hoi","thầy cô cho em hỏi","anh chị cho em hỏi","anh chi cho em hoi", "cho mình hỏi", "cho minh hoi","cho em hỏi","cho em hoi",
@@ -152,7 +139,7 @@ class VietnamesePreprocesser(Component):
         #    print("lmao2:" + new_message)
            new_message = text_data
            new_message = " ".join(new_message.split())
-        #    print(new_message)
+           print(new_message)
            message.set("text", new_message)
         except :
          pass
@@ -161,7 +148,3 @@ class VietnamesePreprocesser(Component):
     def persist(self, file_name, model_dir):
         """Pass because a pre-trained model is already persisted"""
         pass
-        
-    
-	
-             

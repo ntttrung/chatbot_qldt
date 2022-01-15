@@ -16,8 +16,6 @@ from typing import Text, List, Dict, Any, Callable, Awaitable, Iterable, Optiona
 
 from rasa.core.channels.channel import UserMessage, OutputChannel, InputChannel
 from sanic.response import HTTPResponse
-import requests
-import json
 
 logger = logging.getLogger(__name__)
 
@@ -218,7 +216,6 @@ class MessengerBot(OutputChannel):
 
     async def send_action(self, recipient_id: Text, sender_action: Text) -> None:
         """Sends a sender action to facebook (e.g. "typing_on").
-
         Args:
             recipient_id: recipient
             sender_action: action to send, e.g. "typing_on" or "mark_seen"
@@ -349,12 +346,9 @@ class CustomFBInput(InputChannel):
 
     def __init__(self, fb_verify: Text, fb_secret: Text, fb_access_token: Text) -> None:
         """Create a facebook input channel.
-
         Needs a couple of settings to properly authenticate and validate
         messages. Details to setup:
-
         https://github.com/rehabstudio/fbmessenger#facebook-app-setup
-
         Args:
             fb_verify: FB Verification string
                 (can be chosen by yourself on webhook creation)
@@ -404,12 +398,10 @@ class CustomFBInput(InputChannel):
         app_secret, request_payload, hub_signature_header
     ) -> bool:
         """Make sure the incoming webhook requests are properly signed.
-
         Args:
             app_secret: Secret Key for application
             request_payload: request body
             hub_signature_header: X-Hub-Signature header sent with request
-
         Returns:
             bool: indicated that hub signature is validated
         """
