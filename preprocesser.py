@@ -121,7 +121,7 @@ class VietnamesePreprocesser(Component):
            fillers = ["em muốn hỏi", "thêm thông tin", "thay co cho em hoi","thầy cô cho em hỏi","anh chị cho em hỏi","anh chi cho em hoi", "cho mình hỏi", "cho minh hoi","cho em hỏi","cho em hoi",
                         "em hỏi","page ơi", "tôi muốn hỏi", "tôi muốn tìm hiểu", "toi muon tim hieu", "với ạ", "của trường", "tư vấn giúp em",  "cho em", "ra sao"
                         "giúp mình", "tư vấn giúp mình", "cho hỏi", "xin hỏi", "mình muốn tìm hiểu", "thì sao", "tôi muốn hỏi", "kinh tế quốc dân", "kinh te quoc dan", "trường mình",
-                        "trường tư vấn cho em", "cho em hỏi là", "mình có nhu cầu", "ktqd", "chatbot", '2020', '2021', "em muốn tìm hiểu", "muốn tìm hiểu", "bao nhiêu ạ", "có đúng không", "không biết", 'thầy cô']
+                        "trường tư vấn cho em", "cho em hỏi là", "mình có nhu cầu", "ktqd", "chatbot", '2020', '2021', "em muốn tìm hiểu", "muốn tìm hiểu", "bao nhiêu ạ", "có đúng không", "không biết", 'thầy cô', "?"]
         #    text_data = convert_num(text_data)
         #    text_data = StopWordRemover((str(message.get("text"))).lower())
            for filler in fillers:
@@ -139,7 +139,7 @@ class VietnamesePreprocesser(Component):
         #    print("lmao2:" + new_message)
            new_message = text_data
            new_message = " ".join(new_message.split())
-        #    print(new_message)
+           print(new_message)
            message.set("text", new_message)
         except :
          pass
