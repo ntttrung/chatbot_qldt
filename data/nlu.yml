@@ -166,6 +166,7 @@ nlu:
 - intent: turnitin
   examples: |
     - Turnitin là gì
+    - bạn ơi turnitin là gì thế
     - Turnitin
     - Cách mở Turnitin
     - Tìm hiểu Turnitin ở đâu ạ
