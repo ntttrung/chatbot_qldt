@@ -168,6 +168,8 @@ nlu:
     - Turnitin là gì
     - bạn ơi turnitin là gì thế
     - Turnitin
+    - Cho mình hỏi về turnitin
+    - kiểm tra đạo văn ở đâu
     - Cách mở Turnitin
     - Tìm hiểu Turnitin ở đâu ạ
     - Cách thức hoạt động của Turnitin
@@ -181,6 +183,7 @@ nlu:
     - Em chưa biết gì về Turnitin nên muốn tìm hiểu
     - Em muốn tìm hiểm thêm về sử dụng Turnitin, tìm ở đâu
     - tìm hiểu
+    - tôi muốn học cách sử dụng turnitin
   
 - intent: ap_dung_turnitin
   examples: |
@@ -313,6 +316,7 @@ nlu:
     - Em quên mật khẩu ạ
     - Tôi quên mật khẩu thì phải làm thế nào
     - Tôi không thể nhớ mật khẩu đăng nhập là gì
+    - em quên password turnitin
 
 - intent: wrong_email
   examples: |
