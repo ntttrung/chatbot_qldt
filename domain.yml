@@ -21,6 +21,14 @@ intents:
   - deadline
   - error
   - het_slot
+  - time_thi
+  - hinh_thuc_thi
+  - ca_thi
+  - lich_thi
+  - hoc_phi
+  - tinh_hoc_phi
+  - nop_tien
+  - thuong_tien
 
 slots:
     message:
@@ -180,6 +188,82 @@ responses:
   - text: |-
       Số lượng tài khoản sinh viên đã hết. Giáo viên báo lại cho đơn vị quản trị (ví dụ hệ Đại học Chính quy là phòng Quản lý Đào tạo) để điều tiết số lượng tài 
       khoản sinh viên.
+  
+  utter_time_thi:
+  - text: |-
+      Thi học kỳ được tổ chức ngay sau khi kết thúc thời gian lên lớp của học kỳ. Mỗi năm có 3 đợt thi học kỳ tương ứng với 3 học kỳ 1, 2 và học kỳ 
+      hè. Ngoài ra có thể có kỳ thi phụ được tổ chức cho các sinh viên hoãn thi trước đó. Mỗi đợt thi học kỳ thường kéo dài từ 3 tuần đến 1 tháng 
+      tùy theo quy mô của học kỳ. Sinh viên tham khảo tại website daotao.neu.edu.vn, mục Quy chế-Quy định. Thời gian thi học kỳ dự kiến được ghi 
+      trong kế hoạch học tập của học kỳ. Kế hoạch học tập dược đưa vào thông báo ở các trang daotao.neu.edu.vn; daihocchinhquy.neu.edu.vn trước mỗi 
+      đợt đăng ký học. Trước khi kết thúc học, thời gian thi cũng được nhắc lại ở các trang trên.
+  
+  utter_hinh_thuc_thi:
+  - text: |-
+      "Hình thức thi do bộ môn quyết định và thông báo cho sinh viên trong thời gian học. Thi offline có các hình thức thi viết ở phòng học; 
+      vấn đáp ở phòng học; thi viết trên máy tính; thi trắc nghiệm trên máy tính. Hình thức thi từng môn thi được ghi trong lịch thi. 
+      Hình thức thi do bộ môn quyết định và thông báo cho sinh viên trong thời gian học. Thi online có các hình thức: Thi vấn đáp trực tuyến trên 
+      ứng dụng Teams; Thi viết tiểu luận và nộp bài trên hệ thống LMS; Thi viết tự luận trực tuyến có giám sát trên ứng dụng Teams; 
+      Trắc nghiệm trên hệ thống LMS có giám sát. Hình thức thi từng môn thi được ghi trong lịch thi."
+
+
+  utter_ca_thi:
+  - text: |-
+      "Thời gian thi offline của môn học được tổ chức theo ca thi, quy định theo từng hình thức thi như sau: Các hình thức thi tự luận 
+      (thi viết, vấn đáp): Ca 1 từ 7 giờ 00', ca 2 từ 9 giờ 00' Ca 3 từ 13 giờ 00', ca 4 từ 15 giờ 00'; ca 5 từ 18 giờ 15'. 
+      Hình thức thi trắc nghiệm trên máy tính: Ca 1 : từ 7 giờ - 8  giờ,  Ca 2 : 8 giờ 30 - 9 giờ 30,  Ca 3: 10 giờ - 11 giờ,   
+      Ca 4 : từ 13 giờ - 14 giờ,   Ca 5 : 14giờ 30 - 15 giờ 30,  Ca 6 : 16 giờ - 17 giờ, Ca 7: từ 18 giờ 00. Ca 8: từ 19 giờ 15.
+      Thời gian thi online của môn học được tổ chức theo ca thi, quy định theo từng hình thức thi như sau: 
+            1. Thi vấn đáp trực tuyến trên ứng dụng Teams: Ca 1: 7h30 đến 11h30; ca 2: từ 13h00 đến 17h00; ca 3: từ 17h30 đến 20h; 
+            2.Thi viết tiểu luận và nộp bài trên hệ thống LMS: Ca 1: từ 8h00 đến 11h00; Ca 2: từ 13h00 đến 16h00; ca 3: từ 17h30 đến 20h; 
+            3.Thi viết tự luận trực tuyến có giám sát trên ứng dụng Teams: Ca 1: từ 8h00 đến 11h00; Ca 2: từ 13h00 đến 16h00; ca 3: từ 17h30 đến 20h; 
+            4.Trắc nghiệm trên hệ thống LMS có giám sát: Ca 1: 7h30-9h30; Ca 2: 9h30-11h30; Ca 3: 13h30-15h30; Ca 4: 15h30-17h30; Ca 5: 18h-20h. Một môn thi có thể gồm nhiều ca thi.
+
+
+  utter_lich_thi:
+  - text: |-
+      "Lịch thi được đưa vào thông báo ở các trang daihocchinhquy.neu.edu.vn; daotao.neu.edu.vn; nhóm thông tin sinh viên NEU (facebook) trước 
+      ngày thi đầu tiên khoảng 2-3 tuần. Lịch thi gồm các cột: tên môn học; số tín chỉ; tên lớp học phần; lớp thi; Địa điểm thi; 
+      Hình thức thi; Ngày thi; Ca thi; Bộ môn giảng dạy. Đối với thi online thì có thểm danh sách sinh viên ứng với lớp thi. 
+      Thi online thì sinh viên không phải đến trường. Đối với hình thức thi offline, sinh viên thi ở các giảng đường trong trường.
+      Sinh viên chú ý: một môn thi được phân biệt bởi mã môn, tên môn, số tín chỉ. Có những môn có cùng tên nhưng khác số tín chỉ nên cần xem kỹ 
+      lịch thi. Sinh viên phải xem kỹ môn học, số tín chỉ ở thời khóa biểu và tham chiếu sang file lịch thi."
+
+
+  utter_hoc_phi:
+  - text: |-
+      Xem quy định mức học phí tại: https://ptckt.neu.edu.vn/vi/hoc-phi
+      Mức học phí một tín chỉ được phân loại theo ngành, khóa học và loại sinh viên. Hiện tại có 3 nhóm học phí. 
+      Mức học phí một tín chỉ của các ngành hệ Đại học Văn bằng 2 Chính quy và hệ Liên thông từ Cao đẳng lên Đại học Chính quy được tính như đối với các ngành hệ Đại học Chính quy.
+      Học phí được tính theo công thức: Học phí = Số tín chỉ * học phí một tín chỉ.
+
+  utter_tinh_hoc_phi:
+  - text: |-
+      Học phí được tính theo từng học kỳ. Thông thường sau khoảng 4 tuần đầu học kỳ, Phòng Tài chính Kế toán tính học phí và thông báo cho sinh viên thời gian 
+      và cách thức nộp học phí tại bằng cách tạo Thông báo ở Cổng thông tin Đại học chính quy https://daihocchinhquy.neu.edu.vn và 
+      Nhóm thông tin sinh viên NEU (facebook).  Sinh viên xem học phí tại mục Tài chính sinh viên trong tài khoản cá nhân tại Cổng thông tin Đại học Chính quy.
+      Theo quy định, sinh viên không nợ học phí thì mới được đăng ký các môn của học kỳ tiếp theo.
+      Các khoản lệ phí như lệ phí đổi điểm tin học, ngoại ngữ; lệ phí học tiếng Anh tăng cường, ... cũng được thông báo tại các link trên và đưa vào Tài chính sinh viên của mỗi sinh viên như đối với học phí.
+      Xem thêm thông tin tại link: https://ptckt.neu.edu.vn/vi/hoc-phi/thong-bao-v-v-thu-hoc-phi-va-cac-khoan-le-phi
+      Nếu có thắc mắc về học phí, sinh viên liên hệ thầy cô phụ trách mảng học phí thuộc Phòng Tài chính kế toán để được giải đáp.
+      https://ptckt.neu.edu.vn/vi/phan-cong-nhiem-vu-1557/phan-cong-nhiem-vu-13767
+
+
+  utter_nop_tien:
+  - text: |-
+      Xem quy định nộp học phí tại: https://ptckt.neu.edu.vn/vi/hoc-phi
+      Nếu đã nộp hoặc chuyển khoản học phí, lệ phí nhưng sau một vài ngày chưa thấy số tiền đã nộp hiện ra ở mục Tài chính sinh viên thì cần 
+      liên hệ thầy cô phụ trách học phí ở link: https://ptckt.neu.edu.vn/vi/phan-cong-nhiem-vu-1557/phan-cong-nhiem-vu-13767
+      Tất cả các khoản học phí, lệ phí phải nộp, đã nộp đều được đưa vào mục Tài chính sinh viên để công khai, rõ ràng các khoản học phí, lệ phí của sinh viên.
+
+  utter_thuong_tien:
+  - text: |-
+      Các khoản tiền bảo hiểm y tế, học bổng, miễn giảm học phí do phòng Công tác chính trị và Quản lý sinh viên phụ trách. 
+      Sinh viên xem thông tin qua link: https://phongctctqlsv.neu.edu.vn và Phòng Tài chính kế toán: https://ptckt.neu.edu.vn/
+
+  utter_rut_tien:
+  - text: |-
+      Sinh viên xem thủ tục rút tiền học phí thừa tại website của Phòng Tài chính kế toán địa chỉ: https://ptckt.neu.edu.vn/vi/hoc-phi
+
 
 actions:
 - action_submit

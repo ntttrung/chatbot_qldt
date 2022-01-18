@@ -184,6 +184,7 @@ nlu:
     - Em muốn tìm hiểm thêm về sử dụng Turnitin, tìm ở đâu
     - tìm hiểu
     - tôi muốn học cách sử dụng turnitin
+    - Em không hiểu turnitin là gì
   
 - intent: ap_dung_turnitin
   examples: |
@@ -384,6 +385,9 @@ nlu:
     - Em đang rất hoang mang lo lắng vì chưa thấy kết quả Turnitin
     - Đợi mãi không thấy kết quả check, e có nên nộp lại không ạ
     - Đợi mãi không thấy kết quả check, e có nên nộp đè lên bài cũ không ạ
+    - Chờ lâu quá không thấy kết quả
+    - Có nên nộp lại bài turnitin
+    - Nộp lại bài
 
 - intent: nop_thu
   examples: |
@@ -429,3 +433,320 @@ nlu:
     - Không add được sinh viên vào lớp
     - Giáo viên không nhập được sinh viên vào lớp
     - Tôi là giáo viên, không đưa được sinh viên vào lớp
+
+- intent: time_thi
+  examples: |
+    - Em muốn hỏi thời gian thi học kỳ
+    - Khi nào thi học kỳ
+    - Mỗi năm có mấy đợt thi học kỳ
+    - Thi học kỳ trong bao lâu
+    - Xem thời gian thi học kỳ ở đâu
+    - Xem khoảng thời gian thi học kỳ dự kiến ở đâu
+    - Thời gian thi học kỳ hệ Đại học Chính quy
+    - Mỗi đợt thi kéo dài trong bao lâu
+    - Mỗi kỳ thi trong bao nhiêu ngày
+    - Em muốn biết kế hoạch thi học kỳ
+    - Em muốn hỏi thi học kỳ vào những ngày nào ạ
+    - Xem thông tin kỳ thi ở website nào
+    - Thông tin kỳ thi ở trang nào
+
+
+- intent: hinh_thuc_thi
+  examples: |
+    - Cho em hỏi các hình thức thi học kỳ như thế nào
+    - Hình thức thi học kỳ 
+    - Các hình thức thi học kỳ 
+    - Các hình thức thi học kỳ  là gì
+    - Em muốn hỏi hình thức thi học kỳ của môn học
+    - Có các hình thức thi học kỳ  nào
+    - Có các hình thức thi học kỳ  nào ạ
+    - Thi học kỳ như thế nào và thi ở đâu ạ
+    - Có bao nhiêu hình thức thi 
+    - Cách thức thi như thế nào
+    - Cách thức thi học kỳ
+    - Em muốn hỏi cách thức thi học kỳ
+    - Em muốn hỏi cách thức thi học kỳ thì hỏi ở đâu ạ
+    - Em muốn biết môn gì thi kiểu gì
+    - Hình thức thi học kỳ của môn thi
+    - Có các hình thức thi gì
+    - Các hình thức thi online và offline
+    - Cho em hỏi các hình thức thi online và offline
+
+- intent: ca_thi
+  examples: |
+    - Ca thi cho môn thi 
+    - Môn thi được tổ chức bao nhiêu ca thi
+    - Một môn thi trong bao nhiêu ca
+    - Một môn thi trong mấy ca
+    - Một buổi có mấy ca thi
+    - Một ngày có mấy ca thi
+    - Mấy ca thi trong một ngày
+    - Mấy ca thi trong một buổi
+    - Mấy ca thi trong một buổi sáng, chiều, tối
+    - Hình thức viết tự luận thi trong mấy ca một buổi
+    - Hình thức thi trắc nghiệm thi trong mấy ca một ngày
+    - Quy định thời gian tổ chức thi cho môn thi
+    - Thời gian thi của một môn thi
+    - Ca thi của hình thức thi vấn đáp trực tuyến
+    - Ca thi của các hình thức thi
+    - Thời gian thi của các hình thức thi
+    - Em muốn hỏi một ngày có bao nhiêu ca thi
+    - Cho em hỏi thi online có mấy ca trong một buổi
+    - Cho em hỏi thi online có mấy ca trong một ngày
+    - Buổi tối thi online từ mấy giờ ạ
+    - Ban ngày thi từ mấy giờ ạ
+    - Buổi sáng thi học kỳ từ mấy giờ ạ
+    - Buổi chiều thi học kỳ từ mấy giờ ạ
+    - Buổi tối thi học kỳ từ mấy giờ ạ
+    - Thời gian thi của các ca thi
+    - Cho em hỏi thời gian thi của ca thi
+    - Cho em hỏi thời gian thi của ca thi từ mấy giờ đến mấy giờ ạ
+    - Một môn thi có thể có nhiều ca thi không ạ
+    - Hình thức thi từ mấy giờ
+
+- intent: lich_thi
+  examples: |
+    - Thi ở đâu
+    - Địa điểm thi học kỳ ở đâu
+    - Thi học kỳ ở đâu
+    - Thi học kỳ ở chỗ nào ạ
+    - Cho em hỏi thi học kỳ ở địa điểm nào ạ
+    - Cho em hỏi thi học kỳ có ở trong trường không ạ
+    - Thi học kỳ ở giảng đường học luôn có đúng không ạ
+    - Em tìm địa điểm thi ở đâu ạ
+    - Thi vấn đáp ở đâu ạ
+    - Thi trắc nghiệm trên máy tính ở đâu ạ
+    - Thi viết tự luận thì thi ở đâu ạ
+    - Thi online thì thi ở đâu ạ
+    - Em muốn biết thi học kỳ ở đâu
+    - Xem lịch thi ở đâu ạ
+    - Lịch thi gồm các thông tin gì ạ
+    - Em muốn tìm lịch thi thì tìm ở đâu ạ
+    - Khi nào có lịch thi ạ
+    - Em muốn biết thi học kỳ vào ngày nào Giờ nào Địa điểm nào
+    - Xem môn thi ở đâu
+    - Xem môn thi ở đâu ạ
+    - Lịch thi
+    - Tìm lịch thi ở đâu
+    - Tìm lịch thi ở chỗ nào
+    - Tìm lịch thi ở trang nào
+    - Nội dung lịch thi
+    - Lịch thi gồm các cột gì ạ
+    - Có ngày thi, ca thi, phòng thi và hình thức thi trong lịch thi không ạ
+    - Lịch thi là file gì ạ
+
+- intent: hoc_phi
+  examples: |
+    - Mức học phí
+    - Mức học phí hệ Đại học Chính quy
+    - Mức học phí hệ Đại học Văn bằng 2 Chính quy
+    - Mức học phí một tín chỉ
+    - Mức học phí một tín chỉ hệ Đại học Chính quy
+    - Mức học phí một tín chỉ hệ Đại học Văn bằng 2 Chính quy
+    - Mức học phí một tín chỉ hệ Đại học Văn bằng 2 Chính quy
+    - Mức học phí hệ Liên thông từ Cao đẳng lên Đại học Chính quy
+    - Mức học phí một tín chỉ hệ Liên thông từ Cao đẳng lên Đại học Chính quy
+    - Em muốn hỏi mức học phí
+    - Em muốn hỏi mức học phí hệ Đại học Chính quy
+    - Em muốn hỏi về học phí trước khi thi vào trường
+    - Em muốn hỏi về học phí trước khi thi vào trường Đại học Kinh tế quốc dân
+    - Mức học phí có cao không ạ
+    - Bao nhiêu tiền một tín chỉ ạ
+    - Em muốn hỏi quy định về học phí
+    - Em muốn hỏi quy định về học phí hệ Đại học Chính quy
+    - Cho em xin quy định về học phí
+    - Cho em xin quy định về học phí hệ Đại học Chính quy
+    - Xem quy định về học phí ở đâu
+    - Tìm quy định về học phí ở đâu
+    - Em muốn tìm quy định về học phí
+
+- intent: tinh_hoc_phi
+  examples: |
+    - Xem học phí
+    - Xem học phí ở đâu
+    - Xem học phí học kỳ này ở đâu
+    - Muốn xem còn nợ học phí hay không
+    - Muốn xem còn nợ học phí hay không thì xem ở đâu
+    - Em không biết xem học phí ở đâu
+    - Em không biết còn nợ bao nhiêu tiền
+    - Em muốn biết kỳ này phải nộp bao nhiêu tiền
+    - Em muốn biết học phí kỳ này
+    - Học phí đã có chưa ạ
+    - Học phí kỳ này đã có chưa ạ
+    - Học phí kỳ nãy đã được tính chưa ạ
+    - Em chưa thấy học phí kỳ này
+    - Không hiểu sao học phí của em chưa được tính
+    - Học phí tính sai
+    - Học phí chưa đúng
+    - Học phí bị tính lặp môn
+    - Học phí bị tính nhiều lên
+    - Học phí của em chưa đúng do bị lặp môn
+    - Học phí chưa đúng thì em tìm thầy cô nào ạ
+    - Học phí chưa đúng thì em phải làm gì
+    - Học phí chưa đúng thì em liên hệ ai
+    - Học phí sai do tổng số tín chỉ không đúng
+    - Học phí của em bị sai ạ
+    - Mức học phí của em chưa đúng ạ
+    - Học phí kỳ này của em chưa đúng
+    - Khoản học phí phải nộp của em chưa đúng
+    - Học phí của em bị vênh
+    - Học phí của em bị dôi thêm một khoản
+    - Học phí của em bị đội lên một khoản
+    - Môn này em không học nhưng bị tính học phí
+    - Tính học phí cả môn em không học
+    - Em đã hủy môn nhưng vẫn bị tính học phí
+    - Thưa thầy cô em muốn khiếu nại về học phí
+    - Thắc mắc học phí
+    - Thắc mắc về học phí kỳ này
+    - Không thấy học phí
+    - Học phí ở Tài chính sinh viên bị trắng
+    - Em tự tính học phí và thấy khác so với Tài chính sinh viên
+    - Không hiểu sao có một khoản học phí trong Tài chính sinh viên
+    - Học phí phải nộp của e bị sai ạ
+    - Học phí của em kỳ này chưa chính xác ạ
+    - Em muốn hỏi về học phí thì liên hệ thầy cô nào ạ
+    - Hỏi về học phí
+    - Phòng ban nào phụ trách học phí ạ
+    - Thầy cô nào phụ trách học phí ạ
+    - Hỏi học phí ở đâu ạ
+    - Lệ phí đổi điểm tin học
+    - Lệ phí đổi điểm ngoại ngữ
+    - Em chưa thấy lệ phí đổi điểm tin học ạ
+    - Em chưa thấy lệ phí đổi điểm ngoại ngữ ạ
+    - Em phải nộp lệ phí đổi điểm tin học bao nhiêu tiền ạ
+    - Em phải nộp lệ phí đổi điểm ngoại ngữ bao nhiêu tiền ạ
+    - Xem học phí học ghép ở đâu ạ
+    - Xem học phí học Giáo dục Quốc phòng An ninh ở đâu ạ
+    - Xem lệ phí thi Chuẩn đầu ra ở đâu ạ
+    - Xem lệ phí học tiếng Anh tăng cường ở đâu ạ
+
+- intent: nop_tien
+  examples: |
+    - Nộp học phí bằng cách nào
+    - Nộp học phí thế nào
+    - Cách nộp học phí
+    - Nộp học phí như thế nào
+    - Cho e hỏi cách nộp học phí
+    - Em muốn nộp học phí
+    - Em muốn nộp học phí học kỳ này ạ
+    - Nộp học phí ở đâu
+    - Em muốn nộp học phí thì phải nôp ở đâu
+    - Em muốn nộp học phí thì phải nộp như thế nào ạ
+    - Em muốn nộp học phí thì phải làm gì ạ
+    - Khi nào thì phải nộp học phí ạ
+    - Cú pháp chuyển khoản học phí
+    - Cú pháp chuyển khoản học phí là gì
+    - Cho em hỏi cú pháp chuyển khoản học phí
+    - Cho em hỏi số tài khoản thu học phí
+    - Địa điểm thu học phí
+    - Thu học phí chỗ nào
+    - Trường thu học phí ở đâu ạ
+    - Cách chuyển khoản học phí
+    - Em muốn biết cách chuyển khoản học phí ạ
+    - Cho em xin số tài khoản
+    - Cho em xin số tài khoản của trường để nộp học phí ạ
+    - Em chưa biết cách nộp học phí
+    - Em chưa biết cách chuyển khoản học phí ạ
+    - Cho em hỏi chuyển khoản học phí như thế nào ạ
+    - Cho em hỏi về nộp học phí với ạ
+    - Cho em hỏi về nộp lệ phí với ạ
+    - Nộp lệ phí ở đâu
+    - Chuyển khoản lệ phí ở đâu ạ
+    - Em muốn nộp lệ phí đổi điểm tin học
+    - Em muốn nộp lệ phí đổi điểm ngoại ngữ
+    - Em muốn chuyển khoản lệ phí đổi điểm tin học
+    - Em muốn chuyển khoản lệ phí đổi điểm ngoại ngữ
+    - Em muốn nộp học phí học Giáo dục quốc phòng An ninh
+    - Em muốn chuyển khoản học phí học Giáo dục quốc phòng An ninh
+    - Em muốn nộp học phí học ghép kỳ này
+    - Em muốn chuyển khoản học phí học ghép kỳ này
+    - Em đã nộp học phí nhưng chưa thấy hiện khoản tiền này ở Tài chính sinh viên
+    - Em đã chuyển khoản nhưng chưa thấy hiện
+    - Em đã chuyển khoản nhưng chưa thấy ở Tài chính sinh viên
+    - Đã chuyển khoản nhiều ngày nhưng chưa thấy tiền về
+    - Chưa thấy tiền nộp học phí về
+    - Chưa thấy tiền nộp lệ phí về
+    - Chưa thấy tiền đã chuyển khoản ở Tài chính sinh viên
+    - Chưa thấy tiền chuyển khoản hiện ra ở Tài chính sinh viên
+    - Cho em hỏi bao giờ tiền mới về Tài chính sinh viên
+    - Em nộp học phí rồi nhưng vẫn nợ ở Tài chính sinh viên
+    - Em đã chuyển khoản nhưng vẫn nợ ở Tài chính sinh viên
+    - Bao giờ mới thấy tiền đã nộp về Tài chính sinh viên
+    - Em đã chuyển khoản lệ phí nhưng chưa thấy tiền ở Tài chính sinh viên
+    - Em đã nộp lệ phí nhưng chưa thấy tiền ở Tài chính sinh viên
+    - Em đã nộp phí đổi điểm chưa thấy tiền ở Tài chính sinh viên
+    - Em đã chuyển khoản nhưng vẫn ghi nợ
+    - Em đã nộp học phí nhưng vẫn bị nợ
+    - Tại sao e đã nộp học phí nhưng vẫn bị ghi nợ ở Tài chính sinh viên
+    - Không biết em bị nợ khoản học phí gì
+    - Em chuyển khoản nhầm cú pháp thì phải làm sao ạ
+    - Em đã chuyển khoản nhưng ghi sai mã sv ạ
+    - Em nộp học phí ở LienvietBank nhưng chưa thấy tiền về ạ
+    - Em nhập nhầm mã sinh viên lúc nộp học phí ạ
+    - Em chuyển khoản nhầm mã sinh viên ạ
+    - Em chuyển khoản sai cú pháp thì bây giờ phải làm gì ạ
+    - Sai cú pháp chuyển khoản thì phải làm sao ạ
+    - Em quên ghi mã sinh viên khi chuyển khoản ạ
+    - Em xin lỗi quên nhập mã sinh viên khi chuyển khoản nên số tiền chưa về ạ
+    - Tài khoản của em đã bị trừ tiền nhưng chưa thấy ở Tài chính sinh viên
+    - Cho em hỏi sau khi chuyển khoản thì bao giờ tiền mới về ạ
+    - Cho em hỏi sau khi chuyển khoản thì bao giờ tiền mới nổi ở Tài chính sinh viên ạ
+    - Cho em hỏi học phí nộp trực tiếp hay chuyển khoản ạ
+    - Em muốn đến nộp học phí trực tiếp ở trường được không ạ
+    - Trường có thu học phí trực tiếp không ạ
+    - Em chuyển học phí nhầm sang bạn khác thì làm thế nào ạ
+    - Em chuyển khoản học phí nhầm thì có lấy lại được không ạ
+    - Em chuyển khoản lệ phí nhầm thì liên hệ thầy cô nào ạ
+
+- intent: thuong_tien
+  examples: |
+    - Em muốn hỏi về tiền bảo hiểm y tế
+    - Đột nhiên xuất hiện số tiền bảo hiểm y tế dù em không đăng ký
+    - Xuất hiện số tiền bảo hiểm y tế ở Tài chính sinh viên mà em không đăng ký
+    - Em muốn liên hệ ở đâu về số tiền bảo hiểm y tế
+    - Cho em hỏi em liên hệ thầy cô nào về tiền bảo hiểm y tế
+    - Không đăng ký bảo hiểm y tế mà phải nộp tiền
+    - Cho em hỏi về học bổng
+    - Em muốn hỏi về học bổng thì liên hệ thầy cô nào ạ
+    - Em muốn hỏi về học bổng thì xem ở đâu
+    - Em chờ mãi chưa thấy học bổng
+    - Vẫn chưa có học bổng kỳ này ạ
+    - Chưa có học bổng thầy cô ơi
+    - Chưa thấy học bổng ở Tài chính sinh viên ạ
+    - Cho em hỏi về miễn giảm học phí
+    - Em là gia đình chính sách, em muốn hỏi về miễn giảm học phí ạ
+    - Thế nào thì được miễn giảm học phí ạ
+    - Điều kiện miễn giảm học phí là gì ạ
+    - Em muốn đăng ký hồ sơ miễn giảm học phí ạ
+    - Em muốn được miễn giảm học phí ạ
+    - Muốn miễn giảm học phí thì làm thế nào ạ
+    - Bao giờ có đợt xét miễn giảm học phí ạ
+    - Em muốn tìm hiểu về quy định miễn giảm học phí
+    - Xem điều kiện miễn giảm học phí ở đâu ạ
+    - Đăng ký miễn giảm học phí ở đâu ạ
+    - Phòng ban nào phụ trách bảo hiểm y tế ạ
+    - ở đâu phụ trách bảo hiểm y tế ạ
+    - Phòng ban nào phụ trách xét học bổng ạ
+    - Ở đâu phụ trách xét học bổng ạ
+    - Phòng ban nào xét miễn giảm học phí ạ
+    - Ở đâu xét miễn giảm học phí ạ
+    - Em thuộc diện chính sách nên muốn đăng ký miễn giảm học phí
+    - Miễn giảm học phí có phải đăng ký theo từng học kỳ không ạ
+    - Bố em là thương binh thì em có được miễn giảm học phí không ạ
+
+- intent: rut_tien
+  examples: |
+    - Em muốn rút lại tiền học phí thừa thì phải làm thế nào ạ
+    - Em muốn rút lại học phí thừa
+    - Em đã tốt nghiệp, e muốn rút lại học phí còn thừa
+    - Muốn rút học phí còn thừa thì phải làm thế nào ạ
+    - Em định đi du học nên muốn rút lại học phí còn thừa
+    - Đầu năm em đóng tiền học cả năm, bây giờ em muốn rút học phí được không ạ
+    - Khi nhập học e đã nộp học phí, bây giờ e đi du học thì em có rút được không ạ
+    - Em đã ra trường và muốn rút học phí còn thừa ạ
+    - E vừa ra trường và còn thừa học phí thì rút thế nào ạ
+    - Em muốn lấy lại học phí còn thừa ạ
+    - Em muốn rút học phí còn thừa thì liên hệ thầy cô nào ạ
+    - Thủ tục rút học phí còn thừa
+    - Rút học phí còn thừa ở đâu
+    - Em cần phải làm gì để rút học phí thừa ạ

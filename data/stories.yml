@@ -96,3 +96,48 @@ stories:
   steps:
   - intent: het_slot
   - action: utter_het_slot
+
+- story: time_thi
+  steps:
+  - intent: time_thi
+  - action: utter_time_thi
+
+- story: hinh_thuc_thi
+  steps:
+  - intent: hinh_thuc_thi
+  - action: utter_hinh_thuc_thi
+
+- story: ca_thi
+  steps:
+  - intent: ca_thi
+  - action: utter_ca_thi
+
+- story: lich_thi
+  steps:
+  - intent: lich_thi
+  - action: utter_lich_thi
+
+- story: hoc_phi
+  steps:
+  - intent: hoc_phi
+  - action: utter_hoc_phi
+
+- story: tinh_hoc_phi
+  steps:
+  - intent: tinh_hoc_phi
+  - action: utter_tinh_hoc_phi
+
+- story: nop_tien
+  steps:
+  - intent: nop_tien
+  - action: utter_nop_tien
+
+- story: thuong_tien
+  steps:
+  - intent: thuong_tien
+  - action: utter_thuong_tien
+
+- story: rut_tien
+  steps:
+  - intent: rut_tien
+  - action: utter_rut_tien
