@@ -433,6 +433,8 @@ nlu:
     - Không add được sinh viên vào lớp
     - Giáo viên không nhập được sinh viên vào lớp
     - Tôi là giáo viên, không đưa được sinh viên vào lớp
+    - mình dùng turnitin mà không thêm sinh viên vào được
+    - không thêm sinh viên vào turnitin
 
 - intent: time_thi
   examples: |
@@ -449,6 +451,7 @@ nlu:
     - Em muốn hỏi thi học kỳ vào những ngày nào ạ
     - Xem thông tin kỳ thi ở website nào
     - Thông tin kỳ thi ở trang nào
+    - thời gian thi học kỳ
 
 
 - intent: hinh_thuc_thi
@@ -503,6 +506,10 @@ nlu:
     - Cho em hỏi thời gian thi của ca thi từ mấy giờ đến mấy giờ ạ
     - Một môn thi có thể có nhiều ca thi không ạ
     - Hình thức thi từ mấy giờ
+    - có những kíp thi nào thế
+    - Ca thi
+    - kíp thi
+    - ca thi buổi sáng bắt đầu khi nào ạ
 
 - intent: lich_thi
   examples: |
@@ -698,6 +705,7 @@ nlu:
     - Em chuyển học phí nhầm sang bạn khác thì làm thế nào ạ
     - Em chuyển khoản học phí nhầm thì có lấy lại được không ạ
     - Em chuyển khoản lệ phí nhầm thì liên hệ thầy cô nào ạ
+    - nộp tiền
 
 - intent: thuong_tien
   examples: |
@@ -751,6 +759,7 @@ nlu:
     - Thủ tục rút học phí còn thừa
     - Rút học phí còn thừa ở đâu
     - Em cần phải làm gì để rút học phí thừa ạ
+    - rút tiền
 
 - intent: ctdt
   examples: |
@@ -800,6 +809,7 @@ nlu:
     - Học phần và tín chỉ có mối quan hệ thế nào ạ
     - Một tín chỉ học trong bao nhiêu lâu ạ
     - Có các loại học phần nào ạ
+    - tín chỉ
 
 - intent: ke_hoach
   examples: |
@@ -816,6 +826,7 @@ nlu:
     - Xem kế hoạch giảng dạy ở đâu ạ
     - Kế hoạch giảng dạy kỳ này đã có chưa ạ
     - Kế hoạch giảng dậy đã có chưa mọi người ơi
+    - kế hoạch giảng dạy
 
 - intent: tkb
   examples: |
@@ -882,6 +893,7 @@ nlu:
     - Không biết em đăng ký học ghép có được không
     - Em đã nộp đơn học ghép nhưng không biết có được duyệt không
     - Em đã nộp đơn học ghép nhưng không biết có được chấp nhận không
+    - học ghép
 
 - intent: dk_bo_sung
   examples: |
@@ -892,6 +904,7 @@ nlu:
     - Kỳ này có cho đăng ký học bổ sung không ạ
     - Em rất hoang mang, lo lắng vì còn mấy môn chưa đăng ký, liệu e có đăng ký bổ sung được không ạ
     - Đăng ký bổ sung vào lúc nào ạ
+    - đăng ký bổ sung
 
 - intent: dk_rieng
   examples: |
@@ -905,6 +918,7 @@ nlu:
     - Thông tin lớp riêng có ở đâu ạ
     - Em chưa thấy lịch đăng ký lớp riêng
     - Em còn nợ mấy môn nên muốn đăng ký lớp riêng cho kịp đợt xét tốt nghiệp
+    - đăng ký riêng
 
 - intent: cai_thien
   examples: |
@@ -922,6 +936,7 @@ nlu:
     - Lớp chúng em muốn đăng ký học cùng nhau các học phần trong cùng tổ hợp thì cần làm thủ tục gì
     - Chúng em muốn được đăng ký học cùng nhau theo lớp chuyên ngành ạ
     - Nộp đơn đăng ký học cả lớp ở đâu ạ
+    - em là lớp trưởng em muốn đăng ký học cho cả lớp thì liên hệ ai ạ
 
 - intent: no_mon
   examples: |
@@ -932,6 +947,7 @@ nlu:
     - Môn em còn nợ lại không có trong học kỳ này ạ
     - Em không đăng ký được môn còn nợ vì không có trong kỳ này ạ
     - Thầy cô cứu em với môn em cần thì không có lớp ạ
+    - em bị nợ một môn nhưng kỳ sau không mở lớp ạ
 
 - intent: thuc_tap
   examples: |
@@ -941,6 +957,8 @@ nlu:
     - Đăng ký Chuyên đề thực tập/Khóa luận tốt nghiệp ở đâu ạ
     - đăng ký khóa luận
     - chuyên đề thực tập
+    - e muốn đi thực tập thì cần đăng ký như nào
+    - đăng ký thực tập
 
 - intent: time_out
   examples: |
@@ -955,5 +973,9 @@ nlu:
     - Em chỉ còn nợ vài môn nhưng đã học hơn 06 năm rồi ạ
     - Cho em hỏi về cách xử lý sinh viên học quá thời gian học ạ
     - Sinh viên học quá thời gian học tối đa thì được xử lý thế nào ạ
+    - em đang học quá thời gian thì có bị thôi học không ạ
+    - học quá 6 năm có bị thôi học không 
+    - học hơn 6 năm bị đuổi học đúng không
+
 
 
