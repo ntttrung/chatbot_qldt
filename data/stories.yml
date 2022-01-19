@@ -141,3 +141,68 @@ stories:
   steps:
   - intent: rut_tien
   - action: utter_rut_tien
+
+- story: ctdt
+  steps:
+  - intent: ctdt
+  - action: utter_ctdt
+
+- story: time_hoc
+  steps:
+  - intent: time_hoc
+  - action: utter_time_hoc
+
+- story: tin_chi
+  steps:
+  - intent: tin_chi
+  - action: utter_tin_chi
+
+- story: ke_hoach
+  steps:
+  - intent: ke_hoach
+  - action: utter_ke_hoach
+
+- story: tkb
+  steps:
+  - intent: tkb
+  - action: utter_tkb
+
+- story: dk_rieng
+  steps:
+  - intent: dk_rieng
+  - action: utter_dk_rieng
+
+- story: hoc_ghep
+  steps:
+  - intent: hoc_ghep
+  - action: utter_hoc_ghep
+
+- story: dk_bo_sung
+  steps:
+  - intent: dk_bo_sung
+  - action: utter_dk_bo_sung
+
+- story: cai_thien
+  steps:
+  - intent: cai_thien
+  - action: utter_cai_thien
+
+- story: dk_all
+  steps:
+  - intent: dk_all
+  - action: utter_dk_all
+
+- story: no_mon
+  steps:
+  - intent: no_mon
+  - action: utter_no_mon
+
+- story: thuc_tap
+  steps:
+  - intent: rut_tien
+  - action: utter_rut_tien
+
+- story: time_out
+  steps:
+  - intent: time_out
+  - action: utter_time_out

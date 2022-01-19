@@ -751,3 +751,209 @@ nlu:
     - Thủ tục rút học phí còn thừa
     - Rút học phí còn thừa ở đâu
     - Em cần phải làm gì để rút học phí thừa ạ
+
+- intent: ctdt
+  examples: |
+    - Chương trình đào tạo là gì
+    - Cho em hỏi chương trình đào tạo là gì ạ
+    - Xem chương trình đào tạo ở đâu ạ
+    - Em là sinh viên năm thứ nhất nên chưa biết tìm chương trình đào tạo ở đâu ạ
+    - Em chưa biết em phải học những môn gì
+    - Tìm các môn e phải học ở đâu ạ
+    - Ngành của em phải học bao nhiêu môn ạ
+    - Ngành của em có nhiều môn không ạ
+    - Tổng số môn của e phải học là bao nhiêu ạ
+    - Em phải học tối đa bao nhiêu tín chỉ ạ
+    - Xem quy chế đào tạo đại học chính quy ở đâu ạ
+
+- intent: time_hoc
+  examples: |
+    - Chương trình đào tạo là gì
+    - Cho em hỏi chương trình đào tạo là gì ạ
+    - Xem chương trình đào tạo ở đâu ạ
+    - Em là sinh viên năm thứ nhất nên chưa biết tìm chương trình đào tạo ở đâu ạ
+    - Em chưa biết em phải học những môn gì
+    - Tìm các môn e phải học ở đâu ạ
+    - Ngành của em phải học bao nhiêu môn ạ
+    - Ngành của em có nhiều môn không ạ
+    - Tổng số môn của e phải học là bao nhiêu ạ
+    - Em phải học tối đa bao nhiêu tín chỉ ạ
+    - Xem quy chế đào tạo đại học chính quy ở đâu ạ
+    - Em được học tối đa bao nhiêu năm ạ
+    - Cho em hỏi về thời gian học tập
+    - Thời gian học chuẩn là bao nhiêu năm ạ
+    - Em có thể ra trường sớm được không ạ
+    - Em có thể rút ngắn thời gian học được không ạ
+    - Liệu sau 3 năm e có thể ra trường được không ạ
+    - Em có thể kéo dài thêm thời gian học được không ạ
+    - Em có thể học thêm được mấy năm ạ
+    - Em có thể kéo dài thêm mấy năm để ra trường ạ
+    - Em là đối tượng chính sách xã hội thì được học tối đa bao nhiêu năm ạ
+    - Em là đối tượng ưu tiên thì được kéo dài bao nhiêu lâu ạ
+
+- intent: tin_chi
+  examples: |
+    - Tín chỉ là gì ạ
+    - Một tín chỉ là gì ạ
+    - Giải thích tín chỉ là gì
+    - Học phần là gì ạ
+    - Học phần và tín chỉ có mối quan hệ thế nào ạ
+    - Một tín chỉ học trong bao nhiêu lâu ạ
+    - Có các loại học phần nào ạ
+
+- intent: ke_hoach
+  examples: |
+    - Kế hoạch giảng dạy học tập là gì ạ
+    - Mỗi năm có mấy học kỳ ạ
+    - Năm nay có học kỳ hè không ạ
+    - Cho em hỏi xem Kế hoạch giảng dạy ở đâu ạ
+    - Kế hoạch giảng dạy có nội dung gì ạ
+    - Một học kỳ kéo dài trong bao nhiêu lâu ạ
+    - Cho em hỏi khi nào bắt đầu học kỳ mới ạ
+    - Em muốn xem thời gian học của học kỳ tới và các môn sẽ học ạ
+    - Học kỳ chính học trong bao nhiêu tuần ạ
+    - Học kỳ phụ học trong bao nhiêu tuần ạ
+    - Xem kế hoạch giảng dạy ở đâu ạ
+    - Kế hoạch giảng dạy kỳ này đã có chưa ạ
+    - Kế hoạch giảng dậy đã có chưa mọi người ơi
+
+- intent: tkb
+  examples: |
+    - Em có thể xem thời khóa biểu ở đâu ạ
+    - Thời khóa biểu trường mình để ở đâu ạ
+    - Thời khóa biểu hệ đại học Chính quy ở đâu ạ
+    - Em muốn tìm file thời khóa biểu kỳ này ạ
+    - Em không biết tìm thời khóa biểu ở đâu
+    - Trường có đưa thời khóa biểu vào Đại học chính quy không ạ
+    - Thời khóa biểu có được gửi tới email của sinh viên không ạ
+    - Xem lịch đăng ký học ở đâu ạ
+    - Thời gian đăng ký học vào lúc nào ạ
+    - Em muốn đăng ký học ở học kỳ này ạ
+    - Đã đến thời gian đăng ký học chưa ạ
+    - Cho em hỏi khi nào thì đăng ký học ạ
+    - Khi nào đăng ký học cho các môn ở học kỳ tới ạ
+    - Đăng ký học ngày nào ạ
+    - Em không biết đăng ký học như thế nào ạ
+    - Cho em hỏi cách đăng ký học ạ
+    - Đăng ký học ở đâu ạ thưa thầy cô
+    - Em là sinh viên mới nhập học thì có phải đăng ký học không ạ
+    - Hướng dẫn đăng ký học ở đâu ạ
+    - Em muốn tìm hướng dẫn đăng ký học ạ
+    - Đăng ký học rồi thì xem kết quả ở đâu ạ
+    - Em muốn xem các môn đã đăng ký ạ
+    - Em muốn biết đã đăng ký học được môn nào thì xem ở đâu ạ
+    - Em đang nợ học phí thì có được đăng ký học không ạ
+    - Em đăng ký học thì thông báo còn nợ học phí ạ
+    - Bây giờ em chuyển khoản thì có được đăng ký học không ạ
+    - Do em chủ quan, bây giờ nợ một ít học phí mong thầy cô giúp đỡ ạ
+    - Nút đăng ký học của em bị mờ do nợ học phí ạ
+    - Lịch hủy đăng ký học ở đâu ạ
+    - Thầy ơi em đăng ký nhầm môn nên muốn hủy đi ạ
+    - Em đăng ký nhiều môn quá nên không học được, giờ em muốn hủy đi ạ
+    - Em xin hỏi cách hủy học phần ạ
+    - Em muốn xóa một môn đi thì làm thế nào ạ
+    - Lúc nào thì được hủy học phần ạ
+    - Em quên mất lịch đăng ký học, bây giờ em phải làm gì ạ
+    - Em đã lỡ thời gian đăng ký học rồi ạ
+    - Em không đăng ký kịp nên các lớp đã full sĩ số rồi ạ
+    - Em vào đăng ký thì các lớp đã đầy rồi ạ
+    - Các lớp đã full rồi thì em phải làm gì ạ
+    - Em không đăng ký học được vì các lớp đã full rồi ạ
+    - Các lớp đã hết sĩ số rồi, Trường có mở thêm lớp không ạ
+    - Em được đăng ký tối đa là bao nhiêu tín chỉ ạ
+    - Trườn quy định đăng ký được nhiều nhất bao nhiêu tín chỉ ạ
+    - Số tín chỉ tối thiểu là bao nhiêu ạ
+    - Em chưa đăng ký được môn nào kỳ này ạ
+    - Em là sinh viên năm cuối thì có được ưu tiên đăng ký học không ạ
+    - Em học năm cuối rồi mà còn nợ môn ạ
+    - Em chỉ còn một môn thôi thì phải làm sao để đăng ký được ạ
+
+- intent: hoc_ghep
+  examples: |
+    - Cho em hỏi về học ghép kỳ này ạ
+    - Đã có lịch đăng ký học ghép chưa ạ
+    - Em còn thiếu mấy môn nên muốn học ghép với khóa sau ạ
+    - Em chỉ còn một môn thôi nên có nguyện vọng đăng ký học ghép ạ
+    - Đơn đăng ký học ghép ở đâu ạ
+    - Có thể đăng ký học ghép trực tuyến được không ạ
+    - Em muốn học ghép thì phải làm thủ tục gì ạ
+    - Xem kết quả đăng ký học ghép ở đâu ạ
+    - Cho em hỏi xem danh sách học ghép ở đâu ạ
+    - Không biết em đăng ký học ghép có được không
+    - Em đã nộp đơn học ghép nhưng không biết có được duyệt không
+    - Em đã nộp đơn học ghép nhưng không biết có được chấp nhận không
+
+- intent: dk_bo_sung
+  examples: |
+    - Em muốn hỏi đăng ký học bổ sung học kỳ này ạ
+    - Em còn một môn nên muốn đăng ký học bổ sung ạ
+    - Các lớp của môn đã full rồi thì em đăng ký học bổ sung được không ạ
+    - Lịch đăng ký học bổ sung ở đâu ạ
+    - Kỳ này có cho đăng ký học bổ sung không ạ
+    - Em rất hoang mang, lo lắng vì còn mấy môn chưa đăng ký, liệu e có đăng ký bổ sung được không ạ
+    - Đăng ký bổ sung vào lúc nào ạ
+
+- intent: dk_rieng
+  examples: |
+    - Cho em hỏi về đăng ký lớp riêng ạ
+    - Kỳ này có cho đăng ký học lớp riêng không thầy cô ơi
+    - Em muốn đăng ký học lớp riêng ạ
+    - Em còn một môn là ra trường nên muốn xin học lớp riêng ạ
+    - Đăng ký lớp riêng ở đâu ạ
+    - Học phí lớp riêng xem ở đâu ạ
+    - Học phí lớp riêng được tính như thế nào ạ
+    - Thông tin lớp riêng có ở đâu ạ
+    - Em chưa thấy lịch đăng ký lớp riêng
+    - Em còn nợ mấy môn nên muốn đăng ký lớp riêng cho kịp đợt xét tốt nghiệp
+
+- intent: cai_thien
+  examples: |
+    - Điều kiện học cải thiện điểm là gì ạ
+    - Em muốn tìm hiểu về quy định học nâng điểm ạ
+    - Em muốn học nâng điểm thì phải làm gì ạ
+    - Em muốn đăng ký học nâng điểm ạ
+    - Đăng ký học nâng điểm ở đâu ạ
+    - Điểm môn học là bao nhiêu thì được học nâng điểm ạ
+
+- intent: dk_all
+  examples: |
+    - Lớp em muốn đăng ký các môn cho cả lớp ạ
+    - Đăng ký học cho cả lớp thì phải làm thủ tục gì ạ
+    - Lớp chúng em muốn đăng ký học cùng nhau các học phần trong cùng tổ hợp thì cần làm thủ tục gì
+    - Chúng em muốn được đăng ký học cùng nhau theo lớp chuyên ngành ạ
+    - Nộp đơn đăng ký học cả lớp ở đâu ạ
+
+- intent: no_mon
+  examples: |
+    - Em chỉ còn 1 số học phần chưa hoàn thành nhưng kỳ tới Trường không tổ chức lớp thì cần làm gì để được học những học phần đó nhằm hoàn thành CTĐT đúng hạn
+    - Em còn nợ 1 môn mà không có trong kỳ này thì phải làm sao ạ
+    - Em chỉ còn nợ một môn thôi thầy cô ơi mà không có trong lịch học ạ
+    - Thầy cô có thể mở thêm môn học không ạ
+    - Môn em còn nợ lại không có trong học kỳ này ạ
+    - Em không đăng ký được môn còn nợ vì không có trong kỳ này ạ
+    - Thầy cô cứu em với môn em cần thì không có lớp ạ
+
+- intent: thuc_tap
+  examples: |
+    - Điều kiện để được đăng ký Chuyên đề thực tập/Khóa luận tốt nghiệp là như thế nào ạ
+    - Em muốn đăng ký Chuyên đề thực tập/Khóa luận tốt nghiệp ạ
+    - Khi nào thì có thể đăng ký Chuyên đề thực tập/Khóa luận tốt nghiệp ạ
+    - Đăng ký Chuyên đề thực tập/Khóa luận tốt nghiệp ở đâu ạ
+    - đăng ký khóa luận
+    - chuyên đề thực tập
+
+- intent: time_out
+  examples: |
+    - Em là đối tượng đã hết hạn học tập theo quy định của Bộ Giáo dục và Trường, vậy cho em hỏi là em có được tiếp tục học để hoàn thành 1 số học phần còn nợ để hoàn thành CTĐT không
+    - Em đã hết thời gian học rồi ạ
+    - Em học đã hơn 06 năm rồi ạ
+    - Em đã quá thời gian học thì em phải làm gì ạ
+    - Em đã quá thời gian học thì em có bị đuổi học không ạ
+    - Em học hơn 06 năm rồi thì em có được đăng ký học nữa không ạ
+    - Em đã quá thời gian học tối đa nhưng chỉ còn nợ một môn thì em làm thế nào để ra trường ạ
+    - Em đã quá thời gian học tối đa nhưng chỉ còn nợ một môn thì em có được học nốt để tốt nghệp không ạ
+    - Em chỉ còn nợ vài môn nhưng đã học hơn 06 năm rồi ạ
+    - Cho em hỏi về cách xử lý sinh viên học quá thời gian học ạ
+    - Sinh viên học quá thời gian học tối đa thì được xử lý thế nào ạ
+
+

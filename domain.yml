@@ -29,6 +29,20 @@ intents:
   - tinh_hoc_phi
   - nop_tien
   - thuong_tien
+  - rut_tien
+  - ctdt
+  - time_hoc
+  - tin_chi
+  - ke_hoach
+  - tkb
+  - hoc_ghep
+  - dk_bo_sung
+  - dk_rieng
+  - cai_thien
+  - dk_all
+  - no_mon
+  - thuc_tap
+  - time_out
 
 slots:
     message:
@@ -263,6 +277,83 @@ responses:
   utter_rut_tien:
   - text: |-
       Sinh viên xem thủ tục rút tiền học phí thừa tại website của Phòng Tài chính kế toán địa chỉ: https://ptckt.neu.edu.vn/vi/hoc-phi
+
+  utter_ctdt:
+  - text: |-
+      Chương trình đào tạo là một hệ thống các hoạt động giáo dục, đào tạo, được thiết kế và tổ chức thực hiện nhằm đạt được các mục tiêu đào tạo, 
+      hướng tới cấp một văn bằng giáo dục đại học cho người học. Chương trình đào tạo được xây dựng theo đơn vị tín chỉ, cấu trúc từ các môn học hoặc học phần, trong đó phải có đủ các học phần bắt buộc và đáp ứng chuẩn chương trình đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.
+      Xem quy chế đào tạo đại học tín chỉ tại https://daotao.neu.edu.vn/vi/quy-dinh-cua-truong
+      Chương trình đào tạo trình độ đại học của Trường có khối lượng tối thiểu là 120 tín chỉ, không bao gồm khối lượng các học phần Giáo dục thể chất và Giáo dục quốc phòng an ninh.
+      Sinh viên xem chi tiết Chương trình đào tạo của ngành đang học ở Cổng thông tin Đại học chính quy https://daihocchinhquy.neu.edu.vn, mục Chương trình đào tạo."
+
+  utter_time_hoc:
+  - text: |-
+      Thời gian học tập theo kế hoạch học tập chuẩn toàn khóa đối với hệ Đại học chính quy là 04 năm. Sinh viên có thể rút ngắn hoặc kéo dài thời gian hoàn thành khóa học.
+      Thời gian học tập tối đa là 06 năm.
+      Đối với sinh viên thuộc diện đối tượng được hưởng chính sách ưu tiên sẽ được kéo dài thời gian học tập tối đa nhưng không quá 02 năm so với sinh viên diện bình thường.
+
+  utter_tin_chi:
+  - text: |-
+      Sinh viên xem quy định về tín chỉ, học phần (môn học) tại link https://daotao.neu.edu.vn/vi/quy-dinh-cua-truong, mục Quy chế đào tạo trình độ đại học.
+      Tín chỉ là đơn vị dùng để đo lường khối lượng kiến thức, kỹ năng và kết quả học tập đã tích lũy trong một khoảng thời gian nhất định. Một tín chỉ tương đương 50 giờ học tập.
+      Học phần là một tập hợp các hoạt động giảng dạy và học tập được thiết kế nhằm thực hiện một số mục tiêu học tập cụ thể, trang bị cho người 
+      học kiến thức, kỹ năng thuộc một phạm vi chuyên môn hẹp trong chương trình đào tạo. Một học phần thông thường được tổ chức giảng dạy trong 1 học kỳ.
+
+  utter_ke_hoach:
+  - text: |-
+      Kế hoạch giảng dạy và học tập được xây dựng theo năm học hoặc theo năm dương lịch. Mỗi năm, Trường tổ chức 02 hoặc 03 học kỳ chính với tổng số tối thiểu 30 tuần lên lớp. Ngoài các học kỳ chính, trường có thể tổ chức học kỳ phụ. Xem chi tiết tại link https://daotao.neu.edu.vn/vi/quy-dinh-cua-truong
+      Xem thông báo Kế hoạch đào tạo năm học tại mục Thông báo trên trang chủ của Trường (neu.edu.vn)
+      Mục Thông báo trên trang web của Phòng QLĐT: https://daotao.neu.edu.vn/vi/thong-bao-2633
+      Mục Thông báo trên trang: daihocchinhquy.nedu.edu.vn
+
+  utter_tkb:
+  - text: |-
+      Bạn có thể xem thông báo thời khóa biểu hàng kỳ tại mục Thông báo trên trang chủ của Trường (neu.edu.vn)
+      Mục Thông báo trên trang web của Phòng QLĐT: https://daotao.neu.edu.vn/vi/thong-bao-2633
+      Mục Thông báo trên trang: daihocchinhquy.nedu.edu.vn
+      Số tín chỉ tối thiểu và tối đa được đăng ký hàng kỳ được quy định cụ thể trong Quy chế đào tạo theo hệ thống tín chỉ của Trường ĐHKTQD (https://daotao.neu.edu.vn/vi/quy-dinh-cua-truong/quy-che-dao-tao-trinh-do-dai-hoc-4143) và được quy định cụ thể từng kỳ trong thông báo thời khóa biểu
+      Sinh viên phải hoàn thành học phí (không được nợ) trước khi đăng ký học. Nếu còn nợ học phí, lệ phí trên hệ thống thì sẽ không được đăng ký học vào đợt học (học kỳ) tiếp theo. Nếu có khó khăn về tài chính thì sinh viên cần làm đơn trình bày gửi tới Trường (qua phòng Công tác chính trị và quản lý sinh viên) để Trường xem xét.
+      Sinh viên đăng ký học và xem lịch học tại Cổng thông tin Đại học chính quy https://daihocchinhquy.neu.edu.vn
+
+  utter_hoc_ghep:
+  - text: |-
+      Sinh viên xem hướng dẫn cụ thể về đăng ký học ghép trong thông báo thời khóa biểu hàng kỳ tại mục Thông báo trên trang chủ của Trường (neu.edu.vn)
+      Mục Thông báo trên trang web của Phòng QLĐT: https://daotao.neu.edu.vn/vi/thong-bao-2633
+      Mục Thông báo trên trang: daihocchinhquy.edu.edu.vn
+
+  utter_dk_bo_sung:
+  - text: |-
+      Bạn có thể xem hướng dẫn cụ thể về đăng ký học bổ sung trong thông báo thời khóa biểu hàng kỳ tại mục Thông báo trên trang chủ của Trường (neu.edu.vn)
+      Mục Thông báo trên trang web của Phòng QLĐT: https://daotao.neu.edu.vn/vi/thong-bao-2633
+      Mục Thông báo trên trang: daihocchinhquy.edu.edu.vn
+
+  utter_dk_rieng:
+  - text: |-
+      Bạn có thể xem thông báo đăng ký học theo hình thức lớp riêng theo các kênh thông tin sau:
+      - Mục Thông báo trên trang web của Phòng QLĐT: https://daotao.neu.edu.vn/vi/thong-bao-2633
+      - Mục Thông báo trên trang: daihocchinhquy.edu.edu.vn
+      - Qua các thầy cô cố vấn học tập của các Khoa, Viện"
+
+  utter_cai_thien:
+  - text: |-
+      Điều kiện để được đăng ký học cải thiện điểm được quy định cụ thể trong Quy chế đào tạo theo hệ thống tín chỉ của Trường ĐHKTQD (https://daotao.neu.edu.vn/vi/quy-dinh-cua-truong/quy-che-dao-tao-trinh-do-dai-hoc-4143)
+    
+  utter_dk_all:
+  - text: |-
+      Căn cứ vào CTĐT và kế hoạch đào tạo từng học kỳ, Trường sẽ có những thông báo liên quan đến việc xin tổ chức lớp học phần cho SV đăng ký học theo lớp, bạn chú ý theo dõi và cập  nhật các thông báo mới nhất của Trường trên trang daihocchinhquy.neu.edu.vn để biết thêm chi tiết.
+    
+  utter_no_mon:
+  - text: |-
+      Căn cứ vào CTĐT và tiến trình đào tạo các học phần trong CTĐT, Trường sẽ thông báo kế hoạch giảng dạy, học tập từng học kỳ, từng năm học. Trong trường hợp học phần của bạn cần hoàn thành không có trong CTĐT các khóa sau (hoặc không tổ chức trong học kỳ tiếp theo) bạn cần theo dõi và cập nhật các thông báo mới nhất của 
+      Trường có liên quan đến việc khảo sát nguyện vọng đăng ký học đối với những SV chưa hoàn thành CTĐT.
+    
+  utter_thuc_tap:
+  - text: |-
+      Điều kiện để đăng ký Chuyên đề thực tập/Khóa luận tốt nghiệp được quy định cụ thể trong Quy chế đào tạo theo hệ thống tín chỉ của Trường ĐHKTQD (https://daotao.neu.edu.vn/vi/quy-dinh-cua-truong/quy-che-dao-tao-trinh-do-dai-hoc-4143)
+
+  utter_time_out:
+  - text: |-
+      Theo quy định của Bộ Giáo dục và Đào tạo, cũng như quy định của Trường, những SV đã hết hạn đào tạo thì cần thực hiện theo thông báo và hướng dẫn của Trường khi đã hết hạn đào tạo theo quy định.
 
 
 actions:
