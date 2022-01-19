@@ -534,6 +534,7 @@ nlu:
     - Lịch thi gồm các cột gì ạ
     - Có ngày thi, ca thi, phòng thi và hình thức thi trong lịch thi không ạ
     - Lịch thi là file gì ạ
+    - bao gio thi ad nhi
 
 - intent: hoc_phi
   examples: |
