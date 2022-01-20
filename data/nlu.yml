@@ -324,6 +324,8 @@ nlu:
     - The email address you entered is being used by another Turnitin user. Please enter a different email address
     - khi tạo mới tài khoản thì nhận thông báo The email address you entered is being used by another Turnitin user. Please enter a different email address
     - khi em được tạo mới tài khoản thì nhận thông báo The email address you entered is being used by another Turnitin user. Please enter a different email address
+    - có người khác dùng email của mình để tạo tài khoản rồi
+    - email đã được xử dụng
 
 - intent: nham_bai
   examples: |
@@ -359,6 +361,7 @@ nlu:
     - Một sinh viên có thể sử dụng nhiều tài khoản Turnitin được không ạ
     - Tôi là giáo viên, mỗi lớp tôi tạo riêng cho sinh viên một tài khoản có đúng không ạ
     - Mỗi lần nộp bài là sinh viên được tạo một tài khoản mới
+    - có thể tạo nhiều tài khoản để nộp bài không hay chỉ một ạ
 
 - intent: not_found
   examples: |
@@ -397,6 +400,8 @@ nlu:
     - Em có thể nộp trước để xem có bị đạo văn
     - Có nên nộp bài thử trước khi nộp bài thật
     - Em muốn upload thử bài
+    - có được nộp thử vài lần không ad
+    - nộp thử
   
 - intent: deadline
   examples: |
@@ -408,6 +413,7 @@ nlu:
     - Lớp đã hết thời hạn nhưng sinh viên muốn nộp bài
     - Sinh viên muốn nộp bài nhưng lớp đã hết thời hạn
     - Giáo viên phải làm gì để mở thêm thời hạn cho lớp
+    - gia hạn thời gian
 
 - intent: error
   examples: |
