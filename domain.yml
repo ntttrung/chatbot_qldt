@@ -1,145 +1,145 @@
 version: "2.0"
 
 intents:
-- greet
-- goodbye
-- bot_challenge
-- emotes 
-- send_email
-- turnitin
-- ap_dung_turnitin
-- quy_trinh_turnitin
-- tai_khoan
-- login
-- wrong_email
-- nham_bai
-- muon_tk
-- nhieu_tk
-- not_found
-- time_turnitin
-- nop_thu
-- deadline
-- error
-- het_slot
-- time_thi
-- hinh_thuc_thi
-- ca_thi
-- lich_thi
-- tinh_hoc_phi
-- nop_tien
-- thuong_tien
-- rut_tien
-- ctdt
-- time_hoc
-- tin_chi
-- ke_hoach
-- tkb
-- hoc_ghep
-- dk_bo_sung
-- dk_rieng
-- cai_thien
-- dk_all
-- no_mon
-- thuc_tap
-- time_out
-- thi_TA_dau_vao:
-    use_entities: true
-- di_choi_da_ngoai:
-    use_entities: true
-- dang_ky_tin_chi:
-    use_entities: true
-- phuong_thuc_xet_tuyen:
-    use_entities: true
-- nguyen_tac_xet_tuyen:
-    use_entities: true
-- chuong_trinh_dao_tao:
-    use_entities: true
-- tien_tien_chat_luong_cao:
-    use_entities: true
-- hoc_phi:
-    use_entities: true
-- hoc_bong:
-    use_entities: true
-- chuong_trinh_lien_ket:
-    use_entities: true
-- ky_tuc_xa:
-    use_entities: true
-- viec_lam:
-    use_entities: true
-- thu_vien:
-    use_entities: true
-- CDR_ngoai_ngu:
-    use_entities: true
-- diem_chuan:
-    use_entities: true
-- song_nganh:
-    use_entities: true
-- chuyen_nganh:
-    use_entities: true
-- send_email:
-    use_entities: true
-- diem_ren_luyen:
-    use_entities: true
-- thay_co:
-    use_entities: true
-- dong_phuc:
-    use_entities: true
-- tot_nghiep:
-    use_entities: true
-- nguyen_vong_dang_ky:
-    use_entities: true
-- nguyen_vong_chinh_quy:
-    use_entities: true
-- xet_tuyen_cung_luc:
-    use_entities: true
-- hoat_dong_ngoai_khoa:
-    use_entities: true
-- emotes:
-    use_entities: true
-- loai_to_hop_xet_tuyen:
-    use_entities: true
-- quy_doi_diem_tieng_anh:
-    use_entities: true
-- ngay_hoi_tu_van:
-    use_entities: true
-- kiem_nguoi_yeu_khi_vao_khoa:
-    use_entities: true
-- doan_thanh_nien:
-    use_entities: true
-- error_occur:
-    use_entities: true
-- phuong_thuc_xet_tuyen_kqt:
-    use_entities: true
-- phuong_thuc_xet_tuyen_thang:
-    use_entities: true
-- phuong_thuc_xet_tuyen_ket_hop:
-    use_entities: true
-- nguyen_tac_xet_tuyen_kqt:
-    use_entities: true
-- nguyen_tac_xet_tuyen_thang:
-    use_entities: true
-- nguyen_tac_xet_tuyen_ket_hop:
-    use_entities: true
-- co_so_vat_chat:
-    use_entities: true
-- time:
-    use_entities: true
-- ho_so:
-    use_entities: true
-- thoi_gian_xet_tuyen:
-    use_entities: true
-- le_phi_xet_tuyen:
-    use_entities: true
-- send_to_all:
-    use_entities: true
-- switch:
-    use_entities: true
-- cmnd:
-    use_entities: true
-- sbd:
-    use_entities: true
-- bong_da:
-    use_entities: true
+    - greet
+    - goodbye
+    - bot_challenge
+    - emotes 
+    - send_email
+    - turnitin
+    - ap_dung_turnitin
+    - quy_trinh_turnitin
+    - tai_khoan
+    - login
+    - wrong_email
+    - nham_bai
+    - muon_tk
+    - nhieu_tk
+    - not_found
+    - time_turnitin
+    - nop_thu
+    - deadline
+    - error
+    - het_slot
+    - time_thi
+    - hinh_thuc_thi
+    - ca_thi
+    - lich_thi
+    - tinh_hoc_phi
+    - nop_tien
+    - thuong_tien
+    - rut_tien
+    - ctdt
+    - time_hoc
+    - tin_chi
+    - ke_hoach
+    - tkb
+    - hoc_ghep
+    - dk_bo_sung
+    - dk_rieng
+    - cai_thien
+    - dk_all
+    - no_mon
+    - thuc_tap
+    - time_out
+    - thi_TA_dau_vao:
+        use_entities: true
+    - di_choi_da_ngoai:
+        use_entities: true
+    - dang_ky_tin_chi:
+        use_entities: true
+    - phuong_thuc_xet_tuyen:
+        use_entities: true
+    - nguyen_tac_xet_tuyen:
+        use_entities: true
+    - chuong_trinh_dao_tao:
+        use_entities: true
+    - tien_tien_chat_luong_cao:
+        use_entities: true
+    - hoc_phi:
+        use_entities: true
+    - hoc_bong:
+        use_entities: true
+    - chuong_trinh_lien_ket:
+        use_entities: true
+    - ky_tuc_xa:
+        use_entities: true
+    - viec_lam:
+        use_entities: true
+    - thu_vien:
+        use_entities: true
+    - CDR_ngoai_ngu:
+        use_entities: true
+    - diem_chuan:
+        use_entities: true
+    - song_nganh:
+        use_entities: true
+    - chuyen_nganh:
+        use_entities: true
+    - send_email:
+        use_entities: true
+    - diem_ren_luyen:
+        use_entities: true
+    - thay_co:
+        use_entities: true
+    - dong_phuc:
+        use_entities: true
+    - tot_nghiep:
+        use_entities: true
+    - nguyen_vong_dang_ky:
+        use_entities: true
+    - nguyen_vong_chinh_quy:
+        use_entities: true
+    - xet_tuyen_cung_luc:
+        use_entities: true
+    - hoat_dong_ngoai_khoa:
+        use_entities: true
+    - emotes:
+        use_entities: true
+    - loai_to_hop_xet_tuyen:
+        use_entities: true
+    - quy_doi_diem_tieng_anh:
+        use_entities: true
+    - ngay_hoi_tu_van:
+        use_entities: true
+    - kiem_nguoi_yeu_khi_vao_khoa:
+        use_entities: true
+    - doan_thanh_nien:
+        use_entities: true
+    - error_occur:
+        use_entities: true
+    - phuong_thuc_xet_tuyen_kqt:
+        use_entities: true
+    - phuong_thuc_xet_tuyen_thang:
+        use_entities: true
+    - phuong_thuc_xet_tuyen_ket_hop:
+        use_entities: true
+    - nguyen_tac_xet_tuyen_kqt:
+        use_entities: true
+    - nguyen_tac_xet_tuyen_thang:
+        use_entities: true
+    - nguyen_tac_xet_tuyen_ket_hop:
+        use_entities: true
+    - co_so_vat_chat:
+        use_entities: true
+    - time:
+        use_entities: true
+    - ho_so:
+        use_entities: true
+    - thoi_gian_xet_tuyen:
+        use_entities: true
+    - le_phi_xet_tuyen:
+        use_entities: true
+    - send_to_all:
+        use_entities: true
+    - switch:
+        use_entities: true
+    - cmnd:
+        use_entities: true
+    - sbd:
+        use_entities: true
+    - bong_da:
+        use_entities: true
 
 entities:
 - pronoun
