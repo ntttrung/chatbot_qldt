@@ -20,7 +20,7 @@ stories:
 - story: challenge
   steps:
   - intent: bot_challenge
-  - action: utter_challenge
+  - action: utter_bot_challenge
 
 - story: turnitin
   steps:

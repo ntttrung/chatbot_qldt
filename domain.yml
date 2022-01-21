@@ -76,8 +76,6 @@ intents:
         use_entities: true
     - chuyen_nganh:
         use_entities: true
-    - send_email:
-        use_entities: true
     - diem_ren_luyen:
         use_entities: true
     - thay_co:
@@ -93,8 +91,6 @@ intents:
     - xet_tuyen_cung_luc:
         use_entities: true
     - hoat_dong_ngoai_khoa:
-        use_entities: true
-    - emotes:
         use_entities: true
     - loai_to_hop_xet_tuyen:
         use_entities: true
@@ -175,7 +171,7 @@ responses:
   utter_emotes:
   - text: "<3"
 
-  utter_challenge:
+  utter_bot_challenge:
   - text: "Mình là bot, phát triển bởi DSLab - NEU <3"
   
   utter_out_of_scope:
