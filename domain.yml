@@ -556,11 +556,6 @@ responses:
       - Chương trình Chất lượng cao có 10 chương trình gồm: Ngân hàng, Kinh tế đầu tư, Kiểm toán, Quản trị doanh nghiệp, Quản trị kinh doanh quốc tế, Quản trị marketing, Quản trị nhân lực, Kinh tế quốc tế, Kinh tế phát triển và Tài chính doanh nghiệp.
       Tất cả thí sinh đã trúng tuyển, nhập học đều được thi và được chuyển sang học CTTT-CLC nếu bạn thi đỗ (thường là đỗ đến 90%).
       Bạn tìm hiểu thông tin tại www.aep.neu.edu.vn
-  utter_hoc_phi:
-  - text: |-
-      Học phí hệ chính quy chương trình chuẩn năm học 2021 - 2022: theo ngành học cho khóa 63 (tuyển sinh năm 2021) từ 15 triệu đồng đến 20 triệu đồng/năm học.
-      Học phí các chương trình đặc thù từ 40 triệu đồng đến 60 triệu đồng/năm học.
-      Lộ trình tăng học phí không quá 10% hàng năm và không quá trần theo Nghị định số 86/2015/NĐ-CP ngày 02/10/2015 của Chính phủ
   utter_hoc_bong:
   - text: |-
       Tổng quỹ học bổng (dự kiến) năm 2021 của Trường là khoảng 22 tỷ đồng, trong đó: học bổng Khuyến khích học tập khoảng 18 tỷ đồng và Học bổng của các doanh nghiệp, tổ chức tài trợ là 4 tỷ đồng
