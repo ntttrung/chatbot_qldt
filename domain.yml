@@ -1,48 +1,158 @@
 version: "2.0"
 
 intents:
-  - greet
-  - goodbye
-  - bot_challenge
-  - emotes 
-  - send_email
-  - turnitin
-  - ap_dung_turnitin
-  - quy_trinh_turnitin
-  - tai_khoan
-  - login
-  - wrong_email
-  - nham_bai
-  - muon_tk
-  - nhieu_tk
-  - not_found
-  - time_turnitin
-  - nop_thu
-  - deadline
-  - error
-  - het_slot
-  - time_thi
-  - hinh_thuc_thi
-  - ca_thi
-  - lich_thi
-  - hoc_phi
-  - tinh_hoc_phi
-  - nop_tien
-  - thuong_tien
-  - rut_tien
-  - ctdt
-  - time_hoc
-  - tin_chi
-  - ke_hoach
-  - tkb
-  - hoc_ghep
-  - dk_bo_sung
-  - dk_rieng
-  - cai_thien
-  - dk_all
-  - no_mon
-  - thuc_tap
-  - time_out
+- greet
+- goodbye
+- bot_challenge
+- emotes 
+- send_email
+- turnitin
+- ap_dung_turnitin
+- quy_trinh_turnitin
+- tai_khoan
+- login
+- wrong_email
+- nham_bai
+- muon_tk
+- nhieu_tk
+- not_found
+- time_turnitin
+- nop_thu
+- deadline
+- error
+- het_slot
+- time_thi
+- hinh_thuc_thi
+- ca_thi
+- lich_thi
+- hoc_phi
+- tinh_hoc_phi
+- nop_tien
+- thuong_tien
+- rut_tien
+- ctdt
+- time_hoc
+- tin_chi
+- ke_hoach
+- tkb
+- hoc_ghep
+- dk_bo_sung
+- dk_rieng
+- cai_thien
+- dk_all
+- no_mon
+- thuc_tap
+- time_out
+- thi_TA_dau_vao:
+    use_entities: true
+- di_choi_da_ngoai:
+    use_entities: true
+- dang_ky_tin_chi:
+    use_entities: true
+- phuong_thuc_xet_tuyen:
+    use_entities: true
+- nguyen_tac_xet_tuyen:
+    use_entities: true
+- chuong_trinh_dao_tao:
+    use_entities: true
+- tien_tien_chat_luong_cao:
+    use_entities: true
+- hoc_phi:
+    use_entities: true
+- hoc_bong:
+    use_entities: true
+- chuong_trinh_lien_ket:
+    use_entities: true
+- ky_tuc_xa:
+    use_entities: true
+- viec_lam:
+    use_entities: true
+- thu_vien:
+    use_entities: true
+- CDR_ngoai_ngu:
+    use_entities: true
+- diem_chuan:
+    use_entities: true
+- song_nganh:
+    use_entities: true
+- chuyen_nganh:
+    use_entities: true
+- send_email:
+    use_entities: true
+- diem_ren_luyen:
+    use_entities: true
+- thay_co:
+    use_entities: true
+- dong_phuc:
+    use_entities: true
+- tot_nghiep:
+    use_entities: true
+- nguyen_vong_dang_ky:
+    use_entities: true
+- nguyen_vong_chinh_quy:
+    use_entities: true
+- xet_tuyen_cung_luc:
+    use_entities: true
+- hoat_dong_ngoai_khoa:
+    use_entities: true
+- emotes:
+    use_entities: true
+- loai_to_hop_xet_tuyen:
+    use_entities: true
+- quy_doi_diem_tieng_anh:
+    use_entities: true
+- ngay_hoi_tu_van:
+    use_entities: true
+- kiem_nguoi_yeu_khi_vao_khoa:
+    use_entities: true
+- doan_thanh_nien:
+    use_entities: true
+- error_occur:
+    use_entities: true
+- phuong_thuc_xet_tuyen_kqt:
+    use_entities: true
+- phuong_thuc_xet_tuyen_thang:
+    use_entities: true
+- phuong_thuc_xet_tuyen_ket_hop:
+    use_entities: true
+- nguyen_tac_xet_tuyen_kqt:
+    use_entities: true
+- nguyen_tac_xet_tuyen_thang:
+    use_entities: true
+- nguyen_tac_xet_tuyen_ket_hop:
+    use_entities: true
+- co_so_vat_chat:
+    use_entities: true
+- time:
+    use_entities: true
+- ho_so:
+    use_entities: true
+- thoi_gian_xet_tuyen:
+    use_entities: true
+- le_phi_xet_tuyen:
+    use_entities: true
+- send_to_all:
+    use_entities: true
+- switch:
+    use_entities: true
+- cmnd:
+    use_entities: true
+- sbd:
+    use_entities: true
+- bong_da:
+    use_entities: true
+
+entities:
+- pronoun
+- diem
+- diem_ielts
+- english_cert
+- giai_thuong
+- it_cert
+- mon
+- name
+- nganh_hoc
+- nganh_mon
 
 slots:
     message:
@@ -355,12 +465,257 @@ responses:
   - text: |-
       Theo quy định của Bộ Giáo dục và Đào tạo, cũng như quy định của Trường, những SV đã hết hạn đào tạo thì cần thực hiện theo thông báo và hướng dẫn của Trường khi đã hết hạn đào tạo theo quy định.
 
+  utter_di_choi_da_ngoai:
+  - text: 'Trung bình một năm các lớp sẽ tổ chức dã ngoại 1-2 lần bạn nhé. Đây là link ảnh dã ngoại của các anh chị khóa trước: https://bit.ly/3dYOMIi'
+  utter_dang_ky_tin_chi:
+  - text: 'Dưới đây là link về các bước đăng ký tín chỉ nhá, các bạn chỉ cần làm theo hướng dẫn thôi: https://daotao.neu.edu.vn/vi/huong-dan-dang-ky-tin-chi. Ngoài ra bạn nên hỏi ý kiến thầy cô và các anh chị từng trải nhé.'
+  utter_thi_TA_dau_vao:
+  - buttons:
+    - payload: /check_ielts
+      title: Test IELTS Writing task 2
+    text: |-
+      Những đối tượng được miễn kiểm tra đầu vào tiếng Anh năm 2020 như sau   
+      Đã có IELTS 5.0 
+      Điểm thi tiếng Anh THPTQG trên 8 
+      Là sinh viên các chương trình đào tạo bằng tiếng Anh, POHE, ngành Ngôn ngữ Anh
+  utter_quy_doi_diem_tieng_anh:
+  - text: "Bạn tham khảo ảnh dưới đây nhé !"
+    image: "https://i.imgur.com/jNtbRWa.png"
+  utter_greet:
+  - buttons:
+    - payload: /time
+      title: Mốc thời gian quan trọng
+    - payload: /loai_to_hop_xet_tuyen
+      title: Điểm chuẩn các năm
+    - payload: /quy_doi_diem_tieng_anh
+      title: Quy đổi tiếng anh
+    text: "Xin chào, mình là Chatbot tuyển sinh của ĐH KTQD. Mình có thể giúp gì cho bạn ?"
+  utter_error_occur:
+  - text: "Bạn phản ánh qua email: xtkh@neu.edu.vn nhé"
+
+  utter_phuong_thuc_xet_tuyen_kqt:
+  -  text: "Xét tuyển theo 09 tổ hợp xét tuyển (A00, A01, B00, C03, C04, D01, D07, D09, D10) theo từng mã ngành/chương trình, không có chênh lệch điểm xét tuyển giữa các tổ hợp xét tuyển.Trường không sử dụng kết quả miễn thi bài thi môn ngoại ngữ, không sử dụng điểm thi được bảo lưu từ các kỳ thi tốt nghiệp THPT, kỳ thi THPT quốc gia các năm trước để tuyển sinh, không cộng điểm ưu tiên thí sinh có chứng chỉ nghề. Trường không áp dụng thêm điều kiện phụ trong xét tuyển, ngoài các quy định trong Quy chế tuyển sinh năm 2021 của Bộ GD&ĐT"
+  utter_phuong_thuc_xet_tuyen_thang:
+  - text: "- Thí sinh đoạt giải nhất, nhì, ba trong Cuộc thi Học sinh giỏi quốc gia (thí sinh phải có tổng điểm thi 3 môn THPT theo tổ hợp xét tuyển của Trường đạt từ 18 điểm trở lên).\n-Thí sinh đoạt giải nhất trong Cuộc thi KHKT cấp quốc gia (thí sinh phải có tổng điểm thi 3 môn THPT theo tổ hợp xét tuyển của Trường đạt từ 18 điểm trở lên).\n\nĐể lắm rõ cách thức/phương thức nộp hồ sơ xét tuyển thẳng, bạn vui lòng đọc hướng dẫn sau nhé https://cutt.ly/GvSNViU"
+  utter_phuong_thuc_xet_tuyen_ket_hop:
+  - buttons:
+    - payload: /ho_so
+      title: Hướng dẫn làm hồ sơ
+    - payload: /thoi_gian_xet_tuyen
+      title: Thời gian xét tuyển
+    - payload: /le_phi_xet_tuyen
+      title: Lệ phí 
+    text: "Đăng ký trực tuyến XTKH từ 01/6/2021-30/6/2021, Link 1: https://www.xtkh.neu.edu.vn Link 2: https://xtkh.neu.edu.vn. Hồ sơ đăng ký XTKH độc lập với đăng ký xét theo kết quả thi tốt nghiệp THPT bên cạnh đó sau khi biết điểm ta còn có thể điều chỉnh nguyện vọng được nhé, nên bạn cứ/và nên đăng ký cả hai, trong đó đăng ký xét theo kết quả thi là chính. Để biết thêm thông tin chi tiết bạn vui lòng tham khảo tại https://cutt.ly/4bTOrnz"
+    image: "https://i.imgur.com/kPWCBz8.jpg"
+  utter_time:
+  - text: "Bạn tham khảo các mốc thời gian quan trọng nhé"
+    image: "https://i.imgur.com/G1CRr5q.jpg"
+  utter_ho_so:
+  - text: "Để hỗ trợ thí sinh trong việc đăng ký thử và đăng ký chính thức xét tuyển kết hợp vào đại học chính quy NEU năm 2021, Nhà trường công bố video hướng dẫn thí sinh: https://www.youtube.com/watch?v=wCsiPn1urcU"
+  utter_phuong_thuc_xet_tuyen:
+  - buttons:
+    - payload: /phuong_thuc_xet_tuyen_thang
+      title: Tuyển thẳng
+    - payload: /phuong_thuc_xet_tuyen_ket_hop
+      title: Xét tuyển kết hợp
+    - payload: /phuong_thuc_xet_tuyen_kqt
+      title: Xét tuyển bằng KQT
+    text: "Trường có các phương thức xét tuyển sau:"
+#   - text: "Các hình thức xét tuyển thẳng :\n Thứ nhất là tuyển thẳng theo quy chế của Bộ đối với các thí sinh đoạt giải nhất, nhì, ba trong Cuộc thi Học sinh giỏi quốc gia; thí sinh đoạt giải nhất trong Cuộc thi KHKT cấp quốc gia (thí sinh phải có tổng điểm thi 3 môn THPT theo tổ hợp xét tuyển của Trường đạt từ 18 điểm trở lên).\nThứ hai là phương thức xét tuyển theo ngành dựa vào kết quả thi THPT năm 2021 với 9 tổ hợp xét tuyển (A00, A01, B00, C03, C04, D01, D07, D09, D10)\nThứ ba là phương thức xét tuyển kết hợp theo Đề án tuyển sinh của Trường gồm 5 đối tượng,  để biết thêm chi tiết thì bạn xem ở trang 13 và 14 trong link này nhé: https://bitly.com.vn/exnotd"
+  utter_nguyen_tac_xet_tuyen_kqt:
+  - text: "Xét tuyển theo 09 tổ hợp xét tuyển (A00, A01, B00, C03, C04, D01, D07, D09, D10) theo từng mã ngành/chương trình, không có chênh lệch điểm xét tuyển giữa các tổ hợp xét tuyển.Trường không sử dụng kết quả miễn thi bài thi môn ngoại ngữ, không sử dụng điểm thi được bảo lưu từ các kỳ thi tốt nghiệp THPT, kỳ thi THPT quốc gia các năm trước để tuyển sinh, không cộng điểm ưu tiên thí sinh có chứng chỉ nghề. Trường không áp dụng thêm điều kiện phụ trong xét tuyển, ngoài các quy định trong Quy chế tuyển sinh năm 2021 của Bộ GD&ĐT. Để biết thêm thông tin chi tiết bạn vui lòng tham khảo tại https://cutt.ly/4bTOrnz"
+  utter_nguyen_tac_xet_tuyen_ket_hop:
+  - buttons:
+    - payload: /ho_so
+      title: Hướng dẫn làm hồ sơ
+    - payload: /thoi_gian_xet_tuyen
+      title: Thời gian xét tuyển
+    - payload: /le_phi_xet_tuyen
+      title: Lệ phí
+    text: "Đăng ký trực tuyến XTKH từ 01/6/2021-30/6/2021: \nLink 1: https://www.xtkh.neu.edu.vn \nLink 2: https://xtkh.neu.edu.vn\nMời thí sinh xem Thông báo xét tuyển kết hợp tại link: https://cutt.ly/4bTOrnz"
+    image: "https://i.imgur.com/kPWCBz8.jpg"
+  utter_thoi_gian_xet_tuyen:
+  - text: "Bạn tham khảo nhé"
+    image: "https://i.imgur.com/FRYP2ls.png"
+  utter_le_phi_xet_tuyen:
+  - text: "Lệ phí đăng ký xét tuyển là 50,000 VNĐ/hồ sơ, bạn có thể đăng ký bao nhiêu nguyện vọng cũng được nhé."
+    image: "https://i.imgur.com/scG8HyZ.jpg"
+  utter_nguyen_tac_xet_tuyen_thang:
+  - text: "Nguyên tắc xét tuyển: xét tuyển theo ngành theo thứ tự nguyện vọng đăng ký và theo giải của thí sinh. Để lắm rõ cách thức/phương thức nộp hồ sơ xét tuyển thẳng, bạn vui lòng đọc hướng dẫn sau nhé https://cutt.ly/GvSNViU"
+  utter_nguyen_tac_xet_tuyen:
+  - buttons:
+    - payload: /nguyen_tac_xet_tuyen_thang
+      title: Tuyển thẳng
+    - payload: /nguyen_tac_xet_tuyen_ket_hop
+      title: Xét tuyển kết hợp
+    - payload: /nguyen_tac_xet_tuyen_kqt
+      title: Xét tuyển bằng KQT
+    text: "Trường có các nguyên tắc xét tuyển sau:"
+  utter_bye:
+  - text: Hẹn gặp lại bạn ở giảng đường nhé <3
+  utter_chuong_trinh_dao_tao:
+  - text: |-
+      Năm 2021 Trường có 54 ngành/chương trình đào tạo, trong đó có 38 chương trình đào tạo bằng tiếng Việt và 16 chương trình đào tạo bằng tiếng Anh.  Bạn tìm hiểu thông tin tại https://tvts.neu.edu.vn/ nhé
+  utter_tien_tien_chat_luong_cao:
+  - text: |-
+      Ngay sau khi trúng tuyển và hoàn thành thủ tục nhập học, tất cả sinh viên đều được quyền đăng ký dự tuyển vào các chương trình tiên tiến, chương trình chất lượng cao.   
+      - Chương trình Tiên tiến học bằng tiếng Anh có 03 chương trình gồm: Tài chính, Kế toán, Kinh doanh quốc tế.
+      - Chương trình Chất lượng cao có 10 chương trình gồm: Ngân hàng, Kinh tế đầu tư, Kiểm toán, Quản trị doanh nghiệp, Quản trị kinh doanh quốc tế, Quản trị marketing, Quản trị nhân lực, Kinh tế quốc tế, Kinh tế phát triển và Tài chính doanh nghiệp.
+      Tất cả thí sinh đã trúng tuyển, nhập học đều được thi và được chuyển sang học CTTT-CLC nếu bạn thi đỗ (thường là đỗ đến 90%).
+      Bạn tìm hiểu thông tin tại www.aep.neu.edu.vn
+  utter_hoc_phi:
+  - text: |-
+      Học phí hệ chính quy chương trình chuẩn năm học 2021 - 2022: theo ngành học cho khóa 63 (tuyển sinh năm 2021) từ 15 triệu đồng đến 20 triệu đồng/năm học.
+      Học phí các chương trình đặc thù từ 40 triệu đồng đến 60 triệu đồng/năm học.
+      Lộ trình tăng học phí không quá 10% hàng năm và không quá trần theo Nghị định số 86/2015/NĐ-CP ngày 02/10/2015 của Chính phủ
+  utter_hoc_bong:
+  - text: |-
+      Tổng quỹ học bổng (dự kiến) năm 2021 của Trường là khoảng 22 tỷ đồng, trong đó: học bổng Khuyến khích học tập khoảng 18 tỷ đồng và Học bổng của các doanh nghiệp, tổ chức tài trợ là 4 tỷ đồng
+      Học bổng của khoa được xét theo quy định nhà trường. Để được học bổng bạn cần lọt vào top những người có có điểm trung bình môn cao nhất trong một kỳ và có điểm chuyên cần trung bình trở lên.
+      Bên cạnh đó trường thực hiện  chế độ ưu tiên miễn, giảm về học phí, chỗ ở ký túc xá và điều kiện học tập cho sinh viên thuộc đối tượng chính sách.
+  utter_chuong_trinh_lien_ket:
+  - text: "Trường tiếp tục triển khai các chương trình trao đổi sinh viên với các Trường Đại học đối tác tại Nhật Bản, Hàn Quốc, Đài Loan, Ấn Độ, Pháp, Slovakia, Liên bang Nga, Hungary, Hà Lan, Úc, New Zealand, Hoa Kỳ và Canada... theo thời gian ngắn hạn 1 năm học, 1 kỳ học, 1 tháng học, 3 tuần. Đây là cơ hội cho sinh viên, học viên có những trải nghiệm học tập, tìm hiểu văn hóa đời sống và giao lưu với sinh viên các nước trên thế giới. Bạn có thể tham khảo https://cait.neu.edu.vn/vi/nguoi-hoc-2455/chuong-trinh-trao-doi-sinh-vien-nam-hoc-2021-2022-4608 để biết chi tiết hơn"
+  utter_ky_tuc_xa:
+  - text: |-
+      Trường có khuôn viên ký túc xác 551 phòng, 3.382 chỗ, các bạn có thể đăng ký ngay khi nhập học vào trường
+  utter_doan_thanh_nien:
+  - text: |-
+      Trường có rất nhiều các câu lạc bộ về nghiên cứu khoa học, văn nghệ, tình nguyện...hỗ trợ cho sinh viên trong suốt quá trình học tại Trường. Bạn tìm hiểu thông tin https://youth.neu.edu.vn/
+  utter_viec_lam:
+  - text: |-
+      Tỷ lệ SV tốt nghiệp đã có việc làm sau 12 tháng là trên 95%. 
+      Nhà trường có Trung tâm Tư vấn hướng nghiệp và việc làm https://phongctctqlsv.neu.edu.vn/ và Mạng lưới cựu sinh viên http://alumni.neu.edu.vn/ luôn hỗ trợ cho sinh viên của trường
+  utter_thu_vien:
+  - text: |-
+      Thư viện  Phạm Văn Đồng  nằm ở tầng 2 của tòa nhà, mở cửa từ 7 giờ sáng đến 21 giờ 30 vào các ngày trong tuần và Thứ 7 theo giờ hành chính. 
+      Hàng trăm ngàn đầu sách cả Việt văn và Ngoại văn, Trung tâm có hệ thống máy tính dành cho quản lý, xử lý nghiệp vụ và phục vụ bạn đọc tra cứu tìm tin. 
+      Nhà trường đang áp dụng quản trị Thư viện bằng phần mềm tích hợp hiện đại (Libol 6.0), xử lý hoàn toàn online trên nền Web. 
+      Nguồn tài liệu phục vụ giảng dạy, nghiên cứu và học tập, cụ thể như sau: Tài liệu loại giáo trình, học liệu: 24.789 đầu sách; Báo, tạp chí: 47 đầu báo, tạp chí chuyên ngành bằng tiếng Việt (bản in); 1.271 tạp chí điện tử đa ngành bằng tiếng Anh; Chuyên đề tốt nghiệp: 6.453 chuyên đề tốt nghiệp; 1.527 luận án tiến sỹ; 16.487 luận văn thạc sĩ; 783 đề tài nghiên cứu khoa học; và các Tài liệu điện tử. Bạn có thể ra vào thư viện một cách tự do, chỉ cần bạn mang theo thẻ sinh viên bạn nhé. Các vật dụng như cặp sách thì có thể gửi lại ở tủ gửi đồ trước thư viện
+  utter_CDR_ngoai_ngu:
+  - text: "Quy định về CĐR ngoại ngữ và tin học bạn có thể tham khảo hình dưới đây nhé: "
+    image: "https://i.imgur.com/rGtr4hn.png"
+  utter_diem_chuan:
+  - text: "Hiện tại kỳ thi THPT chưa diễn ra nên chúng ta không thể dự đoán được điểm chuẩn. Để có cơ hội cao nhất trúng tuyển vào Trường, bạn nên có chiến thuật đăng ký nguyện vọng (NV) hợp lý theo nguyên tắc '3 bậc' cao hơn, ngang bằng và thấp hơn năng lực/điểm thi của bạn. Ví dụ: bạn thi được khoảng 23 điểm, thì bạn tham chiếu điểm trúng tuyển các năm trước, so với phổ điểm năm nay và nên đăng ký 02 NV thấp hơn 23 điểm, 02 NV khỏang 23 điểm và 02 NV cao hơn 23 điểm. Như vậy xác suất trúng tuyển của bạn sẽ khá chắc chắn. Trúng tuyển/nhập học rồi, bạn thi ngay sang ngành mình thích/nếu không đỗ NV1 ở hệ TT-CLC"
+  utter_song_nganh:
+  - text: "Bạn có thể đăng ký ngay sau hết học kỳ 1, điều kiện đăng ký là kết quả học tập từ mức trung bình trở lên, ví dụ: bạn đỗ ngành Kinh tế tài nguyên thiên nhiên (giả định điểm chuẩn là 24 đ) bạn vẫn có thể đăng ký bất kỳ ngành nào, ví dụ ngành Tài chính-Ngân hàng (giả định điểm chuẩn là 26 đ). Khi học ngành thứ 2 bạn không được bỏ ngành thứ nhất và được bảo lưu, chuyển điểm các môn học (học phần) giống nhau của 2 ngành này, bạn chỉ phải học (và đóng học phí) các môn khác với ngành thứ nhất. Nhà trường có tổ tư vấn (tại phòng Quản lý đào tạo) giúp bạn lựa chọn, đăng ký học,... cho sinh viên học song ngành."
+  utter_chuyen_nganh:
+  - text: |-
+        Sau khi nhập học, nếu có nguyện vọng học ngành khác hoặc muốn chuyển sang chương trình tiên tiến, chất lượng cao thì bạn có thể nộp hồ sơ để thi lên các chương trình tiên tiến và chất lượng cao nhé. 
+        Các sinh viên dự tuyển phải qua 2 phần thi tuyển: 
+            Phần 1 - Viết luận và kiểm tra tiếng Anh; 
+            Phần 2 - Phỏng vấn. 
+        Bạn có thể xem thông tin chi tiết ở : http://www.aep.neu.edu.vn/web/vn/c166/p70/Tuyen-sinh/Cau-hoi-thuong-gap/index.aspx
+  utter_ask_text:
+  - text: "Enter the text: "
+  utter_ask_question:
+  - text: "Enter the question: "
+  utter_tot_nghiep:
+  - text: |-
+        Sinh viên được Trường xét và công nhận tốt nghiệp khi có đủ các điều kiện sau:
+            a) Cho đến thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự hoặc không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập;
+            b) Tích lũy đủ số học phần, khối lượng và chuẩn đầu ra của chương trình đào tạo;
+            c) Điểm trung bình chung tích lũy của toàn khóa học đạt điểm từ 2,00 trở lên;
+            d) Có chứng chỉ giáo dục quốc phòng - an ninh và hoàn thành học phần giáo dục thể chất;
+            đ) Hoàn thành tuần sinh hoạt công dân, đánh giá kết quả rèn luyện người học và nghĩa vụ học phí, lệ phí theo quy định của Trường;
+            e) Có đơn đề nghị gửi nhà trường được xét tốt nghiệp trong trường hợp đủ điều kiện tốt nghiệp sớm hoặc muộn so với thời gian thiết kế của khoá học.
+        Theo học chế tín chỉ, bạn tích lũy đủ tín chỉ và các điều kiện khác như học phí, chuẩn đầu ra… là được xét tốt nghiệp, vì vậy bạn có thể học vượt/nhanh hoặc học chậm/muộn so với thời gian thiết kế (4 năm). Theo quy chế hiện hành sinh viên có thể tốt nghiệp sớm 01 năm hoặc muộn so với thiết kế khóa học là 02 năm. Hàng năm Trường đều tổ chức học kỳ phụ/kỳ hè giúp sinh viên học vượt hoặc học lại, học nâng/cải thiện điểm.
+
+  utter_loai_to_hop_xet_tuyen:
+  - text: "Bạn tham khảo nhé !"
+    image: "https://i.imgur.com/jgJKZKu.png"
+  utter_nguyen_vong_dang_ky:
+  - text: "Theo Quy chế của Bộ thí sinh được đăng ký không hạn chế số lượng nguyện vọng và sau khi biết điểm thi ta có thể đổi (thêm/bớt/đổi thứ tự) nguyện vọng tối đa 3 lần trong thời gian quy định của Trường. Nếu thí sinh không đỗ ở NV 1 thì sẽ được xét tuyển các NV tiếp theo và xét bình đẳng với các NV khác (bao gồm cả NV1), thí sinh nào có điểm cao hơn thì cơ hội trúng tuyển cao hơn. Ví dụ: thí sinh A đạt 25 điểm trượt NV1 kế toán, rơi xuống NV2 là Kinh doanh thương mại sẽ cùng xét với thí sinh B đạt 24,5 điểm có NV1 là Kinh doanh thương mại, giả định điểm chuẩn của ngành này là 25 điểm thì thí sinh A sẽ đỗ và thí sinh B vẫn trượt."
+  utter_nguyen_vong_chinh_quy:
+  - text: "Các chương trình đào tạo bằng tiếng anh hay là các chương trình tiên tiến chất lượng cao thì vẫn thuộc hệ chính quy bạn nhé"  
+  utter_hoat_dong_ngoai_khoa:
+  - text: "Trường có rất nhiều CLB, tổ chức khác nhau hoạt động vô cùng tích cực và sôi nổi nên khi vào trường, bạn còn sẽ luôn trong tình trạng  xem 'Hôm nay nên đi sự kiện nào nhỉ?' vì hoạt động nào cũng hấp dẫn cả đấy. . Đặc biệt rất đáng mong chờ là chương trình NEU YOUTH FESTIVAL, là chương trình Chào tân sinh viên của NEU với vô vàn hoạt động hấp dẫn được tổ chức vào đầu năm học nha. Với các hoạt động của trường bạn có thể tham gia với tư cách là người tham dự hoặc là làm CTV chương trình bạn nhé. Hằng năm, các CLB, tổ chức trong trường đều tổ chức tuyển thành viên mới.Bạn có thê tìm hiểu thêm thông tin và tìm một ví trí yêu thích cho mình tại các CLB đó ứng tuyển nha."
+  utter_xet_tuyen_cung_luc:
+  - text: "- Thí sinh đoạt giải nhất, nhì, ba trong Cuộc thi Học sinh giỏi quốc gia (thí sinh phải có tổng điểm thi 3 môn THPT theo tổ hợp xét tuyển của Trường đạt từ 18 điểm trở lên).\n- Thí sinh đoạt giải nhất trong Cuộc thi KHKT cấp quốc gia (thí sinh phải có tổng điểm thi 3 môn THPT theo tổ hợp xét tuyển của Trường đạt từ 18 điểm trở lên)."
+  utter_diem_ren_luyen:
+  - text: 'Điểm rèn luyện là 1 tiêu chí để xét bằng và xét học bổng của bạn. Những thành phần ảnh hưởng đến  điểm rèn luyện của bạn sẽ là: Điểm trung bình, điểm đoàn, thái độ học tập,... Cơ bản sẽ là hạnh kiểm như là cấp 3 ý. Cái này đánh giá mỗi kỳ cũng đóng góp một phần khi xét bằng đó. Chi tiết hơn thì nó sẽ ở dưới link này nhé: http://www.ctct.ueh.edu.vn/RLSV/HoidapRLSV_SotaySV2014.pdf'
+  utter_cuu_sinh_vien:
+  - text: 'NEU có rất nhiều cựu sinh viên nổi tiếng và thành công trong nhiều lĩnh vực khác nhau. Ví dụ như: chủ tịch Hòa Phát Trần Đình Long, anh Chu Quang Huy hiện là Giám đốc Nhân sự tập đoàn FPT, cựu hiệu trưởng NEU Trần Thọ Đạt,...'
+  utter_thay_co:
+  - text: Thầy cô trong  đều rất nhiệt tình bạn nhé, vì đặt thù của trường là nhiều kiến thức khó, nên các thầy cô đều rất mong muốn các bạn sinh viên chủ động đặt câu hỏi khi không hiểu bài bạn nhé.
+  utter_dong_phuc:
+  - text: Trường không yêu cầu mặc đồng phục đến lớp, tuy nhiên bạn nên mặc quần áo chỉnh tề, sạch sẽ khi lên lớp (vd áo sơ mi / ngắn tay và đi giày thể thao , không nên mặc áo ba lỗ , quần quá cộc hay dép lê ...).
+  utter_ngay_hoi_tu_van:
+  - text: "Dự kiến đợt 2 tư vấn tuyển sinh sẽ mở sau thi tốt nghiệp THPT năm 2021 (31/7-01/8/2021) tại trường ĐH KTQD 207 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội, Việt Nam. Bên cạnh đó nhà trường sẽ phát hành cuốn sách giới thiệu về các khóa viện để các bạn 2k3 tham khảo vào cuối tháng 4/2021. Bạn có thể tìm hiểu và cập nhật thông tin trên web của trường nhé."
+  utter_kiem_nguoi_yeu_khi_vao_khoa:
+  - text: "^^"
+  utter_co_so_vat_chat:
+  - text: "'Hiện nay trường Đại học Kinh tế quốc dân có cơ ngơi khá khang trang là nhờ nguồn vốn tự tích luỹ được thông qua cơ chế tự chủ. Tòa nhà trung tâm có tổng vốn đầu tư xây dựng và trang thiết bị khoảng 1.500 tỷ đồng, trong đó nhà trường đầu tư 1/3 kinh phí để xây dựng và mua sắm trang thiết bị, Trường có sân bóng đá cỏ nhân tạo, sân bóng tenis, cầu lông, bóng bàn,… để phục vụ giảng dạy các môn học GDTC cho sinh viên. Nhưng theo tôi, cần thay đổi quan điểm về sở hữu đối với các trường đại học. Rõ ràng hiện nay chúng ta đang coi trường công là sở hữu của nhà nước, trường tư là sở hữu của tư nhân. Tuy nhiên, nếu là trường đại học có danh tiếng thì giá trị tài sản lớn nhất của trường đại học là danh tiếng. Giá trị này được tạo dựng bởi tập thể nhà trường qua nhiều thế hệ và được đánh giá bởi người học, cựu học viên, doanh nghiệp và xã hội.' -PGS.TS Hoàng Văn Cường"
+  utter_switch_mfe:
+  - text: "Để được tư vấn cụ thể về khoa Toán Kinh Tế, bạn vui lòng nhắn tin với chatbot của khoa: https://www.facebook.com/chatbotmfe, hoặc truy cập http://mfe.neu.edu.vn/, fb: https://www.facebook.com/mfe.edu.vn/"
+  utter_switch_tai_chinh_ngan_hang:
+  - text: "Để được tư vấn cụ thể về Viện ngân hàng - tài chính, bạn vui lòng nhắn tin với chatbot của viện hoặc truy cập website: https://sbf.neu.edu.vn/, fb: https://www.facebook.com/sbfneu/"
+  utter_switch_bat_dong_san:
+  - text: "Để được tư vấn cụ thể về Khoa Bất động sản và kinh tế tài nguyên, bạn vui lòng nhắn tin với chatbot của khoa, hoặc truy cập website: https://khoabatdongsan.neu.edu.vn/, fb: https://www.facebook.com/Khoa-Bất-Động-Sản-Và-Kinh-Tế-Tài-Nguyên-NEU-1073224629402466/"
+  utter_switch_bao_hiem:
+  - text: "Để được tư vấn cụ thể về khoa bảo hiểm, bạn vui lòng nhắn tin với chatbot của khoa hoặc truy cập website: https://khoabaohiem.neu.edu.vn/, fb:https://www.facebook.com/insuranceneu/"
+  utter_switch_dau_tu:
+  - text: "Để được tư vấn cụ thể về khoa Đầu tư, bạn vui lòng nhắn tin với chatbot của khoa, hoặc truy cập: https://khoadautu.neu.edu.vn/, fb: https://www.facebook.com/khoadautu.neu"
+  utter_switch_ke_kiem:
+  - text: "Để được tư vấn cụ thể về Viện kế toán - kiểm toán, bạn vui lòng nhắn tin với chatbot của viện hoặc truy cập https://saa.neu.edu.vn/, fb: https://www.facebook.com/vienketoankiemtoanneu"
+  utter_switch_ke_hoach_phat_trien:
+  - text: "Để được tư vấn cụ thể về khoa kế hoạch phát triển, bạn vui lòng nhắn tin với chatbot của khoa, hoặc truy cập: https://khoakhpt.neu.edu.vn/, fb: https://www.facebook.com/khpt.edu.vn/"
+  utter_switch_kinh_te_hoc:
+  - text: "Để được tư vấn cụ thể về khoa kinh tế học, bạn vui lòng nhắn tin với chatbot của khoa, hoặc truy cập website: https://economics.neu.edu.vn/, fb: https://www.facebook.com/khoakinhtehoc"
+  utter_switch_quan_ly_nhan_luc:
+  - text: "Để được tư vấn cụ thể về khoa kinh tế và quản lý nguồn nhân lực, bạn vui lòng nhắn tin với chatbot của khoa hoặc truy cập https://khoaquanlynguonnhanluc.neu.edu.vn/, fb: https://www.facebook.com/ktqlnnl/"
+  utter_switch_khoa_hoc_quan_ly:
+  - text: "Để được tư vấn cụ thể về khoa khoa học quản lý, bạn vui lòng nhắn tin với chatbot của khoa, hoặc truy cập https://khql.neu.edu.vn/, fb: https://www.facebook.com/khql.neu/"
+  utter_switch_luat:
+  - text: "Để được tư vấn cụ thể về khoa luật, bạn vui lòng nhắn tin với chatbot của khoa hoặc truy cập https://khoaluat.neu.edu.vn/, fb: https://www.facebook.com/KhoaLuat.NEU"
+  utter_switch_marketing:
+  - text: "Để được tư vấn cụ thể về khoa marketing, bạn vui lòng nhắn tin với chatbot của khoa hoặc truy cập http://khoamarketing.neu.edu.vn/, fb: https://www.facebook.com/khoamarketing.NEU/"
+  utter_switch_tai_nguyen_moi_truong:
+  - text: "Để được tư vấn cụ thể về khoa môi trường, biến đổi khí hậu và đô thị, bạn vui lòng nhắn tin với chatbot của khoa, hoặc truy cập https://khoamoitruongdothi.neu.edu.vn/, fb: https://www.facebook.com/MTvBDKTvDT/"
+  utter_switch_ngoai_ngu_kinh_te:
+  - text: "Để được tư vấn cụ thể về khoa ngoại ngữ kinh tế, bạn vui lòng nhắn tin với chatbot của khoa hoặc truy cập https://ffl.neu.edu.vn/, fb: https://www.facebook.com/NNKTNEU/"
+  utter_switch_quan_tri_kinh_doanh:
+  - text: "Để được tư vấn cụ thể về viện quản trị kinh doanh, bạn vui lòng nhắn tin với chatbot của viện hoặc truy cập http://fbm.neu.edu.vn/, fb: https://www.facebook.com/neu.qtkd/"
+  utter_switch_thong_ke:
+  - text: "Để được tư vấn cụ thể về khoa Thống kê, bạn vui lòng nhắn tin với chatbot của khoa hoặc truy cập https://khoathongke.neu.edu.vn/, fb: https://www.facebook.com/khoa.thong.ke.neu"
+  utter_switch_thuong_mai_kinh_te_quoc_te:
+  - text: "Để được tư vấn cụ thể về viện Thương mại và Kinh tế Quốc tế, bạn vui lòng nhắn tin với chatbot của viện hoặc truy cập https://vienthuongmaikinhtequocte.neu.edu.vn/, fb: https://www.facebook.com/tmktqt.neu"
+  utter_switch_cntt:
+  - text: "Để được tư vấn cụ thể về viện Công nghệ thông tin và kinh tế số, bạn vui lòng nhắn tin với chatbot của viện hoặc truy cập https://sitde.neu.edu.vn/, fb: https://www.facebook.com/cnttkts/"
+  utter_switch_dao_tao_quoc_te:
+  - text: "Để được tư vấn cụ thể về viện đào tạo quốc tế, bạn vui lòng nhắn tin với chatbot của viện hoặc truy cập https://isme.neu.edu.vn/, fb: https://www.facebook.com/BBAE.ISME/"
+  utter_switch_pohe:
+  - text: "Để được tư vấn cụ thể về viện tiên tiến, chất lượng cao và Pohe, bạn vui lòng nhắn tin với chatbot của viện hoặc truy cập http://www.aep.neu.edu.vn, fb: https://www.facebook.com/aep.neu.edu.vn"
+  utter_switch_du_lich:
+  - text: "Để được tư vấn cụ thể về khoa du lịch và khách sạn, bạn vui lòng nhắn tin với chatbot của viện hoặc truy cập https://dulichkhachsan.neu.edu.vn/, fb: https://www.facebook.com/tsdlksneu/"
+  utter_switch_lien_thong:
+  - text: "Để được tư vấn cụ thể về khoa Đại học tại chức, bạn vui lòng truy cập https://khoataichuc.neu.edu.vn/"
+  utter_switch_dao_tao_tu_xa:
+  - text: "Để được tư vấn cụ thể về hình thức đào tạo từ xa, bạn vui lòng truy cập http://dec.neu.edu.vn/"
+  utter_send_to_all:
+  - text: "video hướng dẫn thí sinh https://www.youtube.com/watch?v=wCsiPn1urcU"
+  utter_online:
+  - text: "NEU xin lỗi vì sự cố này. Hiện nay chúng tôi đang vi chỉnh phần mềm để khi ĐK chính thức không còn xảy ra lỗi nữa"
+  utter_giay_to:
+  - text: "Các giấy chứng nhận có thể scan bằng cách chụp ảnh hoặc bản sao tuy nhiên khi xác nhận thủ tục nhập học bạn phải mang theo bản gốc nhé."
+    image: "https://i.imgur.com/jomFdsc.png"
+  utter_sbd:
+  - text: "Bạn vui lòng đợi nhé, dự kiến trong khoảng thời gian đăng ký từ 1/6-30/6 sẽ có SBD của kỳ thi tốt nghiệp THPT 2022"
+  utter_bong_da:
+  - text: "Bạn xem thêm thông tin tại https://www.facebook.com/neuleague/"
 
 actions:
+- action_greet_api
+- action_ielts_api
 - action_submit
-- action_specifier
+- action_greet_new
+- action_major_specifier
 
 forms:
+  ielts_form:
+    question:
+    - type: from_text
+    text:
+    - type: from_text
   email_form:
     email:
     - type: from_text

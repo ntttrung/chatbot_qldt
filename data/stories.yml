@@ -25,184 +25,456 @@ stories:
 - story: turnitin
   steps:
   - intent: turnitin
-  - action: utter_turnitin
+  - action: action_major_specifier
   
 - story: ap_dung_turnitin
   steps:
   - intent: ap_dung_turnitin
-  - action: utter_ap_dung_turnitin
+  - action: action_major_specifier
 
 - story: quy_trinh_turnitin
   steps:
   - intent: quy_trinh_turnitin
-  - action: utter_quy_trinh_turnitin
+  - action: action_major_specifier
 
 - story: tai_khoan
   steps:
   - intent: tai_khoan
-  - action: utter_tai_khoan
+  - action: action_major_specifier
 
 - story: login
   steps:
   - intent: login
-  - action: utter_login
+  - action: action_major_specifier
 
 - story: wrong_email
   steps:
   - intent: wrong_email
-  - action: utter_wrong_email
+  - action: action_major_specifier
 
 - story: nham_bai
   steps:
   - intent: nham_bai
-  - action: utter_nham_bai
+  - action: action_major_specifier
 
 - story: muon_tk
   steps:
   - intent: muon_tk
-  - action: utter_muon_tk
+  - action: action_major_specifier
 
 - story: nhieu_tk
   steps:
   - intent: nhieu_tk
-  - action: utter_nhieu_tk
+  - action: action_major_specifier
 
 - story: not_found
   steps:
   - intent: not_found
-  - action: utter_not_found
+  - action: action_major_specifier
 
 - story: time_turnitin
   steps:
   - intent: time_turnitin
-  - action: utter_time_turnitin
+  - action: action_major_specifier
 
 - story: nop_thu
   steps:
   - intent: nop_thu
-  - action: utter_nop_thu
+  - action: action_major_specifier
 
 - story: deadline
   steps:
   - intent: deadline
-  - action: utter_deadline
+  - action: action_major_specifier
 
 - story: error
   steps:
   - intent: error
-  - action: utter_error
+  - action: action_major_specifier
 
 - story: het_slot
   steps:
   - intent: het_slot
-  - action: utter_het_slot
+  - action: action_major_specifier
 
 - story: time_thi
   steps:
   - intent: time_thi
-  - action: utter_time_thi
+  - action: action_major_specifier
 
 - story: hinh_thuc_thi
   steps:
   - intent: hinh_thuc_thi
-  - action: utter_hinh_thuc_thi
+  - action: action_major_specifier
 
 - story: ca_thi
   steps:
   - intent: ca_thi
-  - action: utter_ca_thi
+  - action: action_major_specifier
 
 - story: lich_thi
   steps:
   - intent: lich_thi
-  - action: utter_lich_thi
+  - action: action_major_specifier
 
 - story: hoc_phi
   steps:
   - intent: hoc_phi
-  - action: utter_hoc_phi
+  - action: action_major_specifier
 
 - story: tinh_hoc_phi
   steps:
   - intent: tinh_hoc_phi
-  - action: utter_tinh_hoc_phi
+  - action: action_major_specifier
 
 - story: nop_tien
   steps:
   - intent: nop_tien
-  - action: utter_nop_tien
+  - action: action_major_specifier
 
 - story: thuong_tien
   steps:
   - intent: thuong_tien
-  - action: utter_thuong_tien
+  - action: action_major_specifier
 
 - story: rut_tien
   steps:
   - intent: rut_tien
-  - action: utter_rut_tien
+  - action: action_major_specifier
 
 - story: ctdt
   steps:
   - intent: ctdt
-  - action: utter_ctdt
+  - action: action_major_specifier
 
 - story: time_hoc
   steps:
   - intent: time_hoc
-  - action: utter_time_hoc
+  - action: action_major_specifier
 
 - story: tin_chi
   steps:
   - intent: tin_chi
-  - action: utter_tin_chi
+  - action: action_major_specifier
 
 - story: ke_hoach
   steps:
   - intent: ke_hoach
-  - action: utter_ke_hoach
+  - action: action_major_specifier
 
 - story: tkb
   steps:
   - intent: tkb
-  - action: utter_tkb
+  - action: action_major_specifier
 
 - story: dk_rieng
   steps:
   - intent: dk_rieng
-  - action: utter_dk_rieng
+  - action: action_major_specifier
 
 - story: hoc_ghep
   steps:
   - intent: hoc_ghep
-  - action: utter_hoc_ghep
+  - action: action_major_specifier
 
 - story: dk_bo_sung
   steps:
   - intent: dk_bo_sung
-  - action: utter_dk_bo_sung
+  - action: action_major_specifier
 
 - story: cai_thien
   steps:
   - intent: cai_thien
-  - action: utter_cai_thien
+  - action: action_major_specifier
 
 - story: dk_all
   steps:
   - intent: dk_all
-  - action: utter_dk_all
+  - action: action_major_specifier
 
 - story: no_mon
   steps:
   - intent: no_mon
-  - action: utter_no_mon
+  - action: action_major_specifier
 
 - story: thuc_tap
   steps:
   - intent: rut_tien
-  - action: utter_rut_tien
+  - action: action_major_specifier
 
 - story: time_out
   steps:
   - intent: time_out
-  - action: utter_time_out
+  - action: action_major_specifier
+
+- story: rules for di_choi_da_ngoai
+  steps:
+  - intent: di_choi_da_ngoai
+  # - action: utter_di_choi_da_ngoai
+  - action: action_major_specifier
+
+- story: rules thi_TA_dau_vao
+  steps:
+  - intent: thi_TA_dau_vao
+  # - action: utter_thi_TA_dau_vao
+  - action: action_major_specifier
+
+- story: rules for dang_ky_tin_chi
+  steps:
+  - intent: dang_ky_tin_chi
+  # - action: utter_dang_ky_tin_chi
+  - action: action_major_specifier
+
+- story: giay_to
+  steps:
+  - intent: giay_to
+  - action: action_major_specifier
+
+- story: xet tuyen kqt
+  steps:
+  - intent: phuong_thuc_xet_tuyen_kqt
+  - action: utter_phuong_thuc_xet_tuyen_kqt
+
+- story: phuong thuc xet tuyen thang
+  steps:
+  - intent: phuong_thuc_xet_tuyen_thang
+  - action: utter_phuong_thuc_xet_tuyen_thang
+
+- story: phuong thuc xet tuyen ket hop
+  steps:
+  - intent: phuong_thuc_xet_tuyen_ket_hop
+  - action: utter_phuong_thuc_xet_tuyen_ket_hop
+  
+- story: nguyen_tac xet tuyen kqt
+  steps:
+  - intent: nguyen_tac_xet_tuyen_kqt
+  - action: utter_nguyen_tac_xet_tuyen_kqt
+
+- story: nguyen_tac xet tuyen thang
+  steps:
+  - intent: nguyen_tac_xet_tuyen_thang
+  - action: utter_nguyen_tac_xet_tuyen_thang
+
+- story: nguyen_tac xet tuyen ket hop
+  steps:
+  - intent: nguyen_tac_xet_tuyen_ket_hop
+  - action: utter_nguyen_tac_xet_tuyen_ket_hop
+
+- story: nguyen_tac xet tuyen 
+  steps:
+  - intent: nguyen_tac_xet_tuyen
+  - action: action_major_specifier
+
+- story: sbd
+  steps:
+  - intent: sbd
+  - action: action_major_specifier
+
+
+- story: phuong_thuc_xet_tuyen
+  steps:
+  - intent: phuong_thuc_xet_tuyen
+  # - action: utter_phuong_thuc_xet_tuyen
+  - action: action_major_specifier
+- story: 
+
+- story: nguyen_tac_xet_tuyen_ket_hop
+  steps:
+  - intent: nguyen_tac_xet_tuyen_ket_hop
+  # - action: utter_nguyen_tac_xet_tuyen_ket_hop
+  - action: action_major_specifier
+
+- story: chuong_trinh_dao_tao
+  steps:
+  - intent: chuong_trinh_dao_tao
+  # - action: utter_chuong_trinh_dao_tao
+  - action: action_major_specifier
+
+- story: tien_tien_chat_luong_cao
+  steps:
+  - intent: tien_tien_chat_luong_cao
+  # - action: utter_tien_tien_chat_luong_cao
+  - action: action_major_specifier
+- story: hoc_phi
+  steps:
+  - intent: hoc_phi
+  # - action: utter_hoc_phi
+  - action: action_major_specifier
+- story: hoc_bong
+  steps:
+  - intent: hoc_bong
+  # - action: utter_hoc_bong
+  - action: action_major_specifier
+- story: chuong_trinh_lien_ket
+  steps:
+  - intent: chuong_trinh_lien_ket
+  # - action: utter_chuong_trinh_lien_ket
+  - action: action_major_specifier
+- story: ky_tuc_xa
+  steps:
+  - intent: ky_tuc_xa
+  - action: action_major_specifier
+- story: doan_thanh_nien
+  steps:
+  - action: action_major_specifier
+  # - action: utter_doan_thanh_nien
+  - action: action_major_specifier
+- story: viec_lam
+  steps:
+  - intent: viec_lam
+  # - action: utter_viec_lam
+  - action: action_major_specifier
+- story: thu_vien
+  steps:
+  - intent: thu_vien
+  - action: action_major_specifier
+- story: CDR_ngoai_ngu
+  steps:
+  - intent: CDR_ngoai_ngu
+  - action: action_major_specifier
+- story: diem_chuan
+  steps:
+  - action: action_major_specifier
+  # - action: utter_diem_chuan
+  - action: action_major_specifier
+- story: song_nganh
+  steps:
+  - intent: song_nganh
+  # - action: utter_song_nganh
+  - action: action_major_specifier
+- story: chuyen_nganh
+  steps:
+  - intent: chuyen_nganh
+  # - action: utter_chuyen_nganh
+  - action: action_major_specifier
+
+- story: diem ren luyen
+  steps:
+  - intent: diem_ren_luyen
+  - action: action_major_specifier
+
+- story: rules for thay_co
+  steps:
+  - intent: thay_co
+  # - action: utter_thay_co
+  - action: action_major_specifier
+
+- story: rules for cuu_sinh_vien
+  steps:
+  - intent: cuu_sinh_vien
+  # - action: utter_cuu_sinh_vien
+  - action: action_major_specifier
+
+- story: rules for diem_ren_luyen
+  steps:
+  - intent: diem_ren_luyen
+  - action: action_major_specifier
+
+- story: dong phuc
+  steps:
+  - intent: dong_phuc
+  - action: action_major_specifier
+
+- story: tot_nghiep
+  steps:
+  - intent: tot_nghiep
+  # - action: utter_tot_nghiep
+  - action: action_major_specifier
+
+- story: error_occur
+  steps:
+  - intent: error_occur
+  # - action: utter_sinh_vien_neu
+  - action: action_major_specifier
+
+- story: switch
+  steps:
+  - intent: switch
+  - action: action_major_specifier
+
+- story: nguyen vong
+  steps:
+  - intent: nguyen_vong_dang_ky
+  # - action: utter_nguyen_vong_dang_ky
+  - action: action_major_specifier
+
+- story: nguyen vong chinh quy
+  steps:
+  - intent: nguyen_vong_chinh_quy
+  # - action: utter_nguyen_vong_chinh_quy
+  - action: action_major_specifier
+
+- story: xet_tuyen_cung_luc
+  steps:
+  - intent: xet_tuyen_cung_luc
+  # - action: utter_xet_tuyen_cung_luc
+  - action: action_major_specifier
+
+- story: hoat_dong_ngoai_khoa
+  steps:
+  - intent: hoat_dong_ngoai_khoa
+  # - action: utter_hoat_dong_ngoai_khoa  
+  - action: action_major_specifier
+
+- story: emotes
+  steps:
+  - intent: emotes
+  - action: action_major_specifier
+
+- story: to hop xet tuyen
+  steps:
+  - intent: loai_to_hop_xet_tuyen
+  # - action: utter_loai_to_hop_xet_tuyen
+  - action: action_major_specifier
+
+- story: quy_doi_diem_tieng_anh
+  steps:
+  - intent: quy_doi_diem_tieng_anh
+  # - action: utter_quy_doi_diem_tieng_anh
+  - action: action_major_specifier
+
+- story: ngay_hoi_tu_van
+  steps:
+  - intent: ngay_hoi_tu_van
+  # - action: utter_ngay_hoi_tu_van
+  - action: action_major_specifier
+
+- story: kiem_nguoi_yeu_khi_vao_khoa
+  steps:
+  - intent: kiem_nguoi_yeu_khi_vao_khoa
+  - action: action_major_specifier
+
+- story: co_so_vat_chat
+  steps:
+  - intent: co_so_vat_chat
+  - action: action_major_specifier
+
+- story: time
+  steps:
+  - intent: time
+  - action: action_major_specifier
+
+- story: bong_da
+  steps:
+  - intent: bong_da
+  - action: action_major_specifier
+
+- story: ho_so
+  steps:
+  - intent: ho_so
+  - action: utter_ho_so
+
+- story: thoi_gian_xet_tuyen
+  steps:
+  - intent: thoi_gian_xet_tuyen
+  - action: utter_thoi_gian_xet_tuyen
+
+- story: le_phi_xet_tuyen
+  steps:
+  - intent: le_phi_xet_tuyen
+  - action: utter_le_phi_xet_tuyen
+
+- story: send_to_all
+  steps:
+  - intent: send_to_all
+  - action: utter_send_to_all

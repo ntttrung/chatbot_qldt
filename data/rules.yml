@@ -30,3 +30,33 @@ rules:
   - action: action_deactivate_loop
   - active_loop: null
 
+  - rule: switch
+  steps:
+  - intent: switch
+  - action: action_major_specifier
+
+- rule: out-of-scope
+  steps:
+  - intent: out_of_scope
+  - action: action_major_specifier
+  # - action: utter_please_rephrase
+
+# - rule: Ielts Action
+#   steps:
+#   - intent: check_ielts
+#   - action: ielts_form
+#   - active_loop: ielts_form
+
+- rule: Ielts form
+  condition:
+  - active_loop: ielts_form
+  steps:
+  - action: ielts_form
+  - active_loop: null 
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_ielts_api
+  - action: action_deactivate_loop
+  - active_loop: null    
+
+

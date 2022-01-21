@@ -70,6 +70,7 @@ nlu:
     - Trần Đức Bo là ai
     - bạn có người yêu không
     - người yêu
+    - Em thử hỏi luôn được không ạ?
 
 - intent: emotes
   examples: |
@@ -982,6 +983,1644 @@ nlu:
     - em đang học quá thời gian thì có bị thôi học không ạ
     - học quá 6 năm có bị thôi học không 
     - học hơn 6 năm bị đuổi học đúng không
+
+- intent: time
+  examples: |
+    - bao giờ nộp hồ sơ
+    - thời gian xét tuyển
+    - hạn nộp hồ sơ
+    - thời gian
+    - thời gian nộp hồ sơ
+    - deadline
+    - hạn chót nộp hồ sơ
+    - thời gian nộp xét tuyển thẳng
+    - khi nào
+    - khi nào bắt đầu xét tuyển
+    - khi nào bắt đầu nhận hồ sơ
+    - khi nào bắt đầu xét tuyển kết hợp
+    - thời gian xét tuyển kết hợp
+    - khi nào thì nộp hồ sơ được ạ
+    - hạn cuối nộp hồ sơ là bao giờ
+    - cho em hỏi khi nào trường mình xét tuyển kết hợp ạ
+    - Dự kiến Khi nào có thể đăng ký XTKH online
+    - dự kiến thời gian
+    - hạn chót
+    - hạn chót nộp hồ sơ
+    - hạn chót nộp hồ sơ xét tuyển phương thức
+    - hạn chót nộp hồ sơ xét tuyển
+    - Nhà trường đã nhận hồ sơ xét tuyển kết hợp chưa vậy ạ?
+    - Khi nào nộp học bạ để xét tuyển?
+- intent: thoi_gian_xet_tuyen
+  examples: |
+    - thời gian xét tuyển    
+- intent: le_phi_xet_tuyen
+  examples: |
+    - Lệ phí xét tuyển
+    - đki tuyển sinh thì lấy biên lai lệ phí xét tuyển ở đâu ạ
+    - lệ phí
+    - lệ phí xét tuyển là bao nhiêu ạ
+    - Ad cho e xin số tài khoản của trường với ạ
+    - số tài khoản
+    - Ad cho e hỏi cái biên lai nộp lệ phí này là cái gì vậy ạ
+    - Biên lai là giấy chuyển khoản của mình ạ
+    - Tôi nộp lệ phí bằng hình thức chuyển khoản trên SmartBanking trên điện thoại di động co được không
+- intent: ho_so
+  examples: |
+    - hồ sơ cần có những gì
+    - hồ sơ XTKH gồm những gì
+    - hồ sơ có những gì
+    - cần cho gì vào hồ sơ
+- intent: dang_ky_tin_chi
+  examples: |
+    - dang ky tin chi nhu the nao a
+    - dang ky tin chi o dau a
+    - luc dang ky mang nha truong co bi lag khong a
+    - duoc dang ky toi da bao nhieu tin/ky a
+    - phai dang ky toi thieu bao nhieu tin/ky a
+    - so tin chi toi da duoc dang ky 1 ky la bao nhieu a
+    - so tin chi toi thieu duoc dang ky 1 ky la bao nhieu a
+    - ra quan net dang ky co de hon khong a
+    - thoi gian dang ky tin chi trong bao lau a
+    - huy tin chi nhu nao a
+    - tín chỉ
+    - đăng ký tín chỉ
+    - số tín chỉ tối thiểu một kỳ
+    - dang ky tin chi nhu the nao a
+    - dang ky tin chi o dau a
+    - luc dang ky mang nha truong co bi lag khong a
+    - duoc dang ky toi da bao nhieu tin/ky a
+    - phai dang ky toi thieu bao nhieu tin/ky a
+    - so tin chi toi da duoc dang ky 1 ky la bao nhieu a
+    - so tin chi toi thieu duoc dang ky 1 ky la bao nhieu a
+    - ra quan net dang ky co de hon khong a
+    - thoi gian dang ky tin chi trong bao lau a
+    - huy tin chi nhu nao a
+    - tin chi
+    - dang ky tin chi
+    - so tin chi toi thieu mot ky
+- intent: di_choi_da_ngoai
+  examples: |
+    - di choi
+    - khoa có hay tổ chức đi chơi không
+    - khoa to chuc bao nhieu lan di du lich
+    - so lan du lich
+    - du lich
+    - di choi da ngoai
+    - 1 nam khoa minh to chuc di da ngoai bao nhieu lan nhi
+    - sinh vien co nhieu thoi gian ranh khong a
+    - lop co thuong xuyen di choi hay da ngoai khong a
+    - ngoai viec hoc, sinh vien  tham gia nhung hoat dong gi a
+    - khoa/lop co hay to chuc cac hoat dong da ngoai khong a
+    - dã ngoại
+    - đi du lịch
+    - tham quan
+    - trường hay tổ chức đi chơi không
+    - di choi
+    - khoa co hay to chuc di choi khong
+    - khoa to chuc bao nhieu lan di du lich
+    - so lan du lich
+    - du lich
+    - di choi da ngoai
+    - 1 nam khoa minh to chuc di da ngoai bao nhieu lan nhi
+    - sinh vien co nhieu thoi gian ranh khong a
+    - lop co thuong xuyen di choi hay da ngoai khong a
+    - ngoai viec hoc, sinh vien  tham gia nhung hoat dong gi a
+    - khoa/lop co hay to chuc cac hoat dong da ngoai khong a
+    - da ngoai
+    - di du lich
+    - tham quan
+    - truong hay to chuc di choi khong
+- intent: error_occur
+  examples: |
+    - Khi đăng ký xét tuyển kết hợp em đã quên bỏ dấu tích
+    - Em đã chốt hồ sơ rồi mà giờ mới phát hiện sai ở chỗ chọn 5 kì cao nhất ạ
+    - Không nhập được điểm học kì 2 lớp 12 ạ
+    - em đăng kí xét tuyển online nma quên mất mật khẩu k đăng nhập đc ạ
+- intent: thi_TA_dau_vao
+  examples: |
+    - ielts phải là bao nhiêu thì mới không phải thi tiếng anh đầu vào
+    - Muốn không phải thi tiếng anh đầu vào thì phải cần tối thiểu bao nhiêu
+    - ielts phai la bao nhieu thi moi khong phai thi dau vao tieng anh
+    - muon khong thi phai dau vao tieng anh thi can toi thieu bao nhieu 
+    - khi do vao khoa roi thi con phai thi gi nua khong
+    - co duoc mien tieng anh dau vao khong
+    - Miễn tiếng anh đầu vào
+    - Miễn tiếng anh
+    - Không thi tiếng anh đầu vào
+    - [ielts](english_cert) phai la bao nhieu thi moi khong phai thi dau vao tieng anh
+    - muon khong thi phai dau vao tieng anh thi can toi thieu bao nhieu [ielts](english_cert)
+    - khi do vao khoa roi thi [em](pronoun) con phai thi gi nua khong
+    - [em](pronoun) co duoc mien tieng anh dau vao khong
+    - the nao de duoc mien thi tieng anh dau vao
+    - dieu kien phai thi tieng anh dau vao
+    - [em](pronoun) co phai thi dau vao tieng anh khong
+    - [em](pronoun) da co dau vao [ielts](english_cert) roi, [em](pronoun) co phai thi tieng anh khong
+    - [em](pronoun) da di du hoc ve, [em](pronoun) co phai thi tieng anh khong
+    - [ielts](english_cert) phải là bao nhiêu thì mới không phải thi đầu vào tiếng anh
+    - muỗn không thi phải đầu vào tiếng anh thì cần tối thiểu bao nhiêu [ielts](english_cert)
+    - khi đỗ vào khoa rồi thi [em](pronoun) còn phải thi gì nữa không
+    - [em](pronoun) có được miễn tiếng anh đầu vào không
+    - thế nào để được miễn thi tiếng anh đầu vào
+    - điều kiện phải thi tiếng anh đầu vào
+    - [em](pronoun) có phải thi đầu vào tiếng anh không
+    - [em](pronoun) đã có đầu vào [ielts](english_cert) rồi, [em](pronoun) có phải thi tiếng anh không
+    - [em](pronoun) đã đi du học về, [em](pronoun) có phải thi tiếng anh không
+    - tiếng anh
+    - mien tieng anh
+    - đăng ký miễn nn
+    - đăng ký miễn thi NN
+    - đăng ký miễn thi ngoại ngữ
+    - mình có bằng ielts có được miễn tiếng anh không
+    - Hình thức kiểm tra tiếng anh đầu vào
+    - Kiểm tra Tiếng Anh đầu vào như thế nào ạ?
+    - Ad ơi cho em hỏi em có chứng chỉ IELTS là 6.5 thì em có phải thi tốt nghiệp môn tiếng anh nữa không ạ
+  
+- intent: phuong_thuc_xet_tuyen
+  examples: |
+    - Trường có những hình thức xét tuyển nào?
+    - Trường tuyển sinh theo những phương thức nào?
+    - Xét tuyển kết hợp vào trường theo các đối tượng nào
+    - Trường có xét tuyển kết hợp bằng học bạ không?
+    - Đăng ký xét tuyển kết hợp như thế nào ạ
+    - Cho em hỏi là xét tuyển thì cần làm những gì ạ
+    - Trường xét tuyển vào ngành theo các tổ hợp xét tuyển, vậy điểm xét tuyển giữa các tổ hợp vào ngành có chênh lệch không?
+    - Cho em hỏi là xét tuyển thì cần làm những gì ạ
+    - Về ưu tiên xét tuyển, tuyển thẳng của trường năm 2020
+    - Bạn có thể cung cấp cho tôi thêm thông tin về trường này không?
+    - Xét tuyển kết hợp chứng chỉ tiếng Anh Ielts với điều kiện gì nữa ạ?
+    - Cho em hỏi thời gian nộp hồ sơ xét tuyển kết hợp là khi nào ạ
+    - Ad có thể cung cấp cho mình xin thông tin được không
+    - Học sinh giỏi của tỉnh thì cần thêm điều kiện gì nữa
+    - Hình thức xét tuyển thẳng
+    - Hình thức tuyển sinh vào trường
+    - Cho em hỏi là điểm xét tuyển có tính điểm ưu tiên khu vực không ạ?
+    - Trường xét tuyển những tổ hợp nào?
+    - Em muốn xét tuyển bằng điểm THPTQG thì có cần bằng IELTS không ạ?
+    - Trường xét tuyển chứng chỉ tiếng anh nào? Các điều kiện đi kèm là gì?
+    - Phương thức xét tuyển
+    - Cách thức tuyển sinh
+    - Cách thức tuyển thẳng
+    - trường hiện tại có nhận sinh viên mới không ạ
+    - khoa mình có những hình thức tuyển sinh nào
+    - hình thức tuyển sinh
+    - Chương trình xét tuyển năm 2021 ?
+    - Chương trình xét tuyển đợt tới có gì thay đổi với năm 2020 không ?
+    - Quy chế tuyển sinh của trường năm nay
+    - Về ưu tiên xét tuyển, tuyển thẳng của trường năm 2021
+    - quy chế tuyển sinh
+    - quy chế tuyển sinh năm nay
+    - quy chế tuyển sinh trong năm nay
+    - Quy chế tuyển sinh của trường năm nay
+    - Truong co nhung hinh thuc xet tuyen nao?
+    - Truong tuyen sinh theo nhung phuong thuc nao?
+    - Xet tuyen ket hop vao truong theo cac doi tuong nao
+    - Truong co xet tuyen ket hop bang hoc ba khong?
+    - Dang ky xet tuyen ket hop nhu the nao a
+    - Cho em hoi la xet tuyen thi can lam nhung gi a
+    - Truong xet tuyen vao nganh theo cac to hop xet tuyen, vay diem xet tuyen giua cac to hop vao nganh co chenh lech khong?
+    - Cho em hoi la xet tuyen thi can lam nhung gi a
+    - Ve uu tien xet tuyen, tuyen thang cua truong nam 2020
+    - Ban co the cung cap cho toi them thong tin ve truong nay khong?
+    - Xet tuyen ket hop chung chi tieng Anh Ielts voi dieu kien gi nua a?
+    - Cho em hoi thoi gian nop ho so xet tuyen ket hop la khi nao a
+    - Ad co the cung cap cho minh xin thong tin duoc khong
+    - Hoc sinh gioi cua tinh thi can them dieu kien gi nua
+    - Hinh thuc xet tuyen thang
+    - Hinh thuc tuyen sinh vao truong
+    - Cho em hoi la diem xet tuyen co tinh diem uu tien khu vuc khong a?
+    - Truong xet tuyen nhung to hop nao?
+    - Em muon xet tuyen bang diem THPTQG thi co can bang IELTS khong a?
+    - Truong xet tuyen chung chi tieng anh nao? Cac dieu kien di kem la gi?
+    - Phuong thuc xet tuyen
+    - Cach thuc tuyen sinh
+    - hình thức xét tuyển
+    - hinh thuc xet tuyen
+    - Cach thuc tuyen thang
+    - truong hien tai co nhan sinh vien moi khong a
+    - khoa minh co nhung hinh thuc tuyen sinh nao
+    - hinh thuc tuyen sinh
+    - Chuong trinh xet tuyen nam 2021 ?
+    - Chuong trinh xet tuyen dot toi co gi thay doi voi nam 2020 khong ?
+    - Quy che tuyen sinh cua truong nam nay
+    - Ve uu tien xet tuyen, tuyen thang cua truong nam 2021
+    - quy che tuyen sinh
+    - quy che tuyen sinh nam nay
+    - quy che tuyen sinh trong nam nay
+    - Quy che tuyen sinh cua truong nam nay
+    - hình thức tuyển thẳng
+    - Trường có những hình thức xét tuyển nào?
+    - Trường tuyển sinh theo những phương thức nào?
+    - Xét tuyển kết hợp vào trường theo các đối tượng nào
+    - Trường có xét tuyển kết hợp bằng học bạ không?
+    - Đăng ký xét tuyển kết hợp như thế nào ạ
+    - Cho em hỏi là xét tuyển thì cần làm những gì ạ
+    - Trường xét tuyển vào ngành theo các tổ hợp xét tuyển, vậy điểm xét tuyển giữa các tổ hợp vào ngành có chênh lệch không?
+    - Cho em hỏi là xét tuyển thì cần làm những gì ạ
+    - Về ưu tiên xét tuyển, tuyển thẳng của trường năm 2020
+    - Bạn có thể cung cấp cho tôi thêm thông tin về trường này không?
+    - Xét tuyển kết hợp chứng chỉ tiếng Anh Ielts với điều kiện gì nữa ạ?
+    - Cho em hỏi thời gian nộp hồ sơ xét tuyển kết hợp là khi nào ạ
+    - Ad có thể cung cấp cho mình xin thông tin được không
+    - Học sinh giỏi của tỉnh thì cần thêm điều kiện gì nữa
+    - Học sinh trường chuyên thì nộp hồ sơ như thế nào ạ
+    - Xét tuyển kết hợp với chứng chỉ quốc tế
+    - Các phương thức tuyển sinh
+    - Hướng dẫn nộp hồ sơ xét tuyển online
+    - Đăng ký nguyện vọng online
+    - Đăng ký thế nào
+    - hướng dẫn làm hồ sơ xét tuyển kết hợp
+    - Bao giờ trường có hướng dẫn làm hồ sơ xét tuyển ạ
+    - Phiếu đăng kí xét tuyển thẳng
+    - Mình muốn hỏi phương thức tuyển thẳng
+    - Cách tính điêm xét học bạ
+    - Cách tính điểm
+    - Cho em hỏi về quy chế tuyển sinh bằng ielts với ạ
+    - Trường đại hoc kinh tế quôc dan xet tuyen học bạ không
+    
+- intent: phuong_thuc_xet_tuyen_kqt
+  examples: |
+    - phuong thuc xet_tuyen_kqt
+    - điểm ưu tiên
+    - ưu tiên
+    - điểm ưu tiên là gì ạ
+    
+- intent: phuong_thuc_xet_tuyen_ket_hop
+  examples: |
+    - phuong thuc xet tuyen ket hop
+- intent: phuong_thuc_xet_tuyen_thang
+  examples: |
+    - phuong thuc xet tuyen thang
+    - các trường hợp được tuyển thẳng
+    - cho e hỏi là trường hợp đạt giài nhì quốc gia thì có được xét tuyển k ạ
+- intent: nguyen_tac_xet_tuyen_kqt
+  examples: |
+    - nguyen tac xet tuyen kqt
+- intent: nguyen_tac_xet_tuyen_ket_hop
+  examples: |
+    - nguyen tac xet tuyen ket hop
+- intent: nguyen_tac_xet_tuyen_thang
+  examples: |
+    - nguyen tac xet tuyen thang
+- intent: nguyen_tac_xet_tuyen
+  examples: |
+    - Nếu emi đăng ký xét tuyển kết hợp với điểm chuyển đổi IELTS + 2 môn thi trong tổ hợp thì con có phải thi tiếng anh ở kì thi TN THPT không
+    - Cách xét tuyển các đối tượng như thế nào vậy
+    - cách tính điểm cụ thể xét tuyển kết hợp là như thế nào
+    - Em đã tham gia Olympia thì cần những thủ tục xét tuyển nào ạ?
+    - xét tuyển kết hợp
+    - xet tuyen ket hop
+    - Em muốn hỏi về nguyên tắc xét tuyển kết hợp ạ
+    - Chi tieu danh cho doi tuong xet tuyen ket hop la bao nhieu?
+    - Neu emi dang ky xet tuyen ket hop voi diem chuyen doi IELTS + 2 mon thi trong to hop thi con co phai thi tieng anh o ki thi TN THPT khong
+    - Cach xet tuyen cac doi tuong nhu the nao vay
+    - cach tinh diem cu the xet tuyen ket hop la nhu the nao
+    - Em da tham gia Olympia thi can nhung thu tuc xet tuyen nao a?
+    - Em muon hoi ve nguyen tac xet tuyen ket hop a
+    - cho mình hỏi xét tuyển kết hợp
+    - Xét tuyển kết hợp cũng được đăng ký nhiều nguyện vọng phải không
+    - Xét tuyển kết hợp cũng được đăng ký nhiều nguyện vọng phải không
+    - xet tuyen ket hop cung duoc dang ky nhieu nguyen vong phai khong
+    - Bạn có thể cung cấp cho tôi thêm thông tin về trường này không?
+    - Xét tuyển kết hợp chứng chỉ tiếng Anh Ielts với điều kiện gì nữa ạ?
+    - Cho em hỏi thời gian nộp hồ sơ xét tuyển kết hợp là khi nào ạ
+    - Ad có thể cung cấp cho mình xin thông tin được không
+    - Học sinh giỏi của tỉnh thì cần thêm điều kiện gì nữa
+    - Học sinh trường chuyên thì nộp hồ sơ như thế nào ạ
+    - Chỉ tiêu dành cho đối tượng xét tuyển kết hợp là bao nhiêu?
+    - Nếu emi đăng ký xét tuyển kết hợp với điểm chuyển đổi IELTS + 2 môn thi trong tổ hợp thì con có phải thi tiếng anh ở kì thi TN THPT không
+    - Xét tuyển bằng kết quả thi như thế nào
+    - Trường sử dụng tổ hợp gì để xét tuyển
+    - Trường có sử dụng tiêu chí phụ là gì
+    - Cách xét tuyển các đối tượng như thế nào vậy
+    - cách tính điểm cụ thể xét tuyển kết hợp là như thế nào
+    - nguyên tắc xét tuyển
+    - nguyên tắc
+    - cách xét tuyển ra sao
+    - Em muốn hỏi thêm thông tin về xét tuyển kết hợp ạ
+    - Em muốn tìm hiểu về hình thức xét tuyển kết hợp
+    - Em muốn tìm hiểu thông tin về hình thức xét tuyển kết hợp
+    - và giờ em muốn xét tuyển theo phương án thứ 5 thì em đăng ký ở đâu ạ
+    - Thông tin chi tiết về Đề án Tuyển sinh ĐHCQ 2021 của NEU?
+    - Cách tính điểm xét tuyển như nào ạ?
+    - Xét tuyển kết hợp sẽ tính điểm như nào ạ?
+ 
+- intent: chuong_trinh_dao_tao
+  examples: |
+    - Thông tin về các ngành/ chương trình mới mở của Trường?
+    - Ngành,chương trình học như thế nào vậy ạ
+    - Cho em các thông tin về ngành/chương trình của Trường năm nay
+    - Trường có bao nhiêu ngành đào tạo
+    - Trường có các ngành học bằng tiếng Anh nào vậy
+    - có những ngành học nào
+    - chương trình học
+    - ngành học ?
+    - nganh hoc
+    - truòng có bao nhiêu ngành
+    - có bao nhiên ngành 
+    - có học bằng tiếng anh không
+    - Các ngành mà trường đang đào tạo
+    - Các ngành học bằng tiếng anh thì có gì khác các ngành học bằng tiếng việt ạ
+    - Em muốn được tư vấn về các ngành học ở neu ạ
+    - Neu có chuyên ngành gì hot
+    - chuyen ngành hot
+    - Em muốn được tư vấn các ngành học ở neu ạ
+    - Thong tin ve cac nganh/ chuong trinh moi mo cua Truong?
+    - Nganh,chuong trinh hoc nhu the nao vay a
+    - Cho em cac thong tin ve nganh/chuong trinh cua Truong nam nay
+    - Truong co bao nhieu nganh dao tao
+    - Truong co cac nganh hoc bang tieng Anh nao vay
+    - co nhung nganh hoc nao
+    - chuong trinh hoc
+    - nganh hoc ?
+    - nganh hoc
+    - truong co bao nhieu nganh
+    - co bao nhien nganh 
+    - co hoc bang tieng anh khong
+    - Cac nganh ma truong dang dao tao
+    - Cac nganh hoc bang tieng anh thi co gi khac cac nganh hoc bang tieng viet a
+    - Neu co chuyen nganh gi hot
+    - chuyen nganh hot
+    - trường đào tạo bao nhiêu ngành
+    - trường có những ngành nào mới
+    - Những ngành mới của kinh tế quốc dân là gì
+    - Liên hệ  với các Khoa/Viện để được tư vấn về chương trình học, cơ hội nghề nghệp
+- intent: tien_tien_chat_luong_cao
+  examples: |
+    - Thí sinh  muốn vào học chương trình tiên tiến, chất lượng cao của trường thì phải làm thế nào, chương trình này có các ngành gì?   
+    - Em muốn học học phí chương trình tiên tiến chất lượng cao là bao nhiêu
+    - Em muốn nộp hồ sơ vào chương trình tiên tiến chất lượng cao
+    - Chương trình tiên tiên chất lượng cao là học bằng tiếng Việt hay tiếng Anh
+    - Phương thức tuyển sinh vào chương trình tiên tiến chất lượng cao như thế nào
+    - Ngành có chương trình đào tạo chất lượng cao không ạ?
+    - Em có thể đăng kí vào chương trình tiên tiến chất lượng cao thì đăng khí nào ạ?
+    - Chất lượng cao
+    - Chương trình tiên tiến như thế nào ạ?
+    - làm thế nào để được học tiên tiến
+    - tiên tiến
+    - chat luong cao
+    - tiên tiến chất lượng cao
+    - lam the nao de duoc hoc tien tien
+    - lam the nao de duoc hoc chat luong cao
+    - Thi sinh  muon vao hoc chuong trinh tien tien, chat luong cao cua truong thi phai lam the nao, chuong trinh nay co cac nganh gi?   
+    - Em muon hoc hoc phi chuong trinh tien tien chat luong cao la bao nhieu
+    - Em muon nop ho so vao chuong trinh tien tien chat luong cao
+    - Chuong trinh tien tien chat luong cao la hoc bang tieng Viet hay tieng Anh
+    - Phuong thuc tuyen sinh vao chuong trinh tien tien chat luong cao nhu the nao
+    - Nganh co chuong trinh dao tao chat luong cao khong a?
+    - Em co the dang ki vao chuong trinh tien tien chat luong cao thi dang khi nao a?
+    - Chat luong cao
+    - Chuong trinh tien tien nhu the nao a?
+    - lam the nao de duoc hoc tien tien
+    - tien tien
+    - chat luong cao
+    - tien tien chat luong cao
+    - lam the nao de duoc hoc tien tien
+    - lam the nao de duoc hoc chat luong cao
+    - em có được thi sang cttt , clc ngành khác
+    - em có được thi sang chương trình tiên tiến, chất lượng cao
+    - Ad tư vấn cho em về clc bên neu được không ạ
+- intent: hoc_phi
+  examples: |
+    - Học phí mỗi một kỳ của các ngành tiếng Việt ở Trường là bao nhiêu?
+    - Học phí của các ngành/chương trình đào tạo của Trường bao nhiêu mỗi kỳ?
+    - Học phí các ngành đào tạo bằng tiếng Việt được tính như thế nào ạ?
+    - Học phí các ngành đào tạo bằng tiếng Anh được tính như thế nào ạ?
+    - Học phí các ngành học bằng tiếng Việt và tiếng Anh có khác nhau không ạ?
+    - Mức học phí khi theo học ở Trường là bao nhiêu?
+    - Về học phí lộ trình tăng học phí của Trường?   
+    - hình thức tuyển sinh vào trường
+    - Học phí các chương trình liên kết là bao nhiêu ạ?
+    - Học phí trường có tăng hằng năm không ạ?
+    - Học phí trường mình có cao không ạ?
+    - học phí
+    - giá mỗi tín chỉ là bao nhiêu
+    - học phí [chương trình](program) bao nhiêu
+    - hoc phi
+    - muc hoc phi khi theo hoc la bao nhieu
+    - moi ky phai dong bao nhieu tien vay
+    - hoc phi co dat khong a
+    - hoc phi 
+    - học phí mỗi một kỳ của [toán kt](nganh_hoc) là bao nhiêu
+    - học phí của là bao nhiêu mỗi kỳ
+    - học phí được tính như thế nào ạ
+    - học phí bao nhiêu/kỳ ạ
+    - học phí có tăng theo cấp số nhân không ạ
+    - mức học phí khi theo học [tkt](nganh_hoc) là bao nhiêu
+    - mỗi kỳ phải đóng bao nhiêu tiền vậy
+    - học phí có đắt không ạ
+    - Hoc phi moi mot ky cua cac nganh tieng Viet o Truong la bao nhieu?
+    - Hoc phi cua cac nganh/chuong trinh dao tao cua Truong bao nhieu moi ky?
+    - Hoc phi cac nganh dao tao bang tieng Viet duoc tinh nhu the nao a?
+    - Hoc phi cac nganh dao tao bang tieng Anh duoc tinh nhu the nao a?
+    - Hoc phi cac nganh hoc bang tieng Viet va tieng Anh co khac nhau khong a?
+    - Muc hoc phi khi theo hoc o Truong la bao nhieu?
+    - Ve hoc phi lo trinh tang hoc phi cua Truong?   
+    - hinh thuc tuyen sinh vao truong
+    - Hoc phi truong co tang hang nam khong a?
+    - Hoc phi truong minh co cao khong a?
+    - gia moi tin chi la bao nhieu
+    - tien hoc
+    - tieng dong hoc
+    - tien dong
+    - so tien phai dong
+    - hoc phi moi mot ky cua la bao nhieu
+    - hoc phi cua la bao nhieu moi ky
+    - hoc phi duoc tinh nhu the nao a
+    - hoc phi bao nhieu/ky a
+    - hoc phi co tang theo cap so nhan khong a
+    - hoc phi duoc tinh nhu the nao a
+    - hoc phi bao nhieu/ky a
+    - hoc phi  co tang theo cap so nhan khong a
+    - muc hoc phi khi theo hoc la bao nhieu
+    - moi ky phai dong bao nhieu tien vay
+    - hoc phi  co dat khong a
+    - lộ trình tăng học phí của Trường
+    - chi phí
+    - chi phí học
+    - chi phi
+    - chi phí đóng học
+    - học phí hệ chính quy
+- intent: hoc_bong
+  examples: |
+    - Trường có quỹ học bổng khuyến khích sinh viên học tập không
+    - Em muốn hỏi về hỗ trợ học tập của sinh viên khi học ở trường
+    - Thông tin học bổng của năm 2021 là như thế nào
+    - Trường mình có học bổng hay không ạ?
+    - Thông tin học bổng của năm 2021 là như thế nào
+    - Làm thế nào để đăng kí nhận học bổng ạ?
+    - Ngoài học bổng của trường thì em có thể đăng kí nhận học bổng doanh nghiệp không ạ?
+    - Trường xét học bổng theo kì hay theo năm ạ?
+    - Trường có xét học bổng với sinh viên nghèo không ạ?
+    - Học bổng có khó đạt được không ạ?
+    - cac loai hoc bong
+    - [em](pronoun)  kiem hoc bong khi hoc o khoa khong
+    - khoa ap dung nhung loai hoc bong gi
+    - khoa co nhung hoc bong nao
+    - mot nam co bao nhieu loai hoc bong
+    - khoa co nhung co hoi hoc bong nao danh cho sinh vien
+    - hoc bong cua truong va cua doanh nghiep khac nhau nhu the nao
+    - các loại học bổng
+    - [em](pronoun)  kiếm học bổng khi học ở khoa không
+    - khoa áp dụng những loại học bổng gì
+    - khoa có những học bổng nào
+    - một năm có bao nhiêu loại học bổng
+    - khoa có những cơ hội học bổng nào dành cho sinh viên
+    - học bổng của trường và của doanh nghiệp khác nhau như thế nào
+    - [em](pronoun) co diem tong ket hoc ki [mot] la [7.9] thi co duoc hoc bong khong a
+    - hoc luc [gioi] thi co du de dat hoc bong khong a
+    - dieu kien hoc bong
+    - kiem hoc bong co de khong a
+    - khoa co nhung muc hoc bong nao
+    - dieu kien nao de dat hoc bong
+    - [em](pronoun) can dat diem trung binh bao nhieu thi duoc hoc bong
+    - tieu chi xet hoc bong cua khoa
+    - co kho khan lam khong de kiem hoc bong a
+    - [em](pronoun) có điểm tổng kết học kì [một] là [7.9] thì có được học bổng không ạ
+    - học lực [giỏi] thì có đủ để đạt học bổng không ạ
+    - điều kiện học bổng
+    - kiếm học bổng có dễ không ạ
+    - khoa có những mức học bổng nào
+    - điều kiện nào để đạt học bổng
+    - [em](pronoun) cần đạt điểm trung bình bao nhiêu thì được học bổng
+    - tiêu chí xét học bổng của khoa
+    - có khó khăn lắm không để kiếm học bổng ạ
+    - học bổng
+    - Truong co quy hoc bong khuyen khich sinh vien hoc tap khong
+    - Em muon hoi ve ho tro hoc tap cua sinh vien khi hoc o truong
+    - Thong tin hoc bong cua nam 2021 la nhu the nao
+    - Truong minh co hoc bong hay khong a?
+    - Thong tin hoc bong cua nam 2021 la nhu the nao
+    - Lam the nao de dang ki nhan hoc bong a?
+    - Ngoai hoc bong cua truong thi em co the dang ki nhan hoc bong doanh nghiep khong a?
+    - Truong xet hoc bong theo ki hay theo nam a?
+    - Truong co xet hoc bong voi sinh vien ngheo khong a?
+    - Hoc bong co kho dat duoc khong a?
+    - cac loai hoc bong
+    - [em](pronoun)  kiem hoc bong khi hoc o khoa khong
+    - khoa ap dung nhung loai hoc bong gi
+    - khoa co nhung hoc bong nao
+    - mot nam co bao nhieu loai hoc bong
+    - khoa co nhung co hoi hoc bong nao danh cho sinh vien
+    - hoc bong cua truong va cua doanh nghiep khac nhau nhu the nao
+    - cac loai hoc bong
+    - [em](pronoun)  kiem hoc bong khi hoc o khoa khong
+    - khoa ap dung nhung loai hoc bong gi
+    - khoa co nhung hoc bong nao
+    - mot nam co bao nhieu loai hoc bong
+    - khoa co nhung co hoi hoc bong nao danh cho sinh vien
+    - hoc bong cua truong va cua doanh nghiep khac nhau nhu the nao
+    - [em](pronoun) co diem tong ket hoc ki [mot] la [7.9] thi co duoc hoc bong khong a
+    - hoc luc [gioi] thi co du de dat hoc bong khong a
+    - dieu kien hoc bong
+    - kiem hoc bong co de khong a
+    - khoa co nhung muc hoc bong nao
+    - dieu kien nao de dat hoc bong
+    - [em](pronoun) can dat diem trung binh bao nhieu thi duoc hoc bong
+    - tieu chi xet hoc bong cua khoa
+    - co kho khan lam khong de kiem hoc bong a
+    - [em](pronoun) co diem tong ket hoc ki [mot] la [7.9] thi co duoc hoc bong khong a
+    - hoc luc [gioi] thi co du de dat hoc bong khong a
+    - dieu kien hoc bong
+    - kiem hoc bong co de khong a
+    - khoa co nhung muc hoc bong nao
+    - dieu kien nao de dat hoc bong
+    - [em](pronoun) can dat diem trung binh bao nhieu thi duoc hoc bong
+    - tieu chi xet hoc bong cua khoa
+    - co kho khan lam khong de kiem hoc bong a
+    - hoc bong
+    - Về chế độ ưu tiên, miễn giảm và hỗ trợ học phí
+    - ưu tiên miễn giảm
+- intent: chuong_trinh_lien_ket
+  examples: |
+    - Cho mình hỏi cơ hội du học của sinh viên thế nào?
+    - Khi học ở trường em có được đi trao đổi sinh viên với các trường đại học ở nước ngoài hay không
+    - Trường mình có chương trình liên kết với nước ngoài không ạ?
+    - Em có cơ hội làm sinh viên trao đổi với các trường đại học nước ngoài từ năm mấy ạ?
+    - Điều kiện để được tham gia trao đổi sinh viên với các trường đại học nước ngoài là gì?
+    - Yêu cầu để được làm sinh viên trao đổi là gì ạ?
+    - Trường mình có trao đổi sinh viên với các trường đại học nước ngoài hay không ạ?
+    - co hoi di du hoc lien thong
+    - cac [chương trình](program) lien ket voi nuoc ngoai
+    - cac lop lien ket cua khoa
+    - [em](pronoun) hoc lien ket duoc khong a
+    - lyon
+    - khoa co [chuyen nganh](program) lien ket khong
+    - khoa co nhung [chuyen nganh](program) lien ket nuoc ngoai khong
+    - [em](pronoun) co co hoi hoc [chuyên ngành](program) lien ket nuoc ngoai khong
+    - cơ hội đi du học liên thông
+    - các liên kết với nước ngoài
+    - các lớp liên kết của khoa
+    - [em](pronoun)  học liên kết được không ạ
+    - khoa có liên kết không
+    - khoa có những [chương trình](program) liên kết nước ngoài không
+    - [em](pronoun) có cơ hội học liên kết nước ngoài không
+    - [chương trình](program) liên kết sau đại học
+    - trình độ thạc sĩ
+    - thạc sĩ
+    - liên kết sau đại học
+    - Khi hoc o truong em co duoc di trao doi sinh vien voi cac truong dai hoc o nuoc ngoai hay khong
+    - Truong minh co chuong trinh lien ket voi nuoc ngoai khong a?
+    - Em co co hoi lam sinh vien trao doi voi cac truong dai hoc nuoc ngoai tu nam may a?
+    - Dieu kien de duoc tham gia trao doi sinh vien voi cac truong dai hoc nuoc ngoai la gi?
+    - Yeu cau de duoc lam sinh vien trao doi la gi a?
+    - Truong minh co trao doi sinh vien voi cac truong dai hoc nuoc ngoai hay khong a?
+    - co hoi di du hoc lien thong
+    - cac [chuong trinh](program) lien ket voi nuoc ngoai
+    - cac lop lien ket cua khoa
+    - [em](pronoun) hoc lien ket duoc khong a
+    - lyon
+    - khoa co [chuyen nganh](program) lien ket khong
+    - khoa co nhung [chuyen nganh](program) lien ket nuoc ngoai khong
+    - [em](pronoun) co co hoi hoc [chuyen nganh](program) lien ket nuoc ngoai khong
+    - co hoi di du hoc lien thong
+    - cac lien ket voi nuoc ngoai
+    - cac lop lien ket cua khoa
+    - [em](pronoun)  hoc lien ket duoc khong a
+    - khoa co lien ket khong
+    - khoa co nhung [chuong trinh](program) lien ket nuoc ngoai khong
+    - [em](pronoun) co co hoi hoc lien ket nuoc ngoai khong
+    - [chuong trinh](program) lien ket sau dai hoc
+    - trinh do thac si
+    - thac si
+    - lien ket sau dai hoc
+    - Mình cần tư vấn về chương trình liên kết các trường quốc tế tại kinh tế
+- intent: ky_tuc_xa
+  examples: |
+    - Trường mình có chương trình liên kết với nước ngoài không ạ?
+    - Em có cơ hội làm sinh viên trao đổi với các trường đại học nước ngoài từ năm mấy ạ?
+    - Điều kiện để được tham gia trao đổi sinh viên với các trường đại học nước ngoài là gì?
+    - Yêu cầu để được làm sinh viên trao đổi là gì ạ?
+    - Trường mình có trao đổi sinh viên với các trường đại học nước ngoài hay không ạ?
+    - Về chế độ ưu tiên, miễn giảm và hỗ trợ học phí, ký túc xá của trường?
+    - Ký túc xá của trường nằm ở đâu ạ?
+    - Điều kiện kí túc xá trường mình như thế nào ạ?
+    - Ở ký túc xá có quy định về giờ giấc không ạ?
+    - Ký túc giá có được chọn phòng hay xếp ngẫu nhiên ạ
+    - Giá ở ký túc xá là bao nhiêu ạ?
+    - Một phòng ở ký túc xá có bao nhiêu người ạ?
+    - Em có thể đăng kí ở ký túc xá của trường lúc nào ạ?
+    - ktx
+    - ký túc xá
+    - nhà ở
+    - Truong minh co chuong trinh lien ket voi nuoc ngoai khong a?
+    - Em co co hoi lam sinh vien trao doi voi cac truong dai hoc nuoc ngoai tu nam may a?
+    - Dieu kien de duoc tham gia trao doi sinh vien voi cac truong dai hoc nuoc ngoai la gi?
+    - Yeu cau de duoc lam sinh vien trao doi la gi a?
+    - Truong minh co trao doi sinh vien voi cac truong dai hoc nuoc ngoai hay khong a?
+    - Ve che do uu tien, mien giam va ho tro hoc phi, ky tuc xa cua truong?
+    - Ky tuc xa cua truong nam o dau a?
+    - Dieu kien ki tuc xa truong minh nhu the nao a?
+    - O ky tuc xa co quy dinh ve gio giac khong a?
+    - Ky tuc gia co duoc chon phong hay xep ngau nhien a
+    - Gia o ky tuc xa la bao nhieu a?
+    - Mot phong o ky tuc xa co bao nhieu nguoi a?
+    - Em co the dang ki o ky tuc xa cua truong luc nao a?
+    - ktx
+    - ky tuc xa
+    - chính sách về kí túc xá như thế nào nhỉ
+- intent: doan_thanh_nien
+  examples: |
+    - Trường có bao nhiêu câu lạc bộ sinh viên
+    - clb sinh vien
+    - câu lạc bộ
+    - clb sinh viên
+    - Các câu lạc bộ tuyển thành viên lúc nào ạ?
+    - Em muốn tham gia câu lạc bộ thì phải làm sao ạ?
+    - clb
+    - hoạt động thể thao
+    - Truong co bao nhieu cau lac bo sinh vien
+    - clb sinh vien
+    - cau lac bo
+    - clb sinh vien
+    - Cac cau lac bo tuyen thanh vien luc nao a?
+    - Em muon tham gia cau lac bo thi phai lam sao a?
+    - hoat dong the thao
+    - ở trường có phát triển đảng cho sinh viên không
+- intent: viec_lam
+  examples: |
+    - Em có được hỗ trợ thực tập và xin việc sau khi ra trường không
+    - Cơ hội nghề nghiệp sau khi ra trường như thế nào ạ?
+    - Học xong ở trường có dễ kiếm được việc không?
+    - Em có cơ hội được làm việc ở những tập đoàn lớn không ạ?
+    - Học xong ở trường em có đủ kiến thức để làm việc hay không?
+    - trường có hỗ trợ tìm việc sau khi tốt nghiệp
+    - ra trường có việc làm không
+    - cơ hội nghề nghiệp
+    - cơ hội việc làm sau khi ra trường
+    - lương
+    - salary
+    - Em co duoc ho tro thuc tap va xin viec sau khi ra truong khong
+    - Co hoi nghe nghiep sau khi ra truong nhu the nao a?
+    - Hoc xong o truong co de kiem duoc viec khong?
+    - Em co co hoi duoc lam viec o nhung tap doan lon khong a?
+    - Hoc xong o truong em co du kien thuc de lam viec hay khong?
+    - truong co ho tro tim viec sau khi tot nghiep
+    - ra truong co viec lam khong
+    - co hoi nghe nghiep
+    - co hoi viec lam sau khi ra truong
+    - luong
+- intent: thu_vien
+  examples: |
+    - Thư viện của Trường mở cửa thời gian nào 
+    - Thư viện mở cửa
+    - Thư viện
+    - Thu vien mo cua den may gio
+    - Thu vien
+    - Thư viện trường có những lớn không ạ?
+    - Em có thể tìm kiếm và đọc tài liệu ở thư viện được không?
+    - Thư viện của Trường nằm ở đâu ạ?
+    - Em có thể tự do vào thư viện khi là sinh viên của trường đúng không ạ?
+    - Thu vien cua Truong mo cua thoi gian nao 
+    - Thu vien mo cua
+    - Thu vien
+    - Thu vien mo cua den may gio
+    - Thu vien
+    - Thu vien truong co nhung lon khong a?
+    - Em co the tim kiem va doc tai lieu o thu vien duoc khong?
+    - Thu vien cua Truong nam o dau a?
+    - Em co the tu do vao thu vien khi la sinh vien cua truong dung khong a?
+- intent: CDR_ngoai_ngu
+  examples: |
+    - Em cần đạt bao nhiêu điểm tiếng Anh để có thể tốt nghiệp được
+    - Em cần những loại chứng chỉ nào để tốt nghiệp?
+    - Em chỉ học tiếng anh trong Trường thì có tốt nghiệp được không ạ?
+    - Em chưa có IELTS vậy em có thể dùng chứng chỉ khác để tốt nghiệp được không ạ?
+    - Chứng chỉ MOS có dùng để tốt nghiệp không ạ?
+    - Em cần chứng chỉ tiếng Anh hay tin học nào để có thể tốt nghiệp được
+    - Tiếng anh đầu ra là bao nhiêu
+    - chuẩn đầu ra ngoại ngữ
+    - đầu ra ngoại ngũe
+    - chuẩn đầu ra
+    - Em can dat bao nhieu diem tieng Anh de co the tot nghiep duoc
+    - Em can nhung loai chung chi nao de tot nghiep?
+    - Em chi hoc tieng anh trong Truong thi co tot nghiep duoc khong a?
+    - Em chua co IELTS vay em co the dung chung chi khac de tot nghiep duoc khong a?
+    - Chung chi MOS co dung de tot nghiep khong a?
+    - Em can chung chi tieng Anh hay tin hoc nao de co the tot nghiep duoc
+    - Tieng anh dau ra la bao nhieu
+    - chuan dau ra ngoai ngu
+    - dau ra ngoai ngue
+    - chuan dau ra
+    - CĐR
+    - CDR
+    - CĐR ngoại ngữ
+    - CĐR tin học
+    
+- intent: diem_chuan
+  examples: |
+    - Điểm chuẩn các năm gần đây của trường
+    - Điểm chuẩn năm nay liệu có cao hơn năm ngoái hay không?
+    - Trường dự đoán năm nay điểm chuẩn sẽ tăng lên bao nhiêu ạ?
+    - Điểm chuẩn dự đoán
+    - Dự đoán điểm chuẩn
+    - du doan diem chuan
+    - Điểm vào trường mình năm nay liệu có cao không ạ?
+    - Trường mình có tiêu chí phụ khi có điểm chuẩn trùng nhau không ạ?
+    - điểm thi khoảng bao nhiêu
+    - điểm thi
+    - điểm trúng tuyển
+    - điểm
+    - điểm tuyển sinh 
+    - điểm chuẩn là gì
+    - diem chuan la gi
+    - diem dau vao 
+    - điểm đầu vào 
+    - thi vào có khó lắm không
+    - thi vao có kho lam khong
+    - [7.8](diem) co do duoc khoa toan khong
+    - can bao nhieu diem thi vao duoc
+    - bao nhieu diem thi do 
+    - diem dau la bao nhieu
+    - bao nhieu diem thi dau
+    - can bao nhieu de do
+    - can bao nhieu diem de do 
+    - diem dau vao  co cao khong
+    - diem xet tuyen vao la bao nhieu
+    - diem do vao la bao nhieu
+    - [7.8](diem) có đỗ được khoa toán không
+    - cần bao nhiêu điểm thì  vào được
+    - bao nhiêu điểm thì đỗ 
+    - điểm đậu [là bao nhiêu
+    - bao nhiêu điểm thì đậu 
+    - cần bao nhiêu để đỗ 
+    - cần bao nhiêu điểm để đỗ 
+    - điểm đậu vào có cao không
+    - [em](pronoun) thi thu duoc [7.8](diem) [toan](mon) lieu co kha nang do  khong
+    - diem thi thu cua [em](pronoun) la [7](diem) [ly](mon) lieu co kha nang do khong
+    - diem thi thu la [22.5](diem) lieu co kha nang do [nganh](program) khong
+    - diem thi thu
+    - thi thu diem khong cao lam thi co kha nang do vao khong
+    - [em](pronoun) can thi thu duoc bao nhieu diem toi thieu de vao khoa
+    - [em](pronoun) thi thử được [7.8](diem) [toán](mon) liệu có khả năng đỗ không
+    - điểm thi thử của [em](pronoun) là [7](diem) [lý](mon) liệu có khả năng đỗ không
+    - điểm thi thử là [22.5](diem) liệu có khả năng đỗ [ngành](program)  không
+    - điểm thi thử
+    - thi thử điểm không cao lắm thì có khả năng đổ vào không
+    - [em](pronoun) cần thi thử được bao nhiêu điểm tối thiểu để vào khoa
+    - diem cua [em](pronoun) phai nam trong top bao nhieu ca nuoc de co kha nang do 
+    - [em](pronoun) hoc kem mon [toan](mon) lieu  hoc [nganh](program) khong
+    - hoc luc cua [em](pronoun) tam tam nay vao hoc [nganh](program)  co vat va khong
+    - [em](pronoun) hoc gioi mon [toan](mon) lieu co du kha nang [nganh](program)  khong
+    - hoc luc nhu the nao thi moi vao duoc [nganh](program) 
+    - điểm của [em](pronoun) phải nằm trong top bao nhiêu cả nước để có khả năng đỗ 
+    - [em](pronoun) học kém môn [toán](mon) liệu  học [ngành](program) không
+    - học lực của [em](pronoun) tàm tạm này vào học [ngành](program) có vất vả không
+    - [em](pronoun) học giỏi môn [toán](mon) liệu có đủ khả năng [ngành](program)   không
+    - học lưc như thế nào thì mới vào được [ngành](program)  
+    - Diem chuan cac nam gan day cua truong
+    - Diem chuan nam nay lieu co cao hon nam ngoai hay khong?
+    - Truong du doan nam nay diem chuan se tang len bao nhieu a?
+    - Diem chuan du doan
+    - Du doan diem chuan
+    - du doan diem chuan
+    - Diem vao truong minh nam nay lieu co cao khong a?
+    - Truong minh co tieu chi phu khi co diem chuan trung nhau khong a?
+    - diem thi khoang bao nhieu
+    - diem thi
+    - diem trung tuyen
+    - diem chuan
+    - điểm chuẩn
+    - điểm sàn
+    - diem san
+    - Làm thế nào để có thể trúng tuyển vào Trường một cách chắc chắn nhất
+    - điểm chuẩn năm ngoái
+    - diem chuan nam ngoai
+    - cho em hỏi điểm chuẩn năm ngoái với ạ
+    - cho mình thông tin điểm chuẩn năm ngoái
+    - điểm chuẩn năm ngoái
+- intent: song_nganh
+  examples: |
+    - Em muốn học song ngành thì phải làm như thế nào ạ?
+    - Các điều kiện để được học song ngành là gì?
+    - Em muốn học song ngành thì cần chuẩn bị những hồ sơ gì?
+    - Song ngành
+    - em có học 2 chuyên ngành 1 lúc được không
+    - làm sao để học song song
+    - hai ngành
+    - Em muốn học hai chuyên ngành một lúc được không?
+    - Em có thể đăng ký học một ngành khác với nguyện vọng xét tuyển được không?
+    - cac van bang 2 cua khoa
+    - [em](pronoun) hien dang hoc [nganh](program) trong truong thi co duoc hoc them van bang 2 khoa minh khong a
+    - khoa co mo  van bang 2 khong a
+    - [em](pronoun)  dang ki hoc them 1 van bang trong khoa khong a
+    - van bang 2
+    - [em](pronoun)  theo hoc  khac tai dh ktqd, sau do hoc bang 2  duoc khong
+    - [ds](nganh_hoc) co cho phep sinh vien hoc van bang 2 khong vay
+    - [dseb](nganh_hoc) co cho phep sinh vien hoc van bang 2 khong a
+    - [toan kt](nganh_hoc) co tuyen sinh sinh vien hoc van bang 2 khong a
+    - [dinh phi bao hiem](nganh_hoc) co tuyen sinh sinh vien van bang 2 khong a
+    - các văn bằng 2 của khoa
+    - [em](pronoun) hiện đang học [ngành](program)  trong trường thì có được học thêm văn bằng 2 khoa mình không ạ
+    - khoa có mở văn bằng 2 không ạ
+    - [em](pronoun)  đăng kí học thêm 1 văn bằng trong khoa không ạ
+    - văn bằng 2
+    - Em muon hoc song nganh thi phai lam nhu the nao a?
+    - Cac dieu kien de duoc hoc song nganh la gi?
+    - Em muon hoc song nganh thi can chuan bi nhung ho so gi?
+    - Song nganh
+    - em co hoc 2 chuyen nganh 1 luc duoc khong
+    - hai nganh
+    - Em muon hoc hai chuyen nganh mot luc duoc khong?
+    - Em co the dang ky hoc mot nganh khac voi nguyen vong xet tuyen duoc khong?
+    - cac van bang 2 cua khoa
+    - [em](pronoun) hien dang hoc [nganh](program) trong truong thi co duoc hoc them van bang 2 khoa minh khong a
+    - khoa co mo  van bang 2 khong a
+    - [em](pronoun)  dang ki hoc them 1 van bang trong khoa khong a
+    - van bang 2
+    - [em](pronoun)  theo hoc  khac tai dh ktqd, sau do hoc bang 2 [actuary](nganh_hoc) duoc khong
+    - [ds](nganh_hoc) co cho phep sinh vien hoc van bang 2 khong vay
+    - [dseb](nganh_hoc) co cho phep sinh vien hoc van bang 2 khong a
+    - [toan kt](nganh_hoc) co tuyen sinh sinh vien hoc van bang 2 khong a
+    - [dinh phi bao hiem](nganh_hoc) co tuyen sinh sinh vien van bang 2 khong a
+    - cac van bang 2 cua khoa
+    - [em](pronoun) hien dang hoc [nganh](program)  trong truong thi co duoc hoc them van bang 2 khoa minh khong a
+    - khoa co mo van bang 2 khong a
+    - [em](pronoun)  dang ki hoc them 1 van bang trong khoa khong a
+    - van bang 2
+    - [em](pronoun) theo hoc khac tai dh ktqd, sau do hoc bang 2 [actuary](nganh_hoc) duoc khong
+    - [ds](nganh_hoc) co cho phep sinh vien hoc van bang 2 khong vay
+    - [dseb](nganh_hoc) co cho phep sinh vien hoc van bang 2 khong a
+    - [toan kt](nganh_hoc) co tuyen sinh sinh vien hoc van bang 2 khong a
+    - [dinh phi bao hiem](nganh_hoc) co tuyen sinh sinh vien van bang 2 khong a
+    - Mình có nhu cầu học song bằng tại NEU
+    
+- intent: loai_to_hop_xet_tuyen
+  examples: |
+    - Tuyển vào thẳng bao nhiêu sinh viên?
+    - Năm nay trường mình dự định tuyển bao nhiêu ạ
+    - [em](pronoun) thi mon [van](mon) thi  hoc tai khoa khong a
+    - [em](pronoun) hoc theo to hop [toan](mon), [hoa](mon) , [sinh](mon) thi  thi vao khoa khong a
+    - [em](pronoun) thi khoi a01 thi  hoc tai khoa khong a
+    - to hop xet tuyen
+    - [em](pronoun) can diem nhung bo mon gi a
+    - nhung to hop mon duoc chap nhan de xet tuyen vao khoa
+    - [toan kinh te](nganh_hoc) tuyen sinh nhung to hop nao
+    - to hop nao thi  dung de xet tuyen  [toan kinh te](nganh_hoc)
+    - thi sinh  dung to hop nao de xet tuyen vao  [toan kinh te](nganh_hoc)
+    - nhung to hop  dung de xet tuyen vao  [toan kt](nganh_hoc) la gi
+    - cac to hop xa hoi co duoc dung de xet tuyen vao  [dseb](nganh_hoc) khong
+    - co nhung to hop nao dung de xet tuyen vao  [dinh phi bao hiem](nganh_hoc)
+    - [em](pronoun) thi môn [văn](mon) thì  học tại khoa không ạ
+    - [em](pronoun) học theo tổ hợp [toán](mon), [hóa](mon) , [sinh](mon) thì  thi vào khoa không ạ
+    - [em](pronoun) thi khối a01 thì  học tại khoa không ạ
+    - tổ hợp xét tuyển
+    - [em](pronoun) cần điểm những bộ môn gì ạ
+    - những tổ hợp môn được chấp nhận để xét tuyển vào khoa
+    - [toán kinh tế](nganh_hoc) tuyển sinh những tổ hợp nào
+    - tổ hợp nào thì  dùng để xét tuyển [toán kinh tế](nganh_hoc)
+    - thí sình  dùng tổ hợp nào để xét tuyển vào [toán kinh tế](nganh_hoc)
+    - những tổ hợp  dùng để xét tuyển vào [toán kt](nganh_hoc) là gì
+    - các tổ hợp xã hội có được dùng để xét tuyển vào [dseb](nganh_hoc) không
+    - có những tổ hợp nào dùng để xét tuyển vào [định phí bảo hỉểm](nganh_hoc)
+    - chỉ tiêu xét tuyển 
+    - Năm nay chỉ tiêu tuyển sinh của trường như thế nào?
+    - chỉ tiêu tuyển sinh
+    - Điểm các ngành năm ngoái
+    - số lượng sinh viên
+    - Năm nay trường tuyển báo nhiêu thí sinh
+    - Chỉ tiêu chi tiết cho các hình thức xét tuyển có thể xem ở đâu ?
+    - chỉ tiêu
+    - Có hạn chế chỉ tiêu cho các hình thức xét tuyển không ?
+    - Neu lấy bao nhiêu sinh viên
+    - Năm nay trường mình dự định tuyển bao nhiêu ạ
+    - to hop xet tuyen
+    - [em](pronoun) can diem nhung bo mon gi a
+    - nhung to hop mon duoc chap nhan de xet tuyen vao khoa
+    - [toan kinh te](nganh_hoc) tuyen sinh nhung to hop nao
+    - to hop nao thi  dung de xet tuyen [toan kinh te](nganh_hoc)
+    - thi sinh  dung to hop nao de xet tuyen vao [toan kinh te](nganh_hoc)
+    - nhung to hop  dung de xet tuyen vao [toan kt](nganh_hoc) la gi
+    - cac to hop xa hoi co duoc dung de xet tuyen vao [dseb](nganh_hoc) khong
+    - co nhung to hop nao dung de xet tuyen vao [dinh phi bao hiem](nganh_hoc)
+    - chi tieu xet tuyen 
+    - Nam nay chi tieu tuyen sinh cua truong nhu the nao?
+    - chi tieu tuyen sinh
+    - Diem cac nganh nam ngoai
+    - so luong sinh vien
+    - Nam nay truong tuyen bao nhieu thi sinh
+    - Chi tieu chi tiet cho cac hinh thuc xet tuyen co the xem o dau ?
+    - chi tieu
+    - Chỉ tiêu dành cho đối tượng xét tuyển kết hợp là bao nhiêu?
+    - Co han che chi tieu cho cac hinh thuc xet tuyen khong ?
+    - Neu lay bao nhieu sinh vien
+    - Nam nay truong minh du dinh tuyen bao nhieu a
+    - điểm chuẩn các năm
+- intent: chuyen_nganh
+  examples: |
+    - Nếu em đỗ một ngành của trường thì có được phép chuyển sang ngành khác có được không ạ?
+    - Em có thể học một ngành khác với nguyện vọng xét tuyển không?
+    - Em có thể chuyển ngành khi đang là sinh viên một ngành khác được không ạ?
+    - Em muốn chuyển ngành thì cần chuẩn bị gì ạ?
+    - Nếu em đỗ một ngành của trường thì có được phép chuyển sang ngành khác ở hệ thường  có được không ạ?
+    - CHuyển ngành
+    - chuyen nganh
+    - chuyển ngành
+- intent: tot_nghiep
+  examples: |
+    - Sinh viên cần điều kiện gì để tốt nghiệp ạ?
+    - Trường có khó tốt nghiệp không ạ?
+    - Có dễ ra trường không ạ?
+    - Học bình thường có thể ra trường không ạ?
+    - Vào học rồi làm sao để ra trường ạ?
+    - Em có thắc mắc là để ra trường thì cần nhưỡng yêu cần gì?
+    - Em cần đảm bảo yêu cầu gì để tốt nghiệp?
+    - Sinh vien can dieu kien gi de tot nghiep a?
+    - Truong co kho tot nghiep khong a?
+    - Co de ra truong khong a?
+    - Hoc binh thuong co the ra truong khong a?
+    - Vao hoc roi lam sao de ra truong a?
+    - Em co thac mac la de ra truong thi can nhuong yeu can gi?
+    - Em can dam bao yeu cau gi de tot nghiep?
+    - Em có thể học vượt hoặc học chậm so với bình thường (4 năm) không
+    - ra trường sớm
+    - ra trường đúng hạn
+    - ra trường sớm hạn
+    - tốt nghiệp đúng hạn
+    - Điều kiện để tốt nghiệp
+- intent: nguyen_vong_dang_ky
+  examples: |
+    - Em rất thích trường thì nên đặt nguyện vọng như thế nào để được vào trường ạ
+    - Ad ơi em cho em hỏi em cần đặt nguyện vọng sao cho hợp lý ạ?
+    - Trường có giới hạn nguyện vọng xét tuyển không ạ?
+    - Em có thể đặt tối đa bao nhiêu nguyện vọng vào trường ạ?
+    - Nguyện vọng đăng ký
+    - nguyện vọng
+    - Em rat thich truong thi nen dat nguyen vong nhu the nao de duoc vao truong a
+    - Ad oi em cho em hoi em can dat nguyen vong sao cho hop ly a?
+    - Truong co gioi han nguyen vong xet tuyen khong a?
+    - Em co the dat toi da bao nhieu nguyen vong vao truong a?
+    - Nguyen vong dang ky
+    - nguyen vong
+    - Thay đổi nguyện vọng
+    - Cho t hỏi. Nếu nộp hồ sơ giấy khi có điểm có được điều chỉnh nguyện vọng ko ạ
+    - ví dụ nguyện vọng 1 có được ưu tiên hơn so với nguyện vọng 2 ko
+    - neu có xét ưu tiên nguyện vọng ko ạ
+  
+- intent: nguyen_vong_chinh_quy
+  examples: |
+    - Em muốn hỏi là học chương trình bằng tiếng anh thì có thuộc hệ chính quy hay không ạ?
+    - Chương trình tiên tiến chất lượng cao có thuộc hệ chính quy không ạ?
+    - hệ chính quy
+    - Em muon hoi la hoc chuong trinh bang tieng anh thi co thuoc he chinh quy hay khong a?
+    - Chuong trinh tien tien chat luong cao co thuoc he chinh quy khong a?
+    - he chinh quy
+- intent: xet_tuyen_cung_luc
+  examples: |
+    - Em có được dùng nhiều cách xét tuyển kết hợp cùng lúc được không ạ? ( em vừa có học sinh giỏi quốc gia vừa có IELTS)
+    - Em có thể xét tuyển nhiều hình thức cùng một lúc hay không ạ? 
+    - Em đăng kí xét tuyển kết hợp thì có thể thể tiếp tục đăng ký bằng điểm THPTQG không?
+    - Xét tuyển cùng lúc
+    - giai
+    - giai bo mon [toan] thi co duoc tuyen thang khong a
+    - giai cap [thanh pho] thi co duoc tuyen thang khong a
+    - giai gi thi khoa moi nhan a
+    - [em](pronoun) co giai quoc gia mon [toan](mon) [em](pronoun) co duoc tuyen thang vao khoa khong
+    - [em](pronoun) co giai [ba](giai_thuong) quoc gia mon [hoa](mon) [em](pronoun) co duoc tuyen thang khong a
+    - giai [ba](giai_thuong) quoc gia mon [ly](mon) co duoc tuyen thang khong a
+    - [em](pronoun) co giai quoc te mon [toan](mon) [em](pronoun) co duoc tuyen thang vao khoa khong
+    - [em](pronoun) co huy chuong [bac](giai_thuong) quoc te mon [hoa](mon) [em](pronoun) co duoc tuyen thang khong a
+    - giai [ba](giai_thuong) quoc te mon [ly](mon) co duoc tuyen thang khong a
+    - giải
+    - giải bộ môn [toán] thì có được tuyển thẳng không ạ
+    - giải cấp [thành phố] thì có được tuyển thẳng không ạ
+    - giải gi thì khoa mới nhận ạ
+    - [em](pronoun) có giải quốc gia môn [toán](mon) [em](pronoun) có được tuyển thẳng vào khoa không
+    - [em](pronoun) có giải [ba](giai_thuong) quốc gia môn [hóa](mon) [em](pronoun) có được tuyển thẳng không ạ
+    - giải [ba](giai_thuong) quốc gia môn [lý](mon) có được tuyển thẳng không ạ
+    - [em](pronoun) có giải quốc tế môn [toán](mon) [em](pronoun) có được tuyển thẳng vào khoa không
+    - [em](pronoun) có huy chương [bạc](giai_thuong) quốc tế môn [hóa](mon) [em](pronoun) có được tuyển thẳng không ạ
+    - giải [ba](giai_thuong) quốc tế môn [lý](mon) có được tuyển thẳng không ạ
+    - cach tuyen thang vao khoa
+    - cac hinh thuc tuyen thang vao khoa
+    - khoa co ap dung cac hinh thuc tuyen thang khong
+    - khoa co tuyen thang khong a
+    - cách tuyển thẳng vào khoa
+    - các hình thức tuyển thẳng vào khoa
+    - khoa có áp dụng các hình thức tuyển thẳng không
+    - khoa có tuyển thẳng không ạ
+    - cach tuyen thang vao khoa
+    - cac hinh thuc tuyen thang vao khoa
+    - khoa co ap dung cac hinh thuc tuyen thang khong
+    - khoa co tuyen thang khong a
+    - giai cap [thanh pho] thi co duoc tuyen thang khong a
+    - giai gi thi khoa moi nhan a
+    - [em](pronoun) co giai quoc gia mon [toan](mon) [em](pronoun) co duoc tuyen thang vao khoa khong
+    - [em](pronoun) co giai [ba](giai_thuong) quoc gia mon [hoa](mon) [em](pronoun) co duoc tuyen thang khong a
+    - giai [ba](giai_thuong) quoc gia mon [ly](mon) co duoc tuyen thang khong a
+    - [em](pronoun) co giai quoc te mon [toan](mon) [em](pronoun) co duoc tuyen thang vao khoa khong
+    - [em](pronoun) co huy chuong [bac](giai_thuong) quoc te mon [hoa](mon) [em](pronoun) co duoc tuyen thang khong a
+    - giai [ba](giai_thuong) quoc te mon [ly](mon) co duoc tuyen thang khong a
+    - Trường có xét tuyển kết hợp bằng học bạ không?
+    - Xét tuyển kết hợp vào trường theo các đối tượng nào
+    - Trường tuyển sinh theo những phương thức nào?
+    - Trường có những hình thức xét tuyển nào?
+- intent: hoat_dong_ngoai_khoa
+  examples: |
+    - Các hoạt động ngoại khóa của trường?
+    - Trường có hay tổ chức các chương trình cho sinh viên không ạ?
+    - Em có thể tham gia hoạt động của trường bằng cách nào ạ?
+    - Hoạt động ngoại khóa
+    - Cac hoat dong ngoai khoa cua truong?
+    - Truong co hay to chuc cac chuong trinh cho sinh vien khong a?
+    - Em co the tham gia hoat dong cua truong bang cach nao a?
+    - Hoat dong ngoai khoa
+- intent: loai_to_hop_xet_tuyen
+  examples: |
+    - [em](pronoun) thi mon [van](mon) thi  hoc tai khoa khong a
+    - [em](pronoun) hoc theo to hop [toan](mon), [hoa](mon) , [sinh](mon) thi  thi vao khoa khong a
+    - [em](pronoun) thi khoi a01 thi  hoc tai khoa khong a
+    - to hop xet tuyen
+    - [em](pronoun) can diem nhung bo mon gi a
+    - nhung to hop mon duoc chap nhan de xet tuyen vao khoa
+    - [toan kinh te](nganh_hoc) tuyen sinh nhung to hop nao
+    - to hop nao thi  dung de xet tuyen  [toan kinh te](nganh_hoc)
+    - thi sinh  dung to hop nao de xet tuyen vao  [toan kinh te](nganh_hoc)
+    - nhung to hop  dung de xet tuyen vao  [toan kt](nganh_hoc) la gi
+    - cac to hop xa hoi co duoc dung de xet tuyen vao  [dseb](nganh_hoc) khong
+    - co nhung to hop nao dung de xet tuyen vao  [dinh phi bao hiem](nganh_hoc)
+    - [em](pronoun) thi môn [văn](mon) thì  học tại khoa không ạ
+    - [em](pronoun) học theo tổ hợp [toán](mon), [hóa](mon) , [sinh](mon) thì  thi vào khoa không ạ
+    - [em](pronoun) thi khối a01 thì  học tại khoa không ạ
+    - tổ hợp xét tuyển
+    - [em](pronoun) cần điểm những bộ môn gì ạ
+    - những tổ hợp môn được chấp nhận để xét tuyển vào khoa
+    - [toán kinh tế](nganh_hoc) tuyển sinh những tổ hợp nào
+    - tổ hợp nào thì  dùng để xét tuyển [toán kinh tế](nganh_hoc)
+    - thí sình  dùng tổ hợp nào để xét tuyển vào [toán kinh tế](nganh_hoc)
+    - những tổ hợp  dùng để xét tuyển vào [toán kt](nganh_hoc) là gì
+    - các tổ hợp xã hội có được dùng để xét tuyển vào [dseb](nganh_hoc) không
+    - có những tổ hợp nào dùng để xét tuyển vào [định phí bảo hỉểm](nganh_hoc)
+    - bao nhiêu học viên [dseb](nganh_hoc)
+    - [chương trình](program) [dseb](nganh_hoc) có bao nhiêu học sinh
+    - [chuong trinh](program) [act](nganh_hoc) tuyen bao nhieu hoc vien
+    - tuyển bao nhiêu sinh viên
+    - tuyen bao nhieu ban
+    - chi tieu [nganh](program) [act](nganh_hoc) la gi a
+    - khoa minh tuyen bao nhieu sinh vien trong khoa nay a
+    - so luong chi tieu [nganh](program) [tkt](nganh_hoc)
+    - khoa minh tuyen sinh may lop [mon](nganh_hoc)
+    - chỉ tiêu [ngành](program)  [act](nganh_mon) là gì ạ
+    - khoa mình tuyển bao nhiêu sinh viên trong khóa này ạ
+    - số lượng chỉ tiêu [ngành](program)  [act](nganh_hoc)
+    - khoa mình tuyển sinh mấy lớp [mon](nganh_mon)
+    - so luong sinh vien moi lop [mon](nganh_mon)
+    - số lượng sinh viên mỗi lớp
+    - 1 lớp [mon](nganh_hoc) có bao nhiêu người
+    - số lượng tuyển sinh của [ngành](program)  Toán kinh tế năm 2021 là bao nhiêu
+- intent: diem_ren_luyen
+  examples: |
+    - diem ren luyen la gi a
+    - thang diem ren luyen duoc tinh nhu nao a
+    - danh gia diem ren luyen nhu the nao a
+    - diem ren luyen dung de lam gi a
+    - diem ren luyen bao nhieu la dat a
+    - phai lam gi de co diem ren luyen a
+    - lam cach nao de tang diem ren luyen a
+    - tham gia nhung hoat dong nao duoc tinh vao diem ren luyen a
+    - neu diem ren luyen ma khong dat thi sao a
+    - danh gia diem ren luyen theo ky hoc, nam hoc hay toan khoa a
+    - diem ren luyen co quan trong khong a
+    - tam quan trong cua diem ren luyen nhu nao a
+    - diem ren luyen co anh huong den viec xet bang khong a
+    - điểm rèn luyện là gì ạ
+    - thang điểm rèn luyện được tính như nào ạ
+    - đánh giá điểm rèn luyện như thế nào ạ
+    - điểm rèn luyện dùng để làm gì ạ
+    - điểm rèn luyện bao nhiêu là đạt ạ
+    - phải làm gì để có điểm rèn luyện ạ
+    - làm cách nào để tăng điểm rèn luyện ạ
+    - tham gia những hoạt động nào được tính vào điểm rèn luyện ạ
+    - nếu điểm rèn luyện mà không đạt thì sao ạ
+    - đánh giá điểm rèn luyện theo kỳ học, năm học hay toàn khóa ạ
+    - điểm rèn luyện có quan trọng không ạ
+    - tầm quan trọng của điểm rèn luyện như nào ạ
+    - điểm rèn luyện có ảnh hưởng đến việc xét bằng không ạ
+- intent: thay_co
+  examples: |
+    - tinh cach cua cac thay co
+    - thay co co de qui khong
+    - cam nhan ve giang vien
+    - thay co co hien khong
+    - thay co khoa minh nhu the nao
+    - thay co trong khoa co nhiet tinh khong
+    - anh chi nhan xet the nao ve giang vien trong khoa
+    - ban nhan xet sao ve thay co trong khoa
+    - cac thay co co ghe lam không
+    - tính cách của các thầy cô
+    - thầy cô có dễ quí không
+    - cảm nhận về thầy cô
+    - thầy cô có hiền không
+    - thầy cô khoa mình như thế nào
+    - thầy cô trong khoa có nhiệt tình không
+    - anh chị nhận xét thế nào về giáo viên trong khoa
+    - bạn nhận xét sao về thầy cô trong khoa
+    - giảng viên có ghê lắm không
+    - thầy cô có tâm lí không
+    - thầy cô trong trường
+    - thay co co tam li khong
+    - thầy cô
+    - thầy cô có hiền không
+    - moi truong hoc tap khac gi cac cap duoi
+    - thay co khac gi cap 3 khong
+    - cach giang day cua thay co co khac gi cap 3
+    - giao vien cap thpt co gi khac so voi giao vien dai hoc
+    - giang vien trong khoa co giong nhu cap 3 khong
+    - giao vien dai hoc co giong nhu cap 3 khong
+    - môi trường học tập khác gì các cấp dưới
+    - thầy cô khác gì cấp 3 không
+    - cách giảng dạy của thầy cô có khác gì cấp 3
+    - giáo viên cấp thpt có gì khác so với giào viên đại học
+    - thầy cô trong khoa có giống như cấp 3 không
+    - giảng viên đại học có giống như cấp 3 không
+    - đội ngũ giảng viên
+    - đội ngũ thầy cô
+    - đội ngũ giáo viên
+- intent: cuu_sinh_vien
+  examples: |
+    - cựu học sinh
+    - trường mình có nhiều người giàu không
+    - ai nổi tiếng từng học khoa toán kinh tế
+    - Có cựu sinh viên nào nổi bật khong
+    - có ai học trong khoa xong làm tỉ phú khong
+    - người nổi tiếng nào từng học khoa toán kinh tế
+    - có ai từng học NEU
+    - cựu sinh viên NEU
+    - sinh viên cũ trong khoa
+    - có ai là quan chức cấp cao sau khi học khoa toán kt không
+    - tỉ phú học TKT
+    - triệu phú học NEU
+    - cuu hoc sinh
+    - ai noi tieng tung hoc khoa toan kinh te
+    - co cuu sinh vien nao noi bat khong
+    - co ai hoc trong khoa xong lam ti phu khong
+    - nguoi noi tieng nao tung hoc khoa toan kinh te
+    - Co ai tung hoc NEU
+    - Cuu sinh vien NEU
+    - sinh vien cu trong khoa
+    - co ai la quan chuc cap cao sau khi hoc khoa toan kt khong
+    - ti phu hoc TKT
+    - trieu phu hoc NEU
+    - neu
+- intent: dong_phuc
+  examples: |
+    - có được mặc quần đùi không
+    - đồng phục khoa như thế nào
+    - dong phuc khi den truong
+    - co phai mac dong phuc khong
+    - trang phục khi lên lớp
+    - mac ao ba lo den lop co sao khong
+    - đồng phục
+    - quần áo khi đến lớp
+    - trang phục
+    - nhuộm tóc
+    - măc áo ba lỗ
+    - đeo khuyên tai
+    - co duoc mac quan dui khong
+    - dong phuc khoa nhu the nao
+    - dong phuc khi den truong
+    - co phai mac dong phuc khong
+    - trang phuc khi len lop
+    - mac ao ba lo den lop co sao khong
+    - dong phuc
+    - quan ao khi den lop
+    - trang phuc
+    - nhuom toc
+    - mac ao ba lo
+    - deo khuyen tai
+- intent: bong_da
+  examples: |
+    - Bóng đá
+    - bong da
+    - giai bong da
+    - giải bóng đá
+    - bóng đá league
+    - neu league
+- intent: quy_doi_diem_tieng_anh
+  examples: |
+    - sat
+    - Tiếng anh
+    - so diem sat tieu chuan de vao truong la gi a
+    - [em](pronoun)  apply vao truong bang diem sat khong a
+    - diem sat
+    - diem sat [1200](diem) co du de xet tuyen ket hop khong a
+    - [em](pronoun) co sat [1340](diem) diem, mon [toan](mon) duoc [8.0](diem) diem, mon [hoa](mon) duoc [9.0](diem) diem co duoc vao khoa khong a
+    - ngoai diem sat ra con dieu kien nao de duoc xet tuyen vao khoa a
+    - diem sat tren bao nhieu thi duoc xet tuyen a
+    - số điểm sat tiêu chuẩn để vào trường là gì ạ
+    - [em](pronoun)  apply vào trường bằng điểm sat không ạ
+    - điểm sat
+    - quy đổi diểm 
+    - quy đổi
+    - quy đổi điểm [ielts](english_cert)
+    - so diem sat tieu chuan de vao truong la gi a
+    - [em](pronoun)  apply vao truong bang diem sat khong a
+    - diem sat
+    - diem sat [1200](diem) co du de xet tuyen ket hop khong a
+    - [em](pronoun) co sat [1340](diem) diem, mon [toan](mon) duoc [8.0](diem) diem, mon [hoa](mon) duoc [9.0](diem) diem co duoc vao khoa khong a
+    - ngoai diem sat ra con dieu kien nao de duoc xet tuyen vao khoa a
+    - diem sat tren bao nhieu thi duoc xet tuyen a
+    - so diem sat tieu chuan de vao truong la gi a
+    - [em](pronoun)  apply vao truong bang diem sat khong a
+    - diem sat
+    - quy doi diem 
+    - quy doi
+    - quy doi diem [ielts](english_cert)
+    - ielts
+    - toefl
+    - cách tính điểm xét tuyển [ielts](english_cert)
+    - cách tính điểm xét tuyển
+    - xét tuyển [ielts](english_cert) có nhân đôi điểm không
+    - Xét tuyển kết hợp [ielts](english_cert)
+    - Con mình có chứng chỉ [ielts](english_cert) mà mình cho con đk tuyển sinh vào trường thì làm thế nào để đc quy đổi điểm hả bạn
+    - dạ cho em hỏi là bằng [ielts](english_cert) có giá trị quy đổi thành điểm như nào ạ?
+- intent: ngay_hoi_tu_van
+  examples: |
+    - CHo mình hỏi ngày hội tư vấn tuyển sinh
+    - Địa chỉ của trường là gì
+    - Phát hành cuốn sách giới thiệu về các khoa viện
+    - Cuốn sách giới thiệu
+    - Ngày hội tư vấn tuyển sinh đợt 2
+    - Ngày hội tư vấn tuyển sinh đợt hai
+    - địa chỉ neu ở đâu
+    - Bao giờ tuyển sinh thế
+    - Bao giờ tư vấn đợt 2
+    - Bao giờ tư vấn tuyển sinh đợt 2
+    - Thời gian tuyển sinh
+    - hỗ trợ sinh viên
+    - địa chỉ trường
+    - địa điểm
+    - địa điểm ở đâu
+    - trường NEU ở đâu
+    - Tư vấn tuyển sinh
+    - Trường có tư vấn tuyển sinh online không ạ
+    - tvts
+    - tvts đợt 2
+    - tvts lần 2
+    - Tu van tuyen sinh
+    - Truong co tu van tuyen sinh online khong a
+    - CHo minh hoi ngay hoi tu van tuyen sinh
+    - Dia chi cua truong la gi
+    - Phat hanh cuon sach gioi thieu ve cac khoa vien
+    - Cuon sach gioi thieu
+    - Ngay hoi tu van tuyen sinh dot 2
+    - Ngay hoi tu van tuyen sinh dot hai
+    - dia chi neu o dau
+    - Bao gio tuyen sinh the
+    - Bao gio tu van dot 2
+    - Bao gio tu van tuyen sinh dot 2
+    - ho tro sinh vien
+    - Trường Kinh tế Quốc dân địa chỉ ở đâu?
+    - Trường nằm ở đâu
+    - open day
+    - Bao giờ sẽ có đợi 2 open day thế ạ
+    - Em muốn đăng ký open day
+    - Em muốn hỏi chương trình open day
+    - open day đợt 2
+    - open day đợt hai
+    - chương trình tư vấn tuyển sinh
+    - tư vấn tuyển sinh
+    - Em có thể liên hệ trường ở đâu để nghe tư vấn tuyển sinh đối với trường hợp của em ạ
+- intent: kiem_nguoi_yeu_khi_vao_khoa
+  examples: |
+    - giảng viên xinh nhất khoa là ai
+    - giảng viên đẹp trai nhất khoa là ai
+    - anh chi co the gioi thieu cho em 1 ban gai khong a
+    - giới thiệu cho em 1 anh đẹp trai
+    - trong khoa mình có anh [Đinh Việt](name) không
+    - tán gái khoa [Act](nganh_hoc)
+    - De tan gai khoa minh khong
+    - khoa minh co anh [Viet](name) khong nhi
+    - [em](pronoun) thích anh [Tu](name) khoa [Act](nganh_hoc)
+    - chị [Linh] có xinh không ạ
+    - kiếm người iu
+    - [em](pronoun) muốn kiếm người iu
+    - học nhiều thế thì có thời gian để kiếm người yêu không
+    - kiếm người yêu
+    - kiếm bạn trai có dễ không ạ
+    - kiếm bạn gái có khó không ạ
+    - ở khoa có nhiều anh chị đẹp trai xinh gái không ạ
+    - trong lớp có nhiều bạn trai không ạ
+    - trong lớp có nhiều bạn trai đẹp trai không ạ
+    - trong lớp có nhiều bạn nữ không ạ
+    - trong lớp có nhiều bạn nữ xinh gái không ạ
+    - tỉ lệ nam nữ trong lớp như thế nào ạ
+    - làm thế nào để có người yêu ạ
+    - vào trường có dễ có người yêu không ạ
+    - [em](pronoun) thich anh [Tu] khoa [Act](nganh_hoc)
+    - chi [Linh] co xinh khong
+    - kiem nguoi iu
+    - hoc nhieu the thi co thoi gian de kiem nguoi yeu khong
+    - kiem nguoi yeu
+    - các bạn gái có ngành toán kinh tế xinh không
+    - kiem ban trai co de khong a
+    - kiem ban gai co kho khong a
+    - o khoa co nhieu anh chi dep trai xinh gai khong a
+    - trong lop co nhieu ban trai khong a
+    - trong lop co nhieu ban trai dep trai khong a
+    - trong lop co nhieu ban nu khong a
+    - trong lop co nhieu ban nu xinh gai khong a
+    - ti le nam nu trong lop nhu the nao a
+    - lam the nao de co nguoi yeu a
+    - vao truong co de co nguoi yeu khong a
+    - kiếm true love dễ không
+    - kiem lover de khong
+    - khoa co fuckboi khong
+    - vào [Act](nganh_hoc) có được gặp anh [Đinh Việt] không ạ
+    - em an com chua
+    - em ăn cơm chưa
+    - giảng viên xinh nhất khoa là ai
+    - giảng viên đẹp trai nhất khoa là ai
+    - anh chi co the gioi thieu cho em 1 ban gai khong a
+    - giới thiệu cho em 1 anh đẹp trai
+    - trong khoa mình có anh [Đinh Việt](name) không
+    - tán gái khoa [Act](nganh_hoc)
+    - De tan gai khoa minh khong
+    - khoa minh co anh [Viet](name) khong nhi
+    - [em](pronoun) thích anh [Tu](name) khoa [Act](nganh_hoc)
+    - chị [Linh] có xinh không ạ
+    - kiếm người iu
+    - [em](pronoun) muốn kiếm người iu
+    - học nhiều thế thì có thời gian để kiếm người yêu không
+    - kiếm người yêu
+    - kiếm bạn trai có dễ không ạ
+    - kiếm bạn gái có khó không ạ
+    - ở khoa có nhiều anh chị đẹp trai xinh gái không ạ
+    - trong lớp có nhiều bạn trai không ạ
+    - trong lớp có nhiều bạn trai đẹp trai không ạ
+    - trong lớp có nhiều bạn nữ không ạ
+    - trong lớp có nhiều bạn nữ xinh gái không ạ
+- intent: giay_to
+  examples: |
+    - CMND
+    - CCCD và CMND
+    - Phần nơi cấp cccd mình ghi ntn ạ
+    - hệ thống mở đăng ký chính thức mà ko chấp nhận CMTND 9 số thì làm sao ạ
+    - dạ em không có thẻ căn cước hay chứng minh thư
+    - Nhưng e chưa có căn cước thì làm sao ạ
+    - trong đơn đăng kí xét tuyển yêu cầu dùng căn cước công dân
+    - e chưa có cccd mà thay bằng chứng minh thư đc ko ạ
+    - Chứng minh khu vực thì mình cần scan cái gì ạ
+    - Cho em hỏi là nếu em XTKH theo đối tượng 4 ạ thì có được scan bản sao của giấy chứng nhận giải không ạ
+# - intent: check_ielts
+#   examples: |
+#     - ielts
+#     - check ielts
+#     - cham ielts
+#     - score ielts
+#     - check ielts writing task 2
+- intent: send_to_all
+  examples: |
+- intent: sbd
+  examples: |
+    - số báo danh
+    - bao giờ có số báo danh
+    - em chưa có số báo danh thì đăng ký kiểu gì ạ
+    - ad ơi cho mình hỏi sbd cho dki 
+    - sbd lấy đâu ạ
+- intent: co_so_vat_chat
+  examples: |
+    - Cơ sở vật chất của trường
+    - cơ sở vật chất
+    - cơ sở vật chất của trường có tốt không
+    - trường có lắp điều hòa không
+    - trường có nhiều khu checkin sống ảo không
+    - tòa nhà thế kỷ
+    - phòng học được trang bị những thiết bị gì
+- intent: switch
+  examples: |
+    - ngành kiểm toán
+    - tư vấn ngành kiểm toán
+    - bảo hiểm
+- lookup: english_cert
+  examples: |
+    - IELTS
+    - TOEIC
+    - TOEFL
+    - A1
+    - A2
+    - B1
+    - B2
+    - C1
+    - C2
+    - toefl
+    - ielts
+    - toeic   
+    - ietls
+    - ilets
+    - toelf
+    
+- lookup: giai_thuong
+  examples: |  
+    - nhất
+    - nhì
+    - ba
+    - Nhất
+    - Nhì
+    - Ba
+    - khuyến khích
+    - Khuyến khích
+    - Vàng
+    - Bạc
+    - dồng
+    - vàng
+    - bạc
+    - dồng
+    - dong
+    - bac
+    - vang
+    - nhat
+    - nhi
+    - khuyen khich
+    - tu 
+- lookup: pronoun
+  examples: |  
+    - tôi
+    - em
+    - mình
+    - tớ 
+    - tao
+    - watashi
+    - toi
+    - to
+    - tao
+    - minh
+    - tui
+    - t
+    - mk
+    - m
+    - boku
+     
+    
+- lookup: it_cert
+  examples: |
+    - MOS
+    - mos
+    - Microsoft Office Specialist
+    - microsoft office specialist
+    - ic3
+    - IC3
+    - digital literacy certification
+     
+- lookup: nganh_hoc
+  examples: |
+    - tài chính ngân hàng
+    - viện ngân hàng tài chính
+    - vien ngan hang tai chinh
+    - Khoa Bất động sản và kinh tế tài nguyên
+    - bất động sản
+    - kinh tế tài nguyên
+    - bất động sản và kinh tế tài nguyên
+    - Bất động sản
+    - Kinh tế nông nghiệp
+    - Kinh tế tài nguyên
+    - Quản lý đất đai
+    - tcnh
+    - đầu tư tài chính
+    - Công nghệ thông tin và kinh tế số
+    - Công nghệ thông tin
+    - Khoa học máy tính
+    - Hệ thống thông tin quản lý 
+    - Kinh tế số
+    - logistic
+    - Kinh tế Quốc tế
+    - Kinh doanh quốc tế
+    - Kinh doanh thương mại
+    - Thương mại điện tử
+    - Logistics và quản lý chuỗi cung ứng
+    - LSIC
+    - Thương mại và Kinh tế Quốc tế
+    - Thống kê 
+    - thống kê kinh tế
+    - Quản trị điều hành thông minh 
+    - E-SOM 
+    - Quản trị chất lượng và đổi mới 
+    - EMQI 
+    - Quản trị kinh doanh
+    - Tài chính doanh nghiệp
+    - Tài chính công
+    - Ngân hàng
+    - Đầu tư tài chính 
+    - BFI 
+    - Chương trình Công nghệ  tài chính 
+    - BFT
+    - Ngoại ngữ Kinh tế 
+    - ngôn ngữ anh
+    - Môi trường, Biến đổi khí hậu và Đô Thị
+    - Quản lý tài nguyên và Môi trường
+    - quản lý đô thị
+    - tài nguyên
+    - môi trường
+    - kinh tế và quản lý đô thị
+    - Marketing
+    - Quan hệ công chúng
+    - Luật
+    - Luật kinh tế
+    - Khoa học quản lý
+    - Quản lý công
+    - Quản lý công và chính sách
+    - EPMP
+    - Chính sách
+    - Kinh tế và quản lý nguồn nhân lực
+    - Kinh tế (chuyên ngành Kinh tế và quản lý nguồn nhân lực)
+    - Quản trị nhân lực 
+    - quản lý nguồn nhân lực
+    - Kinh tế học
+    - Kinh tế (chuyên ngành Kinh tế học)
+    - Kinh tế học tài chính 
+    - FE
+    - Kinh tế học
+    - Kế hoạch và phát triển
+    - Kinh tế phát triển
+    - kế hoạch và phát triển
+    - Kế toán
+    - Kiểm toán
+    - Kế toán tích hợp chứng chỉ quốc tế - ACT-ICAEW
+    - Kiểm toán tích hợp chứng chỉ quốc tế - AUD-ICAEW
+    - ACT
+    - AUD
+    - ICAEW
+    - Quản trị khách sạn
+    - Quản trị khách sạn quốc tế
+    - Quản trị dịch vụ du lịch và lữ hành
+    - Quản trị khách sạn quốc tế
+    - Đầu tư
+    - Khoa bảo hiểm
+    - bảo hiểm
+    - toán kinh tế
+    - tkt
+    - toán kt
+    - 7310108
+    - act
+    - actuary
+    - acturial science
+    - acturial
+    - định phí bảo hiểm 
+    - quản trị rủi ro    
+    - đpbh    
+    - qtrr
+    - đpbhqtrr
+    - ep02
+    - data
+    - data science
+    - ds
+    - dseb
+    - desb
+    - dbse
+    - ai
+    - artificial intelligence
+    - deep learning
+    - machine learning
+    - khoa học dữ liệu
+    - ep03
+    - datascience
+    - cntt
+    - dữ liệu 
+    - toan kinh te
+    - toan kt
+    - dinh phi bao hiem 
+    - quan tri rui ro    
+    - dpbh    
+    - qtrr
+    - dpbhqtrr
+    - khoa hoc du lieu
+    - du lieu
+    - định phí bảo hiểm và quản trị rủi ro học bằng tiếng anh
+    - dinh phi bao hiem va quan tri rui ro hoc bang tieng anh
+    - khoa hoc dữ lieu trong kinh tế và kinh doanh
+    - khoa hoc du lieu trong kinh te và kinh doanh     
+    - data science in economics and business
+    - dinh phi bao hiem va quan tri rui ro
+    - soa
+    - actuaries
+    - isfa
+    - lyon
+    - khoa học dữ liệu trong kinh tế kinh doanh
+    - khoa hoc du lieu trong kinh te kinh doanh
+- synonym: salary
+  examples: |
+    - tien luong
+    - luong
+    - lương
+    - thu nhập
+    - tiền lương
+    - kiếm tiền
+    - kiem tien
+    - thu nhap
+    - nhieu tien
+    - mức lương
+    - muc luong
+- synonym: program
+  examples: |
+    - ngành 
+    - nganh
+    - chương trình
+    - chuong trinh
+    - program
+    - programme
+    - chuyên ngành
+    - chuyen nganh
+    - nganh hoc
+    - ngành học
 
 
 
