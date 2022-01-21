@@ -25,7 +25,6 @@ intents:
 - hinh_thuc_thi
 - ca_thi
 - lich_thi
-- hoc_phi
 - tinh_hoc_phi
 - nop_tien
 - thuong_tien

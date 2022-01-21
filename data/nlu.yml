@@ -574,6 +574,65 @@ nlu:
     - Xem quy định về học phí ở đâu
     - Tìm quy định về học phí ở đâu
     - Em muốn tìm quy định về học phí
+    - Học phí mỗi một kỳ của các ngành tiếng Việt ở Trường là bao nhiêu?
+    - Học phí của các ngành/chương trình đào tạo của Trường bao nhiêu mỗi kỳ?
+    - Học phí các ngành đào tạo bằng tiếng Việt được tính như thế nào ạ?
+    - Học phí các ngành đào tạo bằng tiếng Anh được tính như thế nào ạ?
+    - Học phí các ngành học bằng tiếng Việt và tiếng Anh có khác nhau không ạ?
+    - Mức học phí khi theo học ở Trường là bao nhiêu?
+    - Về học phí lộ trình tăng học phí của Trường?   
+    - hình thức tuyển sinh vào trường
+    - Học phí các chương trình liên kết là bao nhiêu ạ?
+    - Học phí trường có tăng hằng năm không ạ?
+    - Học phí trường mình có cao không ạ?
+    - học phí
+    - giá mỗi tín chỉ là bao nhiêu
+    - học phí [chương trình](program) bao nhiêu
+    - hoc phi
+    - muc hoc phi khi theo hoc la bao nhieu
+    - moi ky phai dong bao nhieu tien vay
+    - hoc phi co dat khong a
+    - hoc phi 
+    - học phí mỗi một kỳ của [toán kt](nganh_hoc) là bao nhiêu
+    - học phí của là bao nhiêu mỗi kỳ
+    - học phí được tính như thế nào ạ
+    - học phí bao nhiêu/kỳ ạ
+    - học phí có tăng theo cấp số nhân không ạ
+    - mức học phí khi theo học [tkt](nganh_hoc) là bao nhiêu
+    - mỗi kỳ phải đóng bao nhiêu tiền vậy
+    - học phí có đắt không ạ
+    - Hoc phi moi mot ky cua cac nganh tieng Viet o Truong la bao nhieu?
+    - Hoc phi cua cac nganh/chuong trinh dao tao cua Truong bao nhieu moi ky?
+    - Hoc phi cac nganh dao tao bang tieng Viet duoc tinh nhu the nao a?
+    - Hoc phi cac nganh dao tao bang tieng Anh duoc tinh nhu the nao a?
+    - Hoc phi cac nganh hoc bang tieng Viet va tieng Anh co khac nhau khong a?
+    - Muc hoc phi khi theo hoc o Truong la bao nhieu?
+    - Ve hoc phi lo trinh tang hoc phi cua Truong?   
+    - hinh thuc tuyen sinh vao truong
+    - Hoc phi truong co tang hang nam khong a?
+    - Hoc phi truong minh co cao khong a?
+    - gia moi tin chi la bao nhieu
+    - tien hoc
+    - tieng dong hoc
+    - tien dong
+    - so tien phai dong
+    - hoc phi moi mot ky cua la bao nhieu
+    - hoc phi cua la bao nhieu moi ky
+    - hoc phi duoc tinh nhu the nao a
+    - hoc phi bao nhieu/ky a
+    - hoc phi co tang theo cap so nhan khong a
+    - hoc phi duoc tinh nhu the nao a
+    - hoc phi bao nhieu/ky a
+    - hoc phi  co tang theo cap so nhan khong a
+    - muc hoc phi khi theo hoc la bao nhieu
+    - moi ky phai dong bao nhieu tien vay
+    - hoc phi  co dat khong a
+    - lộ trình tăng học phí của Trường
+    - chi phí
+    - chi phí học
+    - chi phi
+    - chi phí đóng học
+    - học phí hệ chính quy
 
 - intent: tinh_hoc_phi
   examples: |
@@ -1379,67 +1438,7 @@ nlu:
     - em có được thi sang cttt , clc ngành khác
     - em có được thi sang chương trình tiên tiến, chất lượng cao
     - Ad tư vấn cho em về clc bên neu được không ạ
-- intent: hoc_phi
-  examples: |
-    - Học phí mỗi một kỳ của các ngành tiếng Việt ở Trường là bao nhiêu?
-    - Học phí của các ngành/chương trình đào tạo của Trường bao nhiêu mỗi kỳ?
-    - Học phí các ngành đào tạo bằng tiếng Việt được tính như thế nào ạ?
-    - Học phí các ngành đào tạo bằng tiếng Anh được tính như thế nào ạ?
-    - Học phí các ngành học bằng tiếng Việt và tiếng Anh có khác nhau không ạ?
-    - Mức học phí khi theo học ở Trường là bao nhiêu?
-    - Về học phí lộ trình tăng học phí của Trường?   
-    - hình thức tuyển sinh vào trường
-    - Học phí các chương trình liên kết là bao nhiêu ạ?
-    - Học phí trường có tăng hằng năm không ạ?
-    - Học phí trường mình có cao không ạ?
-    - học phí
-    - giá mỗi tín chỉ là bao nhiêu
-    - học phí [chương trình](program) bao nhiêu
-    - hoc phi
-    - muc hoc phi khi theo hoc la bao nhieu
-    - moi ky phai dong bao nhieu tien vay
-    - hoc phi co dat khong a
-    - hoc phi 
-    - học phí mỗi một kỳ của [toán kt](nganh_hoc) là bao nhiêu
-    - học phí của là bao nhiêu mỗi kỳ
-    - học phí được tính như thế nào ạ
-    - học phí bao nhiêu/kỳ ạ
-    - học phí có tăng theo cấp số nhân không ạ
-    - mức học phí khi theo học [tkt](nganh_hoc) là bao nhiêu
-    - mỗi kỳ phải đóng bao nhiêu tiền vậy
-    - học phí có đắt không ạ
-    - Hoc phi moi mot ky cua cac nganh tieng Viet o Truong la bao nhieu?
-    - Hoc phi cua cac nganh/chuong trinh dao tao cua Truong bao nhieu moi ky?
-    - Hoc phi cac nganh dao tao bang tieng Viet duoc tinh nhu the nao a?
-    - Hoc phi cac nganh dao tao bang tieng Anh duoc tinh nhu the nao a?
-    - Hoc phi cac nganh hoc bang tieng Viet va tieng Anh co khac nhau khong a?
-    - Muc hoc phi khi theo hoc o Truong la bao nhieu?
-    - Ve hoc phi lo trinh tang hoc phi cua Truong?   
-    - hinh thuc tuyen sinh vao truong
-    - Hoc phi truong co tang hang nam khong a?
-    - Hoc phi truong minh co cao khong a?
-    - gia moi tin chi la bao nhieu
-    - tien hoc
-    - tieng dong hoc
-    - tien dong
-    - so tien phai dong
-    - hoc phi moi mot ky cua la bao nhieu
-    - hoc phi cua la bao nhieu moi ky
-    - hoc phi duoc tinh nhu the nao a
-    - hoc phi bao nhieu/ky a
-    - hoc phi co tang theo cap so nhan khong a
-    - hoc phi duoc tinh nhu the nao a
-    - hoc phi bao nhieu/ky a
-    - hoc phi  co tang theo cap so nhan khong a
-    - muc hoc phi khi theo hoc la bao nhieu
-    - moi ky phai dong bao nhieu tien vay
-    - hoc phi  co dat khong a
-    - lộ trình tăng học phí của Trường
-    - chi phí
-    - chi phí học
-    - chi phi
-    - chi phí đóng học
-    - học phí hệ chính quy
+
 - intent: hoc_bong
   examples: |
     - Trường có quỹ học bổng khuyến khích sinh viên học tập không
