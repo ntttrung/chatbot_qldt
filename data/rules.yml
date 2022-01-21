@@ -30,7 +30,7 @@ rules:
   - action: action_deactivate_loop
   - active_loop: null
 
-  - rule: switch
+- rule: switch
   steps:
   - intent: switch
   - action: action_major_specifier
