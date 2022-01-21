@@ -35,11 +35,6 @@ rules:
   - intent: switch
   - action: action_major_specifier
 
-- rule: out-of-scope
-  steps:
-  - intent: out_of_scope
-  - action: action_major_specifier
-  # - action: utter_please_rephrase
 
 # - rule: Ielts Action
 #   steps:
