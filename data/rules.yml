@@ -5,12 +5,12 @@ rules:
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
   steps:
   - intent: nlu_fallback
-  - action: action_specifier
+  - action: action_major_specifier
 
 - rule: out-of-scope
   steps:
   - intent: out_of_scope
-  - action: action_specifier
+  - action: action_major_specifier
 
 - rule: Form Action
   steps:
