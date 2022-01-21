@@ -481,15 +481,8 @@ responses:
   utter_quy_doi_diem_tieng_anh:
   - text: "Bạn tham khảo ảnh dưới đây nhé !"
     image: "https://i.imgur.com/jNtbRWa.png"
-  utter_greet:
-  - buttons:
-    - payload: /time
-      title: Mốc thời gian quan trọng
-    - payload: /loai_to_hop_xet_tuyen
-      title: Điểm chuẩn các năm
-    - payload: /quy_doi_diem_tieng_anh
-      title: Quy đổi tiếng anh
-    text: "Xin chào, mình là Chatbot tuyển sinh của ĐH KTQD. Mình có thể giúp gì cho bạn ?"
+
+
   utter_error_occur:
   - text: "Bạn phản ánh qua email: xtkh@neu.edu.vn nhé"
 
