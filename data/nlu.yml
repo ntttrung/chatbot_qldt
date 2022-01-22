@@ -403,6 +403,7 @@ nlu:
     - Em muốn upload thử bài
     - có được nộp thử vài lần không ad
     - nộp thử
+    - Turnitin có được nộp bài thử không
   
 - intent: deadline
   examples: |
@@ -808,6 +809,97 @@ nlu:
     - Em thuộc diện chính sách nên muốn đăng ký miễn giảm học phí
     - Miễn giảm học phí có phải đăng ký theo từng học kỳ không ạ
     - Bố em là thương binh thì em có được miễn giảm học phí không ạ
+    - Trường có quỹ học bổng khuyến khích sinh viên học tập không
+    - Em muốn hỏi về hỗ trợ học tập của sinh viên khi học ở trường
+    - Thông tin học bổng của năm 2021 là như thế nào
+    - Trường mình có học bổng hay không ạ?
+    - Thông tin học bổng của năm 2021 là như thế nào
+    - Làm thế nào để đăng kí nhận học bổng ạ?
+    - Ngoài học bổng của trường thì em có thể đăng kí nhận học bổng doanh nghiệp không ạ?
+    - Trường xét học bổng theo kì hay theo năm ạ?
+    - Trường có xét học bổng với sinh viên nghèo không ạ?
+    - Học bổng có khó đạt được không ạ?
+    - cac loai hoc bong
+    - [em](pronoun)  kiem hoc bong khi hoc o khoa khong
+    - khoa ap dung nhung loai hoc bong gi
+    - khoa co nhung hoc bong nao
+    - mot nam co bao nhieu loai hoc bong
+    - khoa co nhung co hoi hoc bong nao danh cho sinh vien
+    - hoc bong cua truong va cua doanh nghiep khac nhau nhu the nao
+    - các loại học bổng
+    - [em](pronoun)  kiếm học bổng khi học ở khoa không
+    - khoa áp dụng những loại học bổng gì
+    - khoa có những học bổng nào
+    - một năm có bao nhiêu loại học bổng
+    - khoa có những cơ hội học bổng nào dành cho sinh viên
+    - học bổng của trường và của doanh nghiệp khác nhau như thế nào
+    - [em](pronoun) co diem tong ket hoc ki [mot] la [7.9] thi co duoc hoc bong khong a
+    - hoc luc [gioi] thi co du de dat hoc bong khong a
+    - dieu kien hoc bong
+    - kiem hoc bong co de khong a
+    - khoa co nhung muc hoc bong nao
+    - dieu kien nao de dat hoc bong
+    - [em](pronoun) can dat diem trung binh bao nhieu thi duoc hoc bong
+    - tieu chi xet hoc bong cua khoa
+    - co kho khan lam khong de kiem hoc bong a
+    - [em](pronoun) có điểm tổng kết học kì [một] là [7.9] thì có được học bổng không ạ
+    - học lực [giỏi] thì có đủ để đạt học bổng không ạ
+    - điều kiện học bổng
+    - kiếm học bổng có dễ không ạ
+    - khoa có những mức học bổng nào
+    - điều kiện nào để đạt học bổng
+    - [em](pronoun) cần đạt điểm trung bình bao nhiêu thì được học bổng
+    - tiêu chí xét học bổng của khoa
+    - có khó khăn lắm không để kiếm học bổng ạ
+    - học bổng
+    - Truong co quy hoc bong khuyen khich sinh vien hoc tap khong
+    - Em muon hoi ve ho tro hoc tap cua sinh vien khi hoc o truong
+    - Thong tin hoc bong cua nam 2021 la nhu the nao
+    - Truong minh co hoc bong hay khong a?
+    - Thong tin hoc bong cua nam 2021 la nhu the nao
+    - Lam the nao de dang ki nhan hoc bong a?
+    - Ngoai hoc bong cua truong thi em co the dang ki nhan hoc bong doanh nghiep khong a?
+    - Truong xet hoc bong theo ki hay theo nam a?
+    - Truong co xet hoc bong voi sinh vien ngheo khong a?
+    - Hoc bong co kho dat duoc khong a?
+    - cac loai hoc bong
+    - [em](pronoun)  kiem hoc bong khi hoc o khoa khong
+    - khoa ap dung nhung loai hoc bong gi
+    - khoa co nhung hoc bong nao
+    - mot nam co bao nhieu loai hoc bong
+    - khoa co nhung co hoi hoc bong nao danh cho sinh vien
+    - hoc bong cua truong va cua doanh nghiep khac nhau nhu the nao
+    - cac loai hoc bong
+    - [em](pronoun)  kiem hoc bong khi hoc o khoa khong
+    - khoa ap dung nhung loai hoc bong gi
+    - khoa co nhung hoc bong nao
+    - mot nam co bao nhieu loai hoc bong
+    - khoa co nhung co hoi hoc bong nao danh cho sinh vien
+    - hoc bong cua truong va cua doanh nghiep khac nhau nhu the nao
+    - [em](pronoun) co diem tong ket hoc ki [mot] la [7.9] thi co duoc hoc bong khong a
+    - hoc luc [gioi] thi co du de dat hoc bong khong a
+    - dieu kien hoc bong
+    - kiem hoc bong co de khong a
+    - khoa co nhung muc hoc bong nao
+    - dieu kien nao de dat hoc bong
+    - [em](pronoun) can dat diem trung binh bao nhieu thi duoc hoc bong
+    - tieu chi xet hoc bong cua khoa
+    - co kho khan lam khong de kiem hoc bong a
+    - [em](pronoun) co diem tong ket hoc ki [mot] la [7.9] thi co duoc hoc bong khong a
+    - hoc luc [gioi] thi co du de dat hoc bong khong a
+    - dieu kien hoc bong
+    - kiem hoc bong co de khong a
+    - khoa co nhung muc hoc bong nao
+    - dieu kien nao de dat hoc bong
+    - [em](pronoun) can dat diem trung binh bao nhieu thi duoc hoc bong
+    - tieu chi xet hoc bong cua khoa
+    - co kho khan lam khong de kiem hoc bong a
+    - hoc bong
+    - Về chế độ ưu tiên, miễn giảm và hỗ trợ học phí
+    - ưu tiên miễn giảm
+    - Miễn giảm học phí
+    - Em là học sinh hộ nghèo thì có được miễn giảm gì không ạ
+    - Quỹ học bổng hàng năm có lớn không ad
 
 - intent: rut_tien
   examples: |
@@ -1295,6 +1387,7 @@ nlu:
     - Cách tính điểm
     - Cho em hỏi về quy chế tuyển sinh bằng ielts với ạ
     - Trường đại hoc kinh tế quôc dan xet tuyen học bạ không
+    - Năm nay có các phương thức xét tuyển gì thế
     
 - intent: phuong_thuc_xet_tuyen_kqt
   examples: |
@@ -1439,96 +1532,7 @@ nlu:
     - em có được thi sang chương trình tiên tiến, chất lượng cao
     - Ad tư vấn cho em về clc bên neu được không ạ
 
-- intent: hoc_bong
-  examples: |
-    - Trường có quỹ học bổng khuyến khích sinh viên học tập không
-    - Em muốn hỏi về hỗ trợ học tập của sinh viên khi học ở trường
-    - Thông tin học bổng của năm 2021 là như thế nào
-    - Trường mình có học bổng hay không ạ?
-    - Thông tin học bổng của năm 2021 là như thế nào
-    - Làm thế nào để đăng kí nhận học bổng ạ?
-    - Ngoài học bổng của trường thì em có thể đăng kí nhận học bổng doanh nghiệp không ạ?
-    - Trường xét học bổng theo kì hay theo năm ạ?
-    - Trường có xét học bổng với sinh viên nghèo không ạ?
-    - Học bổng có khó đạt được không ạ?
-    - cac loai hoc bong
-    - [em](pronoun)  kiem hoc bong khi hoc o khoa khong
-    - khoa ap dung nhung loai hoc bong gi
-    - khoa co nhung hoc bong nao
-    - mot nam co bao nhieu loai hoc bong
-    - khoa co nhung co hoi hoc bong nao danh cho sinh vien
-    - hoc bong cua truong va cua doanh nghiep khac nhau nhu the nao
-    - các loại học bổng
-    - [em](pronoun)  kiếm học bổng khi học ở khoa không
-    - khoa áp dụng những loại học bổng gì
-    - khoa có những học bổng nào
-    - một năm có bao nhiêu loại học bổng
-    - khoa có những cơ hội học bổng nào dành cho sinh viên
-    - học bổng của trường và của doanh nghiệp khác nhau như thế nào
-    - [em](pronoun) co diem tong ket hoc ki [mot] la [7.9] thi co duoc hoc bong khong a
-    - hoc luc [gioi] thi co du de dat hoc bong khong a
-    - dieu kien hoc bong
-    - kiem hoc bong co de khong a
-    - khoa co nhung muc hoc bong nao
-    - dieu kien nao de dat hoc bong
-    - [em](pronoun) can dat diem trung binh bao nhieu thi duoc hoc bong
-    - tieu chi xet hoc bong cua khoa
-    - co kho khan lam khong de kiem hoc bong a
-    - [em](pronoun) có điểm tổng kết học kì [một] là [7.9] thì có được học bổng không ạ
-    - học lực [giỏi] thì có đủ để đạt học bổng không ạ
-    - điều kiện học bổng
-    - kiếm học bổng có dễ không ạ
-    - khoa có những mức học bổng nào
-    - điều kiện nào để đạt học bổng
-    - [em](pronoun) cần đạt điểm trung bình bao nhiêu thì được học bổng
-    - tiêu chí xét học bổng của khoa
-    - có khó khăn lắm không để kiếm học bổng ạ
-    - học bổng
-    - Truong co quy hoc bong khuyen khich sinh vien hoc tap khong
-    - Em muon hoi ve ho tro hoc tap cua sinh vien khi hoc o truong
-    - Thong tin hoc bong cua nam 2021 la nhu the nao
-    - Truong minh co hoc bong hay khong a?
-    - Thong tin hoc bong cua nam 2021 la nhu the nao
-    - Lam the nao de dang ki nhan hoc bong a?
-    - Ngoai hoc bong cua truong thi em co the dang ki nhan hoc bong doanh nghiep khong a?
-    - Truong xet hoc bong theo ki hay theo nam a?
-    - Truong co xet hoc bong voi sinh vien ngheo khong a?
-    - Hoc bong co kho dat duoc khong a?
-    - cac loai hoc bong
-    - [em](pronoun)  kiem hoc bong khi hoc o khoa khong
-    - khoa ap dung nhung loai hoc bong gi
-    - khoa co nhung hoc bong nao
-    - mot nam co bao nhieu loai hoc bong
-    - khoa co nhung co hoi hoc bong nao danh cho sinh vien
-    - hoc bong cua truong va cua doanh nghiep khac nhau nhu the nao
-    - cac loai hoc bong
-    - [em](pronoun)  kiem hoc bong khi hoc o khoa khong
-    - khoa ap dung nhung loai hoc bong gi
-    - khoa co nhung hoc bong nao
-    - mot nam co bao nhieu loai hoc bong
-    - khoa co nhung co hoi hoc bong nao danh cho sinh vien
-    - hoc bong cua truong va cua doanh nghiep khac nhau nhu the nao
-    - [em](pronoun) co diem tong ket hoc ki [mot] la [7.9] thi co duoc hoc bong khong a
-    - hoc luc [gioi] thi co du de dat hoc bong khong a
-    - dieu kien hoc bong
-    - kiem hoc bong co de khong a
-    - khoa co nhung muc hoc bong nao
-    - dieu kien nao de dat hoc bong
-    - [em](pronoun) can dat diem trung binh bao nhieu thi duoc hoc bong
-    - tieu chi xet hoc bong cua khoa
-    - co kho khan lam khong de kiem hoc bong a
-    - [em](pronoun) co diem tong ket hoc ki [mot] la [7.9] thi co duoc hoc bong khong a
-    - hoc luc [gioi] thi co du de dat hoc bong khong a
-    - dieu kien hoc bong
-    - kiem hoc bong co de khong a
-    - khoa co nhung muc hoc bong nao
-    - dieu kien nao de dat hoc bong
-    - [em](pronoun) can dat diem trung binh bao nhieu thi duoc hoc bong
-    - tieu chi xet hoc bong cua khoa
-    - co kho khan lam khong de kiem hoc bong a
-    - hoc bong
-    - Về chế độ ưu tiên, miễn giảm và hỗ trợ học phí
-    - ưu tiên miễn giảm
+
 - intent: chuong_trinh_lien_ket
   examples: |
     - Cho mình hỏi cơ hội du học của sinh viên thế nào?
@@ -1688,7 +1692,7 @@ nlu:
     - Em cần chứng chỉ tiếng Anh hay tin học nào để có thể tốt nghiệp được
     - Tiếng anh đầu ra là bao nhiêu
     - chuẩn đầu ra ngoại ngữ
-    - đầu ra ngoại ngũe
+    - đầu ra ngoại ngữ
     - chuẩn đầu ra
     - Em can dat bao nhieu diem tieng Anh de co the tot nghiep duoc
     - Em can nhung loai chung chi nao de tot nghiep?
@@ -1704,6 +1708,8 @@ nlu:
     - CDR
     - CĐR ngoại ngữ
     - CĐR tin học
+    - Em muốn hỏi là k61 có được dùng Aptis để đổi điểm và công nhận chuẩn đầu ra không ạ
+    - K61 có đổi được chuẩn đầu ra tin học bằng MOS không ạ
     
 - intent: diem_chuan
   examples: |
@@ -2232,6 +2238,8 @@ nlu:
     - Xét tuyển kết hợp [ielts](english_cert)
     - Con mình có chứng chỉ [ielts](english_cert) mà mình cho con đk tuyển sinh vào trường thì làm thế nào để đc quy đổi điểm hả bạn
     - dạ cho em hỏi là bằng [ielts](english_cert) có giá trị quy đổi thành điểm như nào ạ?
+    - Em đã thực hiện đổi điểm tiếng Anh
+
 - intent: ngay_hoi_tu_van
   examples: |
     - CHo mình hỏi ngày hội tư vấn tuyển sinh

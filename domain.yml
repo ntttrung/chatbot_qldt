@@ -58,8 +58,6 @@ intents:
         use_entities: true
     - hoc_phi:
         use_entities: true
-    - hoc_bong:
-        use_entities: true
     - chuong_trinh_lien_ket:
         use_entities: true
     - ky_tuc_xa:
@@ -551,11 +549,6 @@ responses:
       - Chương trình Chất lượng cao có 10 chương trình gồm: Ngân hàng, Kinh tế đầu tư, Kiểm toán, Quản trị doanh nghiệp, Quản trị kinh doanh quốc tế, Quản trị marketing, Quản trị nhân lực, Kinh tế quốc tế, Kinh tế phát triển và Tài chính doanh nghiệp.
       Tất cả thí sinh đã trúng tuyển, nhập học đều được thi và được chuyển sang học CTTT-CLC nếu bạn thi đỗ (thường là đỗ đến 90%).
       Bạn tìm hiểu thông tin tại www.aep.neu.edu.vn
-  utter_hoc_bong:
-  - text: |-
-      Tổng quỹ học bổng (dự kiến) năm 2021 của Trường là khoảng 22 tỷ đồng, trong đó: học bổng Khuyến khích học tập khoảng 18 tỷ đồng và Học bổng của các doanh nghiệp, tổ chức tài trợ là 4 tỷ đồng
-      Học bổng của khoa được xét theo quy định nhà trường. Để được học bổng bạn cần lọt vào top những người có có điểm trung bình môn cao nhất trong một kỳ và có điểm chuyên cần trung bình trở lên.
-      Bên cạnh đó trường thực hiện  chế độ ưu tiên miễn, giảm về học phí, chỗ ở ký túc xá và điều kiện học tập cho sinh viên thuộc đối tượng chính sách.
   utter_chuong_trinh_lien_ket:
   - text: "Trường tiếp tục triển khai các chương trình trao đổi sinh viên với các Trường Đại học đối tác tại Nhật Bản, Hàn Quốc, Đài Loan, Ấn Độ, Pháp, Slovakia, Liên bang Nga, Hungary, Hà Lan, Úc, New Zealand, Hoa Kỳ và Canada... theo thời gian ngắn hạn 1 năm học, 1 kỳ học, 1 tháng học, 3 tuần. Đây là cơ hội cho sinh viên, học viên có những trải nghiệm học tập, tìm hiểu văn hóa đời sống và giao lưu với sinh viên các nước trên thế giới. Bạn có thể tham khảo https://cait.neu.edu.vn/vi/nguoi-hoc-2455/chuong-trinh-trao-doi-sinh-vien-nam-hoc-2021-2022-4608 để biết chi tiết hơn"
   utter_ky_tuc_xa:

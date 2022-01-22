@@ -187,7 +187,10 @@ class MajorSpecifier(Action):
         intent = tracker.latest_message['intent'].get('name')
         ogintent = intent
         if any(map(user_input.__contains__, error)):
-           intent = "utter_error_occur"
+            if any(map(user_input.__contains__, 'turnitin')):
+                  intent = "utter_error"
+            else:
+                  intent = "utter_error_occur"
         elif any(map(user_input.__contains__, name)):
            intent = "utter_giay_to"
         elif any(map(user_input.__contains__, sbd)):

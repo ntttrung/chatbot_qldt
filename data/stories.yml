@@ -300,11 +300,7 @@ stories:
   - intent: hoc_phi
   # - action: utter_hoc_phi
   - action: action_major_specifier
-- story: hoc_bong
-  steps:
-  - intent: hoc_bong
-  # - action: utter_hoc_bong
-  - action: action_major_specifier
+
 - story: chuong_trinh_lien_ket
   steps:
   - intent: chuong_trinh_lien_ket
