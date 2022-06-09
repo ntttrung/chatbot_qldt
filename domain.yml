@@ -161,7 +161,7 @@ slots:
 
 responses:
   utter_greet:
-  - text: "Xin chào, mình là chatbot của phòng QLDT, mình có thể giúp gì cho bạn?"
+  - text: "Xin chào, mình là chatbot của NTT, mình có thể giúp gì cho bạn?"
 
   utter_goodbye:
   - text: "Tạm biệt, chúc bạn một ngày tốt lành."
@@ -170,25 +170,25 @@ responses:
   - text: "<3"
 
   utter_bot_challenge:
-  - text: "Mình là bot, phát triển bởi DSLab - NEU <3"
+  - text: "Mình là bot, phát triển bởi NTT <3"
   
   utter_out_of_scope:
   - buttons:
     - payload: /send_email
       title: Email tổ tư vấn
-    text: "Xin lỗi mình không thực sự hiểu ý bạn, bạn có thể nhắc lại câu hỏi được không, hoặc bạn có thể email tổ tư vấn, liên hệ hotline: 0243 6280 280"
+    text: "Xin lỗi mình không thực sự hiểu ý bạn, bạn có thể nhắc lại câu hỏi được không, hoặc bạn có thể email tổ tư vấn, liên hệ hotline: 0386832888"
 
   utter_nlu_fallback:
   - buttons:
     - payload: /send_email
       title: Email tổ tư vấn.
-    text: "Xin lỗi mình không thực sự hiểu ý bạn, bạn có thể nhắc lại câu hỏi được không, hoặc bạn có thể email tổ tư vấn, liên hệ hotline: 0243 6280 280"
+    text: "Xin lỗi mình không thực sự hiểu ý bạn, bạn có thể nhắc lại câu hỏi được không, hoặc bạn có thể email tổ tư vấn, liên hệ hotline: 0386832888"
 
   utter_ask_message:
   - text: 'Câu hỏi của bạn: '
 
   utter_ask_email:
-  - text: 'Email của bạn để phòng QLDT liên lạc: '
+  - text: 'Email của bạn để NTT liên lạc: '
 
   utter_turnitin:
   - text: |-

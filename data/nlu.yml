@@ -60,6 +60,7 @@ nlu:
     - không hẹn gặp lại
     - cút
     - chào thân ái
+    - chào tạm biệt
 
 - intent: out_of_scope
   examples: |
